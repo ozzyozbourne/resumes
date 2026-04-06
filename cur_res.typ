@@ -20,9 +20,14 @@
 )
 
 == Technical Skills
-#skill("Languages",  "Java, JavaScript/TypeScript, Rust, Python")
-#skill("Frameworks", "FastAPI, FastMCP, LangGraph, LangChain, LangSmith, PyTorch, React, Sprint boot")
-#skill("Databases",  "PostgreSQL, MongoDB, Redis")
-#skill("AWS Services", "EC2, RDS, S3, Lambda, CloudWatch, Step Functions, CloudFormation, CloudFront, API Gateway")
-#skill("AI", "Claude code, Codex, Pi coding-agent")
-#skill("Others", "Google Cloud, Git, CI/CD, Kafka, Node.js")
+#sk("Languages",    "Java, JavaScript/TypeScript, Rust, Python")
+#sk("Frameworks",   "FastAPI, FastMCP, LangGraph, LangChain, LangSmith, PyTorch, React, Sprint boot")
+#sk("Databases",    "PostgreSQL, MongoDB, Redis")
+#sk("AWS Services", "EC2, RDS, S3, Lambda, CloudWatch, Step Functions, CloudFormation, CloudFront, API Gateway")
+#sk("AI",           "Claude code, Codex, Pi coding-agent")
+#sk("Others",       "Google Cloud, Git, CI/CD, Kafka, Node.js")
+
+== Professional Experience
+#work("Softare Engineer", "Phoenix, AZ", "Sperse",  "Feb 2026 - present")
+#work("Research Assistant", "New York City, NY", "Pace Artificial Intelligence Lab", "Sep 2025 - Dec 2025")
+#work("Softare Engineer", "Noida, India", "Qualitest", "Feb 2021 - Dec 2023")

@@ -44,16 +44,16 @@
   set par(justify: true)
   body
 }
-#let skill(category, items) = { [*#category*: #items \ ] }
-#let generic-one-by-two(left, right) = { [ #left #h(1fr) #right ] }
+#let sk(category, items) = { [*#category*: #items \ ] }
+#let generic-one-by-two(left, right) = { [ #left #h(1fr) #right \ ] }
 
 #let generic-two-by-two(top-left, top-right, bottom-left, bottom-right) = {
-  [ #top-left #h(1fr) #top-right \ #bottom-left #h(1fr) #bottom-right ]
+  [ #top-left #h(1fr) #top-right \ #bottom-left #h(1fr) #bottom-right \ ]
 }
 #let edu(institution, location, degree, dates, gpa: "",) = {
   let degree-line = if gpa != "" {emph(degree + " (GPA - " + gpa + ")")} else {emph(degree)}
   generic-two-by-two(strong(institution), location, emph(degree-line), emph(dates))
 }
-#let work(title, dates, company, location) = { generic-two-by-two(strong(title), dates, company, emph(location)) }
+#let work(title, location, company, dates) = { generic-two-by-two(strong(title), location, company, emph(dates)) }
 
 #let project(name, technologies, url) = { generic-one-by-two([*#name* | #emph(technologies)], link("https://" + url)[#url] ) }
