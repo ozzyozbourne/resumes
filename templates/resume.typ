@@ -44,6 +44,7 @@
   set par(justify: true)
   body
 }
+#let skill(category, items) = { [*#category*: #items \ ] }
 #let generic-one-by-two(left, right) = { [ #left #h(1fr) #right ] }
 
 #let generic-two-by-two(top-left, top-right, bottom-left, bottom-right) = {
