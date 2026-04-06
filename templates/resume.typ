@@ -1,10 +1,10 @@
 #let resume(
- author: "Osaid Khan", personal-info-position: left, author-position: left, accent-color: "#000000", author-font-size: 20pt, 
+ author: "Osaid Khan", personal-info-position: left, author-position: center, accent-color: "#000000", author-font-size: 20pt, 
  font-size: 10pt, body
 ) = {
   set document(author: author, title: "Resume")
   set text(font: "New Computer Modern", size: font-size, lang: "en", ligatures: false)
-  set page(margin: (0.5in), paper: "us-letter")
+  set page(margin: (0.3in), paper: "us-letter")
 
   // Heading settings
   show heading: set text(fill: rgb(accent-color))
