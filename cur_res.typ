@@ -1,4 +1,4 @@
-#import "templates/comm.typ": *
+#import "comm.typ": *
 
 #show: comm
 
@@ -43,7 +43,7 @@
 #work("Software Engineer", "Noida, India", "Qualitest", "Feb 2021 - Dec 2023")
 - Built an internal support chatbot using *LangChain* and *RAG* (Retrieval-Augmented Generation) with *PostgreSQL* vector store, reducing average ticket resolution time by 20%, enabling natural language queries over documentation
 - Designed and developed a cloud-agnostic Storage Service using *Python*, *PostgreSQL*, and *Redis* that seamlessly handles file uploads, downloads, and deletions in *Google Cloud Storage*, *S3*, and *MinIO* through the utilization of expiring signed URLs
-- Contributed to the development of an Identity \& Access Management platform using *React*, *Spring Boot*, and *AWS*, supporting thousands of users across 30+ applications
+- Contributed to the development of an Identity & Access Management platform using *React*, *Spring Boot*, and *AWS*, supporting thousands of users across 30+ applications
 - Developed backend workflows using *AWS Step Functions* to handle long-running data import jobs and prevent *AWS Lambda* timeouts
 
 == Projects

@@ -46,3 +46,5 @@
 #let edu(ins, loc, deg, dts, gpa: "") = { cell_2x2(strong(ins), loc, emph(if gpa!="" {deg+" (GPA - "+gpa+")"} else {deg}), emph(dts)) }
 #let work(title, loc, company, dts) = { cell_2x2(strong(title), loc, company, emph(dts)) }
 #let project(name, tech, url) = { cell_1x1( [*#name* | #emph(tech)], conn(url, lt: "https://") )}
+
+#let cv_end() = { [\ Sincerely, \ Osaid Khan] }
