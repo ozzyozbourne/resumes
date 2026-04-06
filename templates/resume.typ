@@ -45,10 +45,10 @@
   body
 }
 #let sk(category, items) = { [*#category*: #items \ ] }
-#let generic-one-by-two(left, right) = { [ #left #h(1fr) #right \ ] }
+#let generic-one-by-two(left, right) = { [ #left #h(1fr) #right ] }
 
 #let generic-two-by-two(top-left, top-right, bottom-left, bottom-right) = {
-  [ #top-left #h(1fr) #top-right \ #bottom-left #h(1fr) #bottom-right \ ]
+  [ #top-left #h(1fr) #top-right \ #bottom-left #h(1fr) #bottom-right  ]
 }
 #let edu(institution, location, degree, dates, gpa: "",) = {
   let degree-line = if gpa != "" {emph(degree + " (GPA - " + gpa + ")")} else {emph(degree)}
