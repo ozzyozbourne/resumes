@@ -6,19 +6,23 @@
   set text(font: "New Computer Modern", size: font-size, lang: "en", ligatures: false)
   set page(margin: (0.5in), paper: "us-letter")
 
-  show link: underline
-  show heading.where(level: 2): it => [
-    #pad(top: 0pt, bottom: -10pt, [#smallcaps(it.body)])
-    #line(length: 100%, stroke: 1pt)
-  ]
-
+  // Heading settings
   show heading: set text(fill: rgb(accent-color))
-  show link: set text(fill: rgb(accent-color))
-  show heading.where(level: 1): it => [
-    #set align(author-position)
-    #set text(weight: 700, size: author-font-size)
-    #pad(it.body)
-  ]
+  show heading.where(level: 1): it => {
+    set align(author-position)
+    set text(weight: 700, size: author-font-size)
+    pad(it.body)
+  }
+  show heading.where(level: 2): it => {
+    set text(weight: "regular")
+    pad(top: 0pt, bottom: -10pt, [#smallcaps(it.body)])
+    line(length: 100%, stroke: 1pt)
+  }
+  // Link settings
+  show link: it => {
+    set text(fill: rgb(accent-color))
+    underline(it)
+  }
 
   [= #(author)]
 
@@ -40,17 +44,15 @@
   set par(justify: true)
   body
 }
+#let generic-one-by-two(left, right) = { [ #left #h(1fr) #right ] }
 
 #let generic-two-by-two(top-left, top-right, bottom-left, bottom-right) = {
   [ #top-left #h(1fr) #top-right \ #bottom-left #h(1fr) #bottom-right ]
 }
-#let generic-one-by-two(left, right) = { [ #left #h(1fr) #right ] }
-
 #let edu(institution, location, degree, dates, gpa: "",) = {
   let degree-line = if gpa != "" {emph(degree + " (GPA - " + gpa + ")")} else {emph(degree)}
   generic-two-by-two(strong(institution), location, emph(degree-line), emph(dates))
 }
-
 #let work(title, dates, company, location) = { generic-two-by-two(strong(title), dates, company, emph(location)) }
 
 #let project(name, technologies, url) = { generic-one-by-two([*#name* | #emph(technologies)], link("https://" + url)[#url] ) }

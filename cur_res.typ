@@ -18,5 +18,3 @@
   "Bachelor of Technology (B.Tech) in Computer Science", 
   "Jul 2016 - Sep 2020"
 )
-
-

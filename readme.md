@@ -1,1 +1,1 @@
-# My resume/cover-letter Automation
+# My resume & cover-letter workflow
