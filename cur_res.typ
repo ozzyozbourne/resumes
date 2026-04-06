@@ -36,5 +36,12 @@
 - Optimized prompt routing and agent concurrency to maximize *KV-cache hit rate*, reducing end-to-end latency by *60%* and lowering LLM API costs by *50%*
 
 #work("Research Assistant", "New York City, NY", "Pace Artificial Intelligence Lab", "Sep 2025 - Dec 2025")
+- Conducted research on *StyleGAN* and *Stable Diffusion* to generate industry-standard fashion designs using *CUDA*, *PyTorch* and *LORA (Low-rank Adaptation)* on Pace University's *HPC cluster* for model training and fine-tuning
+- Utilized *Hugging Face* for model inference with *vLLM* deployment, ensuring secure and efficient model serving
+- Conducted workshops on *CUDA*, *Mojo* programming and *AI Agents* building with *LangChain*, *LangGraph*, and *LangSmith* for *+50* students and participated in the organization of events for the Pace community
 
 #work("Softare Engineer", "Noida, India", "Qualitest", "Feb 2021 - Dec 2023")
+- Built an internal support chatbot using *LangChain* and *RAG* (Retrieval-Augmented Generation) with *PostgreSQL* vector store, reducing average ticket resolution time by enabling natural language queries over documentation
+- Designed and developed a cloud-agnostic Storage Service using *Python*, *PostgreSQL*, and *Redis* that seamlessly handles file uploads, downloads, and deletions in *Google Cloud Storage*, *S3*, and *MinIO* through the utilization of expiring signed URLs
+- Contributed to the development of an Identity \& Access Management platform using *React*, *Spring Boot*, and *AWS*, supporting thousands of users across 30+ applications
+- Developed backend workflows using *AWS Step Functions* to handle long-running data import jobs and prevent *AWS Lambda* timeouts
