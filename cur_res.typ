@@ -47,5 +47,6 @@
 - Developed backend workflows using *AWS Step Functions* to handle long-running data import jobs and prevent *AWS Lambda* timeouts
 
 == Projects
-#project("Dark Factory - ", "Crossterm, Ratatui, Y-crdt", "github.com/ozzyozbourne/dark-factory")
-- 
+#project("Dark Factory - Orchestrator for AI coding CLIs", "Crossterm, Ratatui, Y-crdt", "github.com/ozzyozbourne/dark-factory")
+- Built a terminal emulator layer in Rust that sits between terminal and AI CLIs, managing PTY lifecycle and IO
+- Implemented a multi-pane multiplexer using Ratatui layouts where each pane owns an independent PTY, enabling simultaneous orchestration of multiple AI coding sessions from a single TUI sldkfsldkfjlskdfjlskdjflskdjflskdjflskdjflskdjflksdjflksjdflksjdflks
