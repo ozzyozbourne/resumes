@@ -1,6 +1,6 @@
-#import "templates/resume.typ": *
+#import "templates/comm.typ": *
 
-#show: resume
+#show: comm
 
 == Education
 
