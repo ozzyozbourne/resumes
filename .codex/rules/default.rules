@@ -1,0 +1,39 @@
+prefix_rule(
+    pattern = ["rm", "-rf"],
+    decision = "forbidden",
+    justification = "Claude migration: block destructive rm -rf commands.",
+    match = [
+        "rm -rf build",
+        "rm -rf /tmp/test-dir",
+    ],
+    not_match = [
+        "rm -r build",
+        "git rm -rf build",
+    ],
+)
+
+prefix_rule(
+    pattern = ["curl"],
+    decision = "forbidden",
+    justification = "Closest safe approximation to Claude's `curl * | bash` deny rule; review downloaded scripts manually instead.",
+    match = [
+        "curl https://example.com/install.sh",
+        "curl -fsSL https://example.com/install.sh",
+    ],
+    not_match = [
+        "wget https://example.com/install.sh",
+    ],
+)
+
+prefix_rule(
+    pattern = ["wget"],
+    decision = "forbidden",
+    justification = "Closest safe approximation to Claude's `wget * | bash` deny rule; review downloaded scripts manually instead.",
+    match = [
+        "wget https://example.com/install.sh",
+        "wget -qO- https://example.com/install.sh",
+    ],
+    not_match = [
+        "curl https://example.com/install.sh",
+    ],
+)
