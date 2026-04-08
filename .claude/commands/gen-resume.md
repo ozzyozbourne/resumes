@@ -65,9 +65,67 @@ typst compile generated/<company_slug>_<job_slug>/resume.typ generated/<company_
 
 If the command fails, read the error output, fix the Typst syntax in the generated file, and retry.
 
-## Step 6: Confirm to the user
+## Step 6: Research the company
 
-After the PDF is compiled successfully, tell the user:
-- The path to the generated `resume.typ`
-- The path to the compiled `osaid_khan_resume.pdf`
-- The top 5 keywords from the job description you optimized for
+Web-search: `<Company Name> mission statement values`
+
+From the results extract:
+- The company's core mission (1-2 sentences)
+- 1-2 key values or focus areas
+
+## Step 7: Read the cover letter template
+
+Read `cur_cv.typ` from the project root.
+
+## Step 8: Generate the tailored cover letter
+
+Write `generated/<company_slug>_<job_slug>/cv.typ` using these rules:
+
+### Structure:
+- First line: `#import "../../comm.typ": *`
+- Second line: `#show: comm.with(title: "Cover-letter", m: 0.5in)`
+- Keep `#cv_ending()` at the bottom
+- Keep `#ph` and `#eml` variables exactly as-is — they resolve from `comm.typ`
+
+### Replace every `*placeholder*` section with real tailored content:
+- `*Job Title*` → actual job title
+- `*Name of company*` → actual company name
+- `*the technical depth this position demands*` → rephrase to mirror the specific technical requirements from the job description
+- `*contribute meaningfully to the team's core engineering responsibilities*` → align to the core responsibilities listed in the JD
+- `*the engineering discipline and collaborative culture this team values*` → align to company values found in Step 6
+- `*the mentorship and knowledge-sharing responsibilities central to this role*` → tailor to any mentorship/leadership aspects in the JD; if none, align to technical communication skills valued by the company
+- `*list 1-2 values or items from the company's mission statement*` → fill with the 1-2 mission items from Step 6
+- `*company goal*` → fill with the company's mission/goal from Step 6
+- `*this team and its mission*` → personalize to the company name and mission
+
+### Content rules:
+- All body paragraphs must connect Osaid's specific experience (from the generated resume) to this company's mission and role
+- Do NOT fabricate any experience or skills
+- Keep the professional tone of the original template
+
+## Step 9: Compile cover letter to PDF
+
+```bash
+typst compile generated/<company_slug>_<job_slug>/cv.typ generated/<company_slug>_<job_slug>/osaid_khan_cv.pdf
+```
+
+If the command fails, read the error, fix the Typst syntax in `cv.typ`, and retry.
+
+## Step 10: Commit and push
+
+```bash
+git add generated/<company_slug>_<job_slug>/
+git commit -m "<CompanyName> - <JobTitle>"
+git push
+```
+
+Use the human-readable company name and job title (not slugs) in the commit message. Example: `"Stripe - Senior Backend Engineer"`
+
+## Step 11: Confirm to the user
+
+Tell the user:
+- Path to `resume.typ` and `osaid_khan_resume.pdf`
+- Path to `cv.typ` and `osaid_khan_cv.pdf`
+- The top 5 ATS keywords used in the resume
+- The company mission snippet used in the cover letter
+- The git commit message used
