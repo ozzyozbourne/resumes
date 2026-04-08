@@ -18,6 +18,7 @@ Read both of these files from the project root:
 From the job description above, extract:
 - **Company name** — slug it (lowercase, spaces → underscores, remove special chars). Example: "Stripe Inc." → `stripe`
 - **Job title** — slug it. Example: "Senior Backend Engineer" → `senior_backend_engineer`
+- **Current date** — in `YYYY-MM-DD` format (use the date from the `currentDate` context provided at the top of the conversation)
 - **Required skills and technologies** — exact names as written in the job posting
 - **Key responsibilities** — themes and action verbs used
 - **Domain keywords** — terms an ATS would scan for (e.g. "distributed systems", "microservices", "CI/CD")
@@ -48,10 +49,10 @@ Create a new Typst resume file with these rules:
 
 Determine the output path:
 ```
-generated/<company_slug>_<job_slug>/resume.typ
+generated/<company_slug>_<job_slug>_<YYYY-MM-DD>/resume.typ
 ```
 
-Example: `generated/stripe_senior_backend_engineer/resume.typ`
+Example: `generated/stripe_senior_backend_engineer_2026-04-08/resume.typ`
 
 Create any needed directories and write the file.
 
@@ -60,7 +61,7 @@ Create any needed directories and write the file.
 Run the following command to compile the generated resume:
 
 ```bash
-typst compile --root . generated/<company_slug>_<job_slug>/resume.typ generated/<company_slug>_<job_slug>/osaid_khan_resume.pdf
+typst compile --root . generated/<company_slug>_<job_slug>_<YYYY-MM-DD>/resume.typ generated/<company_slug>_<job_slug>_<YYYY-MM-DD>/osaid_khan_resume.pdf
 ```
 
 If the command fails, read the error output, fix the Typst syntax in the generated file, and retry.
@@ -79,7 +80,7 @@ Read `cur_cv.typ` from the project root.
 
 ## Step 8: Generate the tailored cover letter
 
-Write `generated/<company_slug>_<job_slug>/cv.typ` using these rules:
+Write `generated/<company_slug>_<job_slug>_<YYYY-MM-DD>/cv.typ` using these rules:
 
 ### Structure:
 - First line: `#import "../../comm.typ": *`
@@ -106,7 +107,7 @@ Write `generated/<company_slug>_<job_slug>/cv.typ` using these rules:
 ## Step 9: Compile cover letter to PDF
 
 ```bash
-typst compile --root . generated/<company_slug>_<job_slug>/cv.typ generated/<company_slug>_<job_slug>/osaid_khan_cv.pdf
+typst compile --root . generated/<company_slug>_<job_slug>_<YYYY-MM-DD>/cv.typ generated/<company_slug>_<job_slug>_<YYYY-MM-DD>/osaid_khan_cv.pdf
 ```
 
 If the command fails, read the error, fix the Typst syntax in `cv.typ`, and retry.
@@ -114,7 +115,7 @@ If the command fails, read the error, fix the Typst syntax in `cv.typ`, and retr
 ## Step 10: Commit and push
 
 ```bash
-git add generated/<company_slug>_<job_slug>/
+git add generated/<company_slug>_<job_slug>_<YYYY-MM-DD>/
 git commit -m "<CompanyName> - <JobTitle>"
 git push
 ```
