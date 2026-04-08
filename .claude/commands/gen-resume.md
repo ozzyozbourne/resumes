@@ -60,7 +60,7 @@ Create any needed directories and write the file.
 Run the following command to compile the generated resume:
 
 ```bash
-typst compile generated/<company_slug>_<job_slug>/resume.typ generated/<company_slug>_<job_slug>/osaid_khan_resume.pdf
+typst compile --root . generated/<company_slug>_<job_slug>/resume.typ generated/<company_slug>_<job_slug>/osaid_khan_resume.pdf
 ```
 
 If the command fails, read the error output, fix the Typst syntax in the generated file, and retry.
@@ -106,7 +106,7 @@ Write `generated/<company_slug>_<job_slug>/cv.typ` using these rules:
 ## Step 9: Compile cover letter to PDF
 
 ```bash
-typst compile generated/<company_slug>_<job_slug>/cv.typ generated/<company_slug>_<job_slug>/osaid_khan_cv.pdf
+typst compile --root . generated/<company_slug>_<job_slug>/cv.typ generated/<company_slug>_<job_slug>/osaid_khan_cv.pdf
 ```
 
 If the command fails, read the error, fix the Typst syntax in `cv.typ`, and retry.
