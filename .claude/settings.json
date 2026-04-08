@@ -6,7 +6,10 @@
             "Write(*)",
             "Edit(*)",
             "WebSearch",
-            "WebFetch(*)"
+            "WebFetch(*)",
+            "Bash(git add:*)",
+            "Bash(git commit:*)",
+            "Bash(git push:*)"
         ],
         "deny": [
             "Bash(rm -rf *)",
