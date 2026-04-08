@@ -55,9 +55,19 @@ Example: `generated/stripe_senior_backend_engineer/resume.typ`
 
 Create any needed directories and write the file.
 
-## Step 5: Confirm to the user
+## Step 5: Compile to PDF
 
-After writing the file, tell the user:
-- The path where the resume was saved
+Run the following command to compile the generated resume:
+
+```bash
+typst compile generated/<company_slug>_<job_slug>/resume.typ generated/<company_slug>_<job_slug>/osaid_khan_resume.pdf
+```
+
+If the command fails, read the error output, fix the Typst syntax in the generated file, and retry.
+
+## Step 6: Confirm to the user
+
+After the PDF is compiled successfully, tell the user:
+- The path to the generated `resume.typ`
+- The path to the compiled `osaid_khan_resume.pdf`
 - The top 5 keywords from the job description you optimized for
-- How to compile it: `typst compile generated/<folder>/resume.typ`
