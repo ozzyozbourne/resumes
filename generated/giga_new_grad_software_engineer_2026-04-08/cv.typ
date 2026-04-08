@@ -1,0 +1,15 @@
+#import "../../comm.typ": *
+
+#show: comm.with(title: "Cover-letter", m: 0.5in)
+
+Dear Hiring Team,
+
+It is with great pleasure that I submit my candidacy for the *New Grad Software Engineer* position with *Giga*. I bring over three years of professional experience building backend systems, RAG pipelines, and AI agents, along with a strong academic foundation as a Master of Science in Computer Science graduate from Pace University, NY.
+
+Through my engineering roles, I have built and delivered production-grade backend systems that directly reflect the *agent infrastructure and data pipeline depth this position demands*. As a Software Engineer at Sperse, I architected a concurrent multi-agent orchestration system using LangChain and LangGraph, enabling scalable agent infrastructure and reliable coordination across complex customer workflows. I developed an MCP AI interaction layer that translates natural language queries into validated tool calls across 1,000+ platform endpoints — requiring rigorous API contract design, input validation, and safe execution at scale. To keep these systems observable and debuggable, I implemented a full observability stack using Langfuse and LangSmith, covering tracing, structured logging, and evaluation hooks, while reducing end-to-end latency by 60% and LLM API costs by 50% through targeted concurrency and routing optimizations. Prior to Sperse, as a Software Engineer at Qualitest, I built an internal support chatbot using LangChain and RAG with a PostgreSQL vector store, enabling natural language queries over documentation and reducing ticket resolution time by 20%. I also developed backend data pipelines using AWS Step Functions to handle long-running data import jobs, and designed a cloud-agnostic Storage Service using Python, PostgreSQL, and Redis — giving me direct experience with the kind of reliable, scalable backend systems Giga builds for enterprise customers like DoorDash.
+
+My academic research at the Pace Artificial Intelligence Lab deepened my understanding of AI agent systems and technical communication. I led workshops on building AI agents with LangChain, LangGraph, and LangSmith for 50+ students, breaking down complex systems clearly and accessibly. I also conducted applied research on generative models using CUDA and PyTorch, managing the full model development lifecycle from training to inference optimization via vLLM. These experiences shaped me into an engineer who ships production-quality code while understanding the systems beneath — precisely the engineering discipline and collaborative culture Giga values as it scales its agent platform.
+
+I have always been passionate about *self-improving AI agents that automatically resolve complex issues* and *delivering speed and quality in enterprise AI automation*, and I envision myself contributing my talent to Giga's mission of reprogramming the world's largest companies using AI agents, ultimately reaching every human. I would love to discuss my interest in this position with your team and can be reached at #ph or #eml. Thank you for your time and consideration, I look forward to connecting!
+
+#cv_ending()

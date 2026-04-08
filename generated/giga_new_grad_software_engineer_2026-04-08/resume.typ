@@ -1,0 +1,53 @@
+#import "../../comm.typ": *
+
+#show: comm
+
+== Education
+
+#edu(
+  "Pace University",
+  "New York City, NY",
+  "Master of Science (MS) in Computer Science",
+  "Jan 2024 - Dec 2025",
+  gpa: "4.0/4.0"
+)
+
+#edu(
+  "Dr. A.P.J. Abdul Kalam Technical University",
+  "Noida, India",
+  "Bachelor of Technology (B.Tech) in Computer Science",
+  "Jul 2016 - Sep 2020"
+)
+
+== Technical Skills
+#sk("Languages",    "Python, JavaScript/TypeScript, Java, Rust")
+#sk("Frameworks",   "LangGraph, LangChain, LangSmith, FastAPI, FastMCP, PyTorch, React, Spring Boot")
+#sk("Databases",    "PostgreSQL, Redis, MongoDB")
+#sk("AWS Services", "Lambda, Step Functions, CloudWatch, S3, EC2, RDS, CloudFormation, CloudFront, API Gateway")
+#sk("AI",           "Claude code, Codex, Pi coding-agent")
+#sk("Others",       "Kafka, Google Cloud, Git, CI/CD, Node.js")
+
+== Professional Experience
+#work("Software Engineer", "Phoenix, AZ", "Sperse", "Feb 2026 - present")
+- Architected a *concurrent multi-agent* orchestration system using *LangChain* and *LangGraph*, enabling scalable *agent infrastructure* and reliable coordination across complex customer workflows
+- Developed and delivered an *MCP AI interaction layer* that translates *natural language queries* into *safe, validated tool calls* across *1000+ platform endpoints*, enabling end-to-end *automated customer actions*
+- Enabled a robust *observability layer* using *Langfuse* and *LangSmith* for *tracing*, *structured logs*, and *evaluation hooks* to monitor *agent behavior*, debug failures, and track quality over time
+- Optimized prompt routing and *agent* concurrency to maximize *KV-cache hit rate*, reducing end-to-end latency by *60%* and lowering LLM *API* costs by *50%*
+- Built *generative code solutions* for developers (API-aware templates, SDK patterns, and code-generation workflows) to accelerate *integration* with platform *APIs* and improve the correctness of implementations
+
+#work("AI Researcher", "New York City, NY", "Pace Artificial Intelligence Lab", "Sep 2025 - Dec 2025")
+- Conducted workshops on GPU programming with *CUDA*, *Mojo* and building *AI agents* with *LangChain*, *LangGraph*, and *LangSmith* for *+50* students
+- Conducted research on *StyleGAN* and *Stable Diffusion* to generate industry-standard fashion designs using *CUDA*, *PyTorch* and *LORA (Low-rank Adaptation)* on Pace University's *HPC cluster* for model training and fine-tuning
+- Utilized *vLLM* for model inference with *Hugging Face* deployment, ensuring secure and efficient model serving
+
+#work("Software Engineer", "Noida, India", "Qualitest", "Feb 2021 - Dec 2023")
+- Built an internal support chatbot using *LangChain* and *RAG* (Retrieval-Augmented Generation) with *PostgreSQL* vector store, enabling *natural language queries* over documentation and reducing average ticket resolution time by 20%
+- Developed backend *data pipelines* using *AWS Step Functions* to handle long-running data import jobs and prevent *AWS Lambda* timeouts
+- Designed and developed a cloud-agnostic Storage Service using *Python*, *PostgreSQL*, and *Redis* that seamlessly handles file uploads, downloads, and deletions in *Google Cloud Storage*, *S3*, and *MinIO* through the utilization of expiring signed URLs
+- Contributed to the development of an Identity & Access Management platform using *React*, *Spring Boot*, and *AWS*, supporting thousands of users across 30+ applications
+
+== Projects
+#project("Dark Factory - Orchestrator for AI coding CLIs", "Crossterm, Ratatui, Y-crdt", "github.com/ozzyozbourne/dark-factory")
+- Provides *event-driven* agentic loops making each *AI agent* session broadcast *real-time* updates eliminating polling overhead
+- Enables full ownership of CLI IO via *PTY*, checking and logging every command before execution by bash shell
+- Allows secure distributed *ralph* loops across machines by using *Y-crdt* to signal to the orchestrator on each iteration
