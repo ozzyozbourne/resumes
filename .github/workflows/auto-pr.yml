@@ -1,0 +1,38 @@
+name: Auto-open PR
+on:
+  push:
+    branches-ignore:
+      - main
+  pull_request:
+    types:
+      - closed
+    branches:
+      - main
+
+jobs:
+  create-pr:
+    if: github.event_name == 'push'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Create Pull Request
+        run: |
+          gh pr create \
+            --title "${{ github.ref_name }}" \
+            --body "Auto-opened PR for branch ${{ github.ref_name }}" \
+            --base main \
+            --head "${{ github.ref_name }}"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  delete-branch:
+    if: github.event.pull_request.merged == true
+    runs-on: ubuntu-latest
+    steps:
+      - name: Delete merged branch
+        run: |
+          gh api \
+            -X DELETE \
+            repos/${{ github.repository }}/git/refs/heads/${{ github.head_ref }}
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

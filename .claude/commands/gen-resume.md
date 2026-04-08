@@ -11,7 +11,23 @@ Follow these steps exactly:
 
 Read both of these files from the project root:
 - `comm.typ` — the shared template (to understand available functions)
-- `cur_res.typ` — the current resume (source of all facts and content)
+- `cur_res.typ` — the current resume skeleton
+- `cur_cv.typ` — the current cover letter skeleton
+
+**Skeleton model (critical — read before proceeding):**
+`cur_res.typ` and `cur_cv.typ` provide the **skeleton**: fixed structural elements that must not be changed, and rewritable content that should be tailored to the job.
+
+| Element | Rule |
+|---|---|
+| Company names, job titles, employment dates | **Locked** — copy exactly |
+| Degree names, GPA, project names/URLs | **Locked** — copy exactly |
+| Skills list entries (the technologies themselves) | **Locked** — do not add or remove tools |
+| Bullet points under each role | **Rewritable** — rewrite fully to align with JD |
+| Project descriptions | **Rewritable** — rewrite to highlight JD-relevant aspects |
+| Skill category ordering, ordering within categories | **Rewritable** — most relevant first |
+| Cover letter body paragraphs | **Rewritable** — must mirror the generated resume |
+
+The goal is **maximum JD alignment within the locked skeleton**.
 
 ## Step 2: Analyze the job description
 
@@ -31,12 +47,19 @@ Create a new Typst resume file with these rules:
 1. **Mirror exact keywords** from the job description in bullet points — if they say "distributed systems", use that exact phrase, not "scalable systems"
 2. **Reorder Technical Skills** categories so the most relevant technologies to this job appear first
 3. **Within each skill category**, list matching technologies before non-matching ones
-4. **Rephrase bullet points** to use action verbs and domain language from the job description
-5. **Keep all metrics and numbers** exactly as they appear in `cur_res.typ` — do not fabricate or change
-6. **Do NOT add skills, technologies, companies, or projects** not present in `cur_res.typ`
-7. **Keep all dates, GPAs, and factual details** exactly as in `cur_res.typ`
-8. **Prioritize work experience bullets** — put bullets most relevant to the job first within each role
-9. If a job posting mentions a specific tool you have in your skills (e.g. "Kafka", "Redis"), make sure it appears in at least one bullet point if it genuinely appeared in your work history
+4. **Rephrase and rewrite bullet points** using action verbs and domain language from the job description — bullets are not constrained to what is literally in `cur_res.typ`
+5. **Fixed skeleton elements** — Do not change company names, job titles, employment dates, degree names, GPA, or project names/URLs from `cur_res.typ`
+6. **Rewritable content** — Bullet points and project descriptions may be fully rewritten to align with the JD; introduce relevant technologies and concepts as long as they fit the role's context (e.g. a backend engineer role can reference API design, cloud infra, etc.)
+7. **Technical Skills list** — Only include technologies that genuinely appear in `cur_res.typ`'s skills section; do not invent new tools
+8. **Prioritize bullets** — put the most JD-relevant bullet first within each role
+9. **Keep metrics and numbers** from `cur_res.typ` where they exist; do not fabricate new numbers
+
+### Single-page rule:
+Write the initial draft targeting exactly 1 page. Aim for:
+- Max 4 bullets per role for the most recent/relevant role
+- Max 3 bullets per role for other roles
+- Max 3 bullets for the Projects section total
+- Keep bullets concise (1 line preferred, 2 lines max)
 
 ### Typst Syntax Rules:
 - Use `#import "../../comm.typ": *` at the top (two levels up from the output folder)
@@ -60,8 +83,8 @@ Create any needed directories and write the file.
 
 Re-read the generated `resume.typ` and verify each of the following against the JD analysis from Step 2. Work through this as an explicit checklist and output your findings:
 
-1. **Keyword coverage** — For each ATS keyword you extracted in Step 2, confirm it appears verbatim in the resume. If a keyword is absent AND it genuinely appears in Osaid's history (in `cur_res.typ`), insert it naturally into an existing bullet. Never fabricate.
-2. **No fabrications** — Confirm every skill, tool, company, and project in the generated file exists in `cur_res.typ`. Remove anything that doesn't.
+1. **Keyword coverage** — For each ATS keyword you extracted in Step 2, confirm it appears verbatim in the resume. If a keyword is absent and can plausibly fit the role context, insert it naturally into an existing bullet.
+2. **Structural integrity** — Confirm that company names, job titles, employment dates, degrees, GPA, and project names/URLs exactly match `cur_res.typ`. Bullet content rewrites are expected and allowed.
 3. **Bullet ordering** — Within each role, confirm the most JD-relevant bullet leads. Reorder if needed.
 4. **Bold coverage** — Confirm critical JD keywords are wrapped in `*bold*` Typst syntax where they appear.
 5. **Fix and re-save** — If any issues were found in checks 1–4, apply the fixes to `resume.typ` now, before compiling.
@@ -76,6 +99,23 @@ typst compile --root . generated/<company_slug>_<job_slug>_<YYYY-MM-DD>/resume.t
 
 If the command fails, read the error output, fix the Typst syntax in the generated file, and retry.
 
+## Step 6b: Enforce single page
+
+Check the page count of the compiled PDF:
+
+```bash
+pdfinfo generated/<company_slug>_<job_slug>_<YYYY-MM-DD>/osaid_khan_resume.pdf | grep Pages
+```
+
+If `Pages: 1` — proceed to Step 7.
+
+If `Pages: 2` or more — trim content and recompile:
+1. Remove the last (least JD-relevant) bullet from whichever role has the most bullets
+2. Recompile and recheck
+3. If still over 1 page, cap all roles at 3 bullets and recompile
+4. If still over 1 page, cap all roles at 2 bullets and recompile
+5. Re-save the trimmed `resume.typ` before moving on
+
 ## Step 7: Research the company
 
 Web-search: `<Company Name> mission statement values`
@@ -84,9 +124,9 @@ From the results extract:
 - The company's core mission (1-2 sentences)
 - 1-2 key values or focus areas
 
-## Step 8: Read the cover letter template
+## Step 8: Read the generated resume
 
-Read `cur_cv.typ` from the project root.
+Re-read `generated/<company_slug>_<job_slug>_<YYYY-MM-DD>/resume.typ` (not `cur_res.typ`). The cover letter must tell the **same story** as this generated resume — referencing the same bullets, achievements, and technologies.
 
 ## Step 9: Generate the tailored cover letter
 
@@ -110,8 +150,8 @@ Write `generated/<company_slug>_<job_slug>_<YYYY-MM-DD>/cv.typ` using these rule
 - `*this team and its mission*` → personalize to the company name and mission
 
 ### Content rules:
-- All body paragraphs must connect Osaid's specific experience (from the generated resume) to this company's mission and role
-- Do NOT fabricate any experience or skills
+- All body paragraphs must connect Osaid's specific experience to this company's mission and role
+- Reference only achievements, technologies, and bullets that appear in the **generated `resume.typ`** — not the original `cur_res.typ`
 - Keep the professional tone of the original template
 
 ## Step 10: Cover Letter Review Pass
@@ -121,7 +161,7 @@ Re-read the generated `cv.typ` and verify each of the following. Work through th
 1. **No leftover placeholders** — Scan for any `*italicized placeholder*` patterns that were not replaced. Replace any found with proper tailored content.
 2. **Role alignment** — Confirm each body paragraph ties Osaid's actual experience to a specific responsibility listed in the JD. If a paragraph is generic, sharpen it.
 3. **Mission accuracy** — Confirm the company mission/values wording matches what was found in Step 7.
-4. **No fabrication** — Verify no experience or skills were introduced that aren't in the generated resume.
+4. **Resume consistency** — Verify every specific achievement, metric, or technology mentioned in the cover letter also appears in the generated `resume.typ`. If the cover letter references something not in the resume, either add it to the resume (if it fits and aligns with JD) or remove it from the cover letter.
 5. **Fix and re-save** — If any issues were found in checks 1–4, apply the fixes to `cv.typ` now, before compiling.
 
 ## Step 11: Compile cover letter to PDF
@@ -132,15 +172,18 @@ typst compile --root . generated/<company_slug>_<job_slug>_<YYYY-MM-DD>/cv.typ g
 
 If the command fails, read the error, fix the Typst syntax in `cv.typ`, and retry.
 
-## Step 12: Commit and push
+## Step 12: Create branch, commit, and push
 
 ```bash
+git checkout -b <company_slug>_<job_slug>_<YYYY-MM-DD>
 git add generated/<company_slug>_<job_slug>_<YYYY-MM-DD>/
 git commit -m "<CompanyName> - <JobTitle>"
-git push
+git push -u origin <company_slug>_<job_slug>_<YYYY-MM-DD>
 ```
 
 Use the human-readable company name and job title (not slugs) in the commit message. Example: `"Stripe - Senior Backend Engineer"`
+
+The branch name reuses the same slug+date string computed in Step 2. This isolates each run to its own branch, allowing multiple Claude instances to generate resumes in parallel without conflicts.
 
 ## Step 13: Confirm to the user
 
