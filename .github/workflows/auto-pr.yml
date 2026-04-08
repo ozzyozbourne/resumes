@@ -2,12 +2,12 @@ name: Auto-open PR
 on:
   push:
     branches-ignore:
-      - main
+      - master
   pull_request:
     types:
       - closed
     branches:
-      - main
+      - master
 
 jobs:
   create-pr:
