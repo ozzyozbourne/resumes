@@ -54,6 +54,15 @@ Create a new Typst resume file with these rules:
 8. **Prioritize bullets** — put the most JD-relevant bullet first within each role
 9. **Keep metrics and numbers** from `cur_res.typ` where they exist; do not fabricate new numbers
 
+### Bullet density standard (critical):
+`cur_res.typ` bullets are the quality bar — dense, specific, and information-packed. Every generated bullet must match or exceed that density:
+1. **Start from the source bullet** — rewrite it to surface JD keywords; do not replace it with a simpler paraphrase
+2. **Pack in specifics** — name exact technologies, services, and patterns (e.g. "*Google Cloud Storage*, *S3*, and *MinIO*"), not generic terms like "cloud storage"
+3. **Use parentheticals to add depth without extra lines** — e.g. "(API-aware templates, SDK patterns, and code-generation workflows)"
+4. **Preserve outcome clauses** — source bullets end with measurable outcomes or impact; keep or strengthen them
+5. **Never genericize** — if the source says "translates natural-language intents into *safe, validated tool calls*", a rewrite must retain that specificity; replacing it with "applied OOP principles" is a regression
+6. **Every word earns its place** — if a word does not add technical signal or concrete outcome, cut it
+
 ### Single-page rule:
 Write the initial draft targeting exactly 1 page. Aim for:
 - Max 4 bullets per role for the most recent/relevant role
@@ -88,6 +97,7 @@ Re-read the generated `resume.typ` and verify each of the following against the 
 3. **Bullet ordering** — Within each role, confirm the most JD-relevant bullet leads. Reorder if needed.
 4. **Bold coverage** — Confirm critical JD keywords are wrapped in `*bold*` Typst syntax where they appear.
 5. **Fix and re-save** — If any issues were found in checks 1–4, apply the fixes to `resume.typ` now, before compiling.
+6. **Bullet density regression check** — For each generated bullet, compare it against the corresponding source bullet in `cur_res.typ`. If the generated version is shorter or uses more generic phrasing without good reason, rewrite it to restore the density while keeping JD keywords.
 
 ## Step 6: Compile to PDF
 
@@ -109,9 +119,9 @@ pdfinfo generated/<company_slug>_<job_slug>_<YYYY-MM-DD>/osaid_khan_resume.pdf |
 
 If `Pages: 1` — proceed to Step 7.
 
-If `Pages: 2` or more — trim content and recompile:
-1. Remove the last (least JD-relevant) bullet from whichever role has the most bullets
-2. Recompile and recheck
+If `Pages: 2` or more — trim content and recompile using this priority order:
+1. **First, tighten bullet wording** — remove filler words, compress parentheticals, trim outcome clauses to the minimum that preserves meaning. Recompile.
+2. If still over 1 page, remove the least JD-relevant bullet from whichever role has the most bullets. Recompile.
 3. If still over 1 page, cap all roles at 3 bullets and recompile
 4. If still over 1 page, cap all roles at 2 bullets and recompile
 5. Re-save the trimmed `resume.typ` before moving on
