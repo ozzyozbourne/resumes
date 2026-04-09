@@ -1,0 +1,15 @@
+#import "../../comm.typ": *
+
+#show: comm.with(title: "Cover-letter", m: 0.5in)
+
+Dear Hiring Team,
+
+It is with great pleasure that I submit my candidacy for the *Data Enablement Engineer* role with *Betterment*. I bring over three years of professional experience building data pipelines, ETL systems, and analytics infrastructure, along with a strong academic foundation as a Master of Science in Computer Science graduate from Pace University, NY.
+
+Through my experience across two engineering roles, I have built and delivered production-grade data systems that directly reflect the SQL-backed transformation and pipeline reliability this position demands. As a Software Engineer at Sperse, I built a monitoring and alerting layer using Langfuse and LangSmith for pipeline tracing, structured logs, and evaluation hooks — tracking analytics infrastructure behavior, debugging data failures, and ensuring reporting quality across 1,000+ automated platform workflows. I also designed a data validation and transformation layer that enforces data standardization and data cleanliness across 1,000+ platform endpoints, and architected a concurrent multi-agent orchestration system with DAG-style workflow coordination — directly analogous to the DAG management and pipeline curation responsibilities central to this role. Prior to Sperse, at Qualitest, I built ETL pipelines using AWS Step Functions to orchestrate long-running data import jobs, ensuring reliable ingestion of large datasets into downstream systems. I designed a cloud-agnostic data pipeline service in Python backed by PostgreSQL and Redis that standardized file ingestion, transformation, and delivery across Google Cloud Storage, S3, and MinIO, and developed a SQL-backed retrieval system using a PostgreSQL vector store that reduced ticket resolution time by 20%. Together, these roles demonstrate my ability to take apart business problems, translate them into technical data requirements, and deliver clean, performant, and observable data products.
+
+My experience as an AI Researcher at the Pace Artificial Intelligence Lab gave me rigorous practice in both end-to-end data pipeline management and technical communication. I managed full data pipelines for model training on large datasets using Python, PyTorch, and CUDA on Pace University's HPC cluster — from data preparation through inference optimization with vLLM — while also conducting workshops that increased data literacy for 50+ students by breaking down complex technical concepts into accessible, hands-on instruction. This combination of building data systems and explaining them clearly mirrors the knowledge-sharing and data literacy responsibilities this role values.
+
+I have always been passionate about making financial wellness accessible through technology and empowering people to build wealth with confidence and ease. I would love to discuss how my experience building scalable data pipelines and analytics infrastructure can contribute to Betterment's mission and data platform goals. I can be reached at #ph or #eml. Thank you for your time and consideration — I look forward to connecting!
+
+#cv_ending()
