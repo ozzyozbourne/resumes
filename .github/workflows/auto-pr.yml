@@ -22,7 +22,7 @@ jobs:
           gh pr create \
             --title "${{ github.ref_name }}" \
             --body "Auto-opened PR for branch ${{ github.ref_name }}" \
-            --base main \
+            --base master \
             --head "${{ github.ref_name }}"
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
