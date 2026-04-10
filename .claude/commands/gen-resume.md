@@ -65,9 +65,9 @@ Create a new Typst resume file with these rules:
 
 ### Single-page rule:
 Write the initial draft targeting exactly 1 page. Aim for:
-- Max 5 bullets per role for the most recent/relevant role
-- Max 4 bullets per role for other roles
-- Max 3 bullets for the Projects section total
+- Max 5 Min 4 bullets per role for the most recent/relevant role
+- Max 4 Min 3 bullets per role for other roles
+- Max 3 Min 2 bullets for the Projects section total
 - Keep bullets concise (2 line preferred, 3 lines max)
 - Make sure that all the line in the page are used, there should be no more 2 or 3 lines space left veritically in the whole resume
 
