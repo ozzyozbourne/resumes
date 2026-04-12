@@ -183,14 +183,16 @@ typst compile --root . generated/<company_slug>_<job_slug>_<YYYY-MM-DD>/cv.typ g
 
 If the command fails, read the error, fix the Typst syntax in `cv.typ`, and retry.
 
-## Step 12: Create branch, commit, push and return to master 
+## Step 12: Create work tree, commit, push and remove the worktree
 
 ```bash
-git checkout -b <company_slug>_<job_slug>_<YYYY-MM-DD>
+git worktree add <company_slug>_<job_slug>_<YYYY-MM-DD>
+cd <company_slug>_<job_slug>_<YYYY-MM-DD>
 git add generated/<company_slug>_<job_slug>_<YYYY-MM-DD>/
 git commit -m "<CompanyName> - <JobTitle>"
 git push -u origin <company_slug>_<job_slug>_<YYYY-MM-DD>
-git checkout master
+cd ../
+git worktree remove <company_slug>_<job_slug>_<YYYY-MM-DD>
 ```
 
 Use the human-readable company name and job title (not slugs) in the commit message. Example: `"Stripe - Senior Backend Engineer"`
