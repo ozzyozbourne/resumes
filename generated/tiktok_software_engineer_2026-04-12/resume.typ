@@ -35,7 +35,7 @@
 - Built *Langfuse* and *LangSmith* observability (*tracing*, logs, evaluations) with *cross-functional teams* to keep *scalable and efficient AI-powered systems* reliable
 
 #work("AI Researcher", "New York City, NY", "Pace Artificial Intelligence Lab", "Sep 2025 - Dec 2025")
-- Researched *StyleGAN* and *Stable Diffusion* with *CUDA*, *PyTorch*, and *LORA (Low-rank Adaptation)* on Pace University's *HPC cluster*, strengthening *machine learning concepts* and *deep learning frameworks* expertise
+- Researched *StyleGAN* and *Stable Diffusion* with *CUDA*, *PyTorch*, and *LORA (Low-rank Adaptation)* on Pace University's *HPC cluster*, strengthening *machine learning concepts*, *natural language processing*, and *deep learning frameworks* expertise
 - Built secure *vLLM* and *Hugging Face* model-serving workflows for *LLMs*, benchmarking throughput/latency and improving inference reproducibility
 - Led workshops for *+50* students on *AI agents*, *LangChain*, *LangGraph*, *LangSmith*, and GPU programming (*CUDA*, *Mojo*)
 
