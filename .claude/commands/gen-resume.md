@@ -7,7 +7,15 @@ $ARGUMENTS
 
 Follow these steps exactly:
 
-## Step 1: Read source files
+## Step 1: Create the worktree
+
+```bash
+git worktree add <company_slug>_<job_slug>_<YYYY-MM-DD> -b <company_slug>_<job_slug>_<YYYY-MM-DD>
+```
+
+Do not cd into it. All subsequent paths will be prefixed with `<company_slug>_<job_slug>_<YYYY-MM-DD>/`.
+
+## Step 2: Read source files
 
 Read both of these files from the project root:
 - `comm.typ` — the shared template (to understand available functions)
@@ -29,7 +37,7 @@ Read both of these files from the project root:
 
 The goal is **maximum JD alignment within the locked skeleton**.
 
-## Step 2: Analyze the job description
+## Step 3: Analyze the job description
 
 From the job description above, extract:
 - **Company name** — slug it (lowercase, spaces → underscores, remove special chars). Example: "Stripe Inc." → `stripe`
@@ -39,7 +47,7 @@ From the job description above, extract:
 - **Key responsibilities** — themes and action verbs used
 - **Domain keywords** — terms an ATS would scan for (e.g. "distributed systems", "microservices", "CI/CD")
 
-## Step 3: Generate the tailored resume
+## Step 4: Generate the tailored resume
 
 Create a new Typst resume file with these rules:
 
@@ -69,7 +77,7 @@ Write the initial draft targeting exactly 1 page. Aim for:
 - Max 4 Min 3 bullets per role for other roles
 - Max 3 Min 2 bullets for the Projects section total
 - Keep bullets concise (2 line preferred, 3 lines max)
-- Make sure that all the line in the page are used, there should be no more 2 or 3 lines space left veritically in the whole resume
+- Make sure that all the lines in the page are used, there should be no more than 2 or 3 lines space left vertically in the whole resume
 
 ### Typst Syntax Rules:
 - Use `#import "../../comm.typ": *` at the top (two levels up from the output folder)
@@ -78,56 +86,56 @@ Write the initial draft targeting exactly 1 page. Aim for:
 - Wrap important keywords in `*bold*` using Typst syntax
 - Preserve all section headers: `== Education`, `== Technical Skills`, `== Professional Experience`, `== Projects`
 
-## Step 4: Save the file
+## Step 5: Save the file
 
-Determine the output path:
+Write the file to:
 ```
-generated/<company_slug>_<job_slug>_<YYYY-MM-DD>/resume.typ
+<company_slug>_<job_slug>_<YYYY-MM-DD>/generated/<company_slug>_<job_slug>_<YYYY-MM-DD>/resume.typ
 ```
 
-Example: `generated/stripe_senior_backend_engineer_2026-04-08/resume.typ`
+Example: `stripe_senior_backend_engineer_2026-04-08/generated/stripe_senior_backend_engineer_2026-04-08/resume.typ`
 
 Create any needed directories and write the file.
 
-## Step 5: Resume ATS Review Pass
+## Step 6: Resume ATS Review Pass
 
-Re-read the generated `resume.typ` and verify each of the following against the JD analysis from Step 2. Work through this as an explicit checklist and output your findings:
+Re-read the generated `resume.typ` and verify each of the following against the JD analysis from Step 3. Work through this as an explicit checklist and output your findings:
 
-1. **Keyword coverage** — For each ATS keyword you extracted in Step 2, confirm it appears verbatim in the resume. If a keyword is absent and can plausibly fit the role context, insert it naturally into an existing bullet.
+1. **Keyword coverage** — For each ATS keyword you extracted in Step 3, confirm it appears verbatim in the resume. If a keyword is absent and can plausibly fit the role context, insert it naturally into an existing bullet.
 2. **Structural integrity** — Confirm that company names, job titles, employment dates, degrees, GPA, and project names/URLs exactly match `cur_res.typ`. Bullet content rewrites are expected and allowed.
 3. **Bullet ordering** — Within each role, confirm the most JD-relevant bullet leads. Reorder if needed.
 4. **Bold coverage** — Confirm critical JD keywords are wrapped in `*bold*` Typst syntax where they appear.
 5. **Fix and re-save** — If any issues were found in checks 1–4, apply the fixes to `resume.typ` now, before compiling.
 6. **Bullet density regression check** — For each generated bullet, compare it against the corresponding source bullet in `cur_res.typ`. If the generated version is shorter or uses more generic phrasing without good reason, rewrite it to restore the density while keeping JD keywords.
 
-## Step 6: Compile to PDF
-
-Run the following command to compile the generated resume:
+## Step 7: Compile to PDF
 
 ```bash
-typst compile --root . generated/<company_slug>_<job_slug>_<YYYY-MM-DD>/resume.typ generated/<company_slug>_<job_slug>_<YYYY-MM-DD>/osaid_khan_resume.pdf
+typst compile --root <company_slug>_<job_slug>_<YYYY-MM-DD> \
+  <company_slug>_<job_slug>_<YYYY-MM-DD>/generated/<company_slug>_<job_slug>_<YYYY-MM-DD>/resume.typ \
+  <company_slug>_<job_slug>_<YYYY-MM-DD>/generated/<company_slug>_<job_slug>_<YYYY-MM-DD>/osaid_khan_resume.pdf
 ```
 
 If the command fails, read the error output, fix the Typst syntax in the generated file, and retry.
 
-## Step 6b: Enforce single page
+## Step 8: Enforce single page
 
 Check the page count of the compiled PDF:
 
 ```bash
-pdfinfo generated/<company_slug>_<job_slug>_<YYYY-MM-DD>/osaid_khan_resume.pdf | grep Pages
+pdfinfo <company_slug>_<job_slug>_<YYYY-MM-DD>/generated/<company_slug>_<job_slug>_<YYYY-MM-DD>/osaid_khan_resume.pdf | grep Pages
 ```
 
-If `Pages: 1` — proceed to Step 7.
+If `Pages: 1` — proceed to Step 9.
 
 If `Pages: 2` or more — trim content and recompile using this priority order:
 1. **First, tighten bullet wording** — remove filler words, compress parentheticals, trim outcome clauses to the minimum that preserves meaning. Recompile.
 2. If still over 1 page, remove the least JD-relevant bullet from whichever role has the most bullets. Recompile.
-3. If still over 1 page, cap all roles at 3 bullets and recompile
-4. If still over 1 page, cap all roles at 2 bullets and recompile
-5. Re-save the trimmed `resume.typ` before moving on
+3. If still over 1 page, cap all roles at 3 bullets and recompile.
+4. If still over 1 page, cap all roles at 2 bullets and recompile.
+5. Re-save the trimmed `resume.typ` before moving on.
 
-## Step 7: Research the company
+## Step 9: Research the company
 
 Web-search: `<Company Name> mission statement values`
 
@@ -135,13 +143,13 @@ From the results extract:
 - The company's core mission (1-2 sentences)
 - 1-2 key values or focus areas
 
-## Step 8: Read the generated resume
+## Step 10: Read the generated resume
 
-Re-read `generated/<company_slug>_<job_slug>_<YYYY-MM-DD>/resume.typ` (not `cur_res.typ`). The cover letter must tell the **same story** as this generated resume — referencing the same bullets, achievements, and technologies.
+Re-read `<company_slug>_<job_slug>_<YYYY-MM-DD>/generated/<company_slug>_<job_slug>_<YYYY-MM-DD>/resume.typ` (not `cur_res.typ`). The cover letter must tell the **same story** as this generated resume — referencing the same bullets, achievements, and technologies.
 
-## Step 9: Generate the tailored cover letter
+## Step 11: Generate the tailored cover letter
 
-Write `generated/<company_slug>_<job_slug>_<YYYY-MM-DD>/cv.typ` using these rules:
+Write `<company_slug>_<job_slug>_<YYYY-MM-DD>/generated/<company_slug>_<job_slug>_<YYYY-MM-DD>/cv.typ` using these rules:
 
 ### Structure:
 - First line: `#import "../../comm.typ": *`
@@ -154,10 +162,10 @@ Write `generated/<company_slug>_<job_slug>_<YYYY-MM-DD>/cv.typ` using these rule
 - `*Name of company*` → actual company name
 - `*the technical depth this position demands*` → rephrase to mirror the specific technical requirements from the job description
 - `*contribute meaningfully to the team's core engineering responsibilities*` → align to the core responsibilities listed in the JD
-- `*the engineering discipline and collaborative culture this team values*` → align to company values found in Step 7
+- `*the engineering discipline and collaborative culture this team values*` → align to company values found in Step 9
 - `*the mentorship and knowledge-sharing responsibilities central to this role*` → tailor to any mentorship/leadership aspects in the JD; if none, align to technical communication skills valued by the company
-- `*list 1-2 values or items from the company's mission statement*` → fill with the 1-2 mission items from Step 7
-- `*company goal*` → fill with the company's mission/goal from Step 7
+- `*list 1-2 values or items from the company's mission statement*` → fill with the 1-2 mission items from Step 9
+- `*company goal*` → fill with the company's mission/goal from Step 9
 - `*this team and its mission*` → personalize to the company name and mission
 
 ### Content rules:
@@ -165,46 +173,35 @@ Write `generated/<company_slug>_<job_slug>_<YYYY-MM-DD>/cv.typ` using these rule
 - Reference only achievements, technologies, and bullets that appear in the **generated `resume.typ`** — not the original `cur_res.typ`
 - Keep the professional tone of the original template
 
-## Step 10: Cover Letter Review Pass
+## Step 12: Cover Letter Review Pass
 
 Re-read the generated `cv.typ` and verify each of the following. Work through this as an explicit checklist and output your findings:
 
 1. **No leftover placeholders** — Scan for any `*italicized placeholder*` patterns that were not replaced. Replace any found with proper tailored content.
 2. **Role alignment** — Confirm each body paragraph ties Osaid's actual experience to a specific responsibility listed in the JD. If a paragraph is generic, sharpen it.
-3. **Mission accuracy** — Confirm the company mission/values wording matches what was found in Step 7.
+3. **Mission accuracy** — Confirm the company mission/values wording matches what was found in Step 9.
 4. **Resume consistency** — Verify every specific achievement, metric, or technology mentioned in the cover letter also appears in the generated `resume.typ`. If the cover letter references something not in the resume, either add it to the resume (if it fits and aligns with JD) or remove it from the cover letter.
 5. **Fix and re-save** — If any issues were found in checks 1–4, apply the fixes to `cv.typ` now, before compiling.
 
-## Step 11: Compile cover letter to PDF
+## Step 13: Compile cover letter to PDF
 
 ```bash
-typst compile --root . generated/<company_slug>_<job_slug>_<YYYY-MM-DD>/cv.typ generated/<company_slug>_<job_slug>_<YYYY-MM-DD>/osaid_khan_cv.pdf
+typst compile --root <company_slug>_<job_slug>_<YYYY-MM-DD> \
+  <company_slug>_<job_slug>_<YYYY-MM-DD>/generated/<company_slug>_<job_slug>_<YYYY-MM-DD>/cv.typ \
+  <company_slug>_<job_slug>_<YYYY-MM-DD>/generated/<company_slug>_<job_slug>_<YYYY-MM-DD>/osaid_khan_cv.pdf
 ```
 
 If the command fails, read the error, fix the Typst syntax in `cv.typ`, and retry.
 
-## Step 12: Create work tree, commit, push and remove the worktree
+## Step 14: Commit, push and remove the worktree
 
 ```bash
-git worktree add <company_slug>_<job_slug>_<YYYY-MM-DD>
-cd <company_slug>_<job_slug>_<YYYY-MM-DD>
-git add generated/<company_slug>_<job_slug>_<YYYY-MM-DD>/
-git commit -m "<CompanyName> - <JobTitle>"
-git push -u origin <company_slug>_<job_slug>_<YYYY-MM-DD>
-cd ../
+git -C <company_slug>_<job_slug>_<YYYY-MM-DD> add generated/<company_slug>_<job_slug>_<YYYY-MM-DD>/
+git -C <company_slug>_<job_slug>_<YYYY-MM-DD> commit -m "<CompanyName> - <JobTitle>"
+git -C <company_slug>_<job_slug>_<YYYY-MM-DD> push -u origin <company_slug>_<job_slug>_<YYYY-MM-DD>
 git worktree remove <company_slug>_<job_slug>_<YYYY-MM-DD>
 ```
 
 Use the human-readable company name and job title (not slugs) in the commit message. Example: `"Stripe - Senior Backend Engineer"`
 
-The branch name reuses the same slug+date string computed in Step 2. This isolates each run to its own branch, allowing multiple Claude instances to generate resumes in parallel without conflicts.
-
-## Step 13: Confirm to the user
-
-Tell the user:
-- Path to `resume.typ` and `osaid_khan_resume.pdf`
-- Path to `cv.typ` and `osaid_khan_cv.pdf`
-- The top 5 ATS keywords used in the resume
-- Any fixes made during the resume or cover letter review passes
-- The company mission snippet used in the cover letter
-- The git commit message used
+The branch name reuses the same slug+date string computed in Step 3. This isolates each run to its own branch, allowing multiple Claude instances to generate resumes in parallel without conflicts.
