@@ -42,19 +42,19 @@ The goal is **maximum JD alignment within the locked skeleton**.
 ## Step 3: Analyze the job description
 
 From the job description above, extract:
-- **Company name** — slug it (lowercase, spaces → underscores, remove special chars). Example: \"Stripe Inc.\" → `stripe`
-- **Job title** — slug it. Example: \"Senior Backend Engineer\" → `senior_backend_engineer`
+- **Company name** — slug it (lowercase, spaces → underscores, remove special chars). Example: "Stripe Inc." → `stripe`
+- **Job title** — slug it. Example: "Senior Backend Engineer" → `senior_backend_engineer`
 - **Current date** — in `YYYY-MM-DD` format (use the date from the `currentDate` context provided at the top of the conversation)
 - **Required skills and technologies** — exact names as written in the job posting
 - **Key responsibilities** — themes and action verbs used
-- **Domain keywords** — terms an ATS would scan for (e.g. \"distributed systems\", \"microservices\", \"CI/CD\")
+- **Domain keywords** — terms an ATS would scan for (e.g. "distributed systems", "microservices", "CI/CD")
 
 ## Step 4: Generate the tailored resume
 
 Create a new Typst resume file with these rules:
 
 ### ATS Optimization Rules (critical):
-1. **Mirror exact keywords** from the job description in bullet points — if they say \"distributed systems\", use that exact phrase, not \"scalable systems\"
+1. **Mirror exact keywords** from the job description in bullet points — if they say "distributed systems", use that exact phrase, not "scalable systems"
 2. **Reorder Technical Skills** categories so the most relevant technologies to this job appear first
 3. **Within each skill category**, list matching technologies before non-matching ones
 4. **Rephrase and rewrite bullet points** using action verbs and domain language from the job description — bullets are not constrained to what is literally in `cur_res.typ`
@@ -67,10 +67,10 @@ Create a new Typst resume file with these rules:
 ### Bullet density standard (critical):
 `cur_res.typ` bullets are the quality bar — dense, specific, and information-packed. Every generated bullet must match or exceed that density:
 1. **Start from the source bullet** — rewrite it to surface JD keywords; do not replace it with a simpler paraphrase
-2. **Pack in specifics** — name exact technologies, services, and patterns (e.g. \"*Google Cloud Storage*, *S3*, and *MinIO*\"), not generic terms like \"cloud storage\"
-3. **Use parentheticals to add depth without extra lines** — e.g. \"(API-aware templates, SDK patterns, and code-generation workflows)\"
+2. **Pack in specifics** — name exact technologies, services, and patterns (e.g. "*Google Cloud Storage*, *S3*, and *MinIO*"), not generic terms like "cloud storage"
+3. **Use parentheticals to add depth without extra lines** — e.g. "(API-aware templates, SDK patterns, and code-generation workflows)"
 4. **Preserve outcome clauses** — source bullets end with measurable outcomes or impact; keep or strengthen them
-5. **Never genericize** — if the source says \"translates natural-language intents into *safe, validated tool calls*\", a rewrite must retain that specificity; replacing it with \"applied OOP principles\" is a regression
+5. **Never genericize** — if the source says "translates natural-language intents into *safe, validated tool calls*", a rewrite must retain that specificity; replacing it with "applied OOP principles" is a regression
 6. **Every word earns its place** — if a word does not add technical signal or concrete outcome, cut it
 
 ### Single-page rule:
@@ -82,7 +82,7 @@ Write the initial draft targeting exactly 1 page. Aim for:
 - Make sure that all the lines in the page are used, there should be no more than 2 or 3 lines space left vertically in the whole resume
 
 ### Typst Syntax Rules:
-- Use `#import \"../../comm.typ\": *` at the top (two levels up from the output folder)
+- Use `#import "../../comm.typ": *` at the top (two levels up from the output folder)
 - Use `#show: comm` after the import
 - Use all helper functions exactly as in `cur_res.typ`: `edu()`, `work()`, `sk()`, `project()`
 - Wrap important keywords in `*bold*` using Typst syntax
@@ -113,8 +113,8 @@ Re-read the generated `resume.typ` and verify each of the following against the 
 ## Step 7: Compile to PDF
 
 ```bash
-typst compile --root <company_slug>_<job_slug>_<YYYY-MM-DD> \\
-  <company_slug>_<job_slug>_<YYYY-MM-DD>/generated/<company_slug>_<job_slug>_<YYYY-MM-DD>/resume.typ \\
+typst compile --root <company_slug>_<job_slug>_<YYYY-MM-DD> \
+  <company_slug>_<job_slug>_<YYYY-MM-DD>/generated/<company_slug>_<job_slug>_<YYYY-MM-DD>/resume.typ \
   <company_slug>_<job_slug>_<YYYY-MM-DD>/generated/<company_slug>_<job_slug>_<YYYY-MM-DD>/osaid_khan_resume.pdf
 ```
 
@@ -154,8 +154,8 @@ Re-read `<company_slug>_<job_slug>_<YYYY-MM-DD>/generated/<company_slug>_<job_sl
 Write `<company_slug>_<job_slug>_<YYYY-MM-DD>/generated/<company_slug>_<job_slug>_<YYYY-MM-DD>/cv.typ` using these rules:
 
 ### Structure:
-- First line: `#import \"../../comm.typ\": *`
-- Second line: `#show: comm.with(title: \"Cover-letter\", m: 0.5in)`
+- First line: `#import "../../comm.typ": *`
+- Second line: `#show: comm.with(title: "Cover-letter", m: 0.5in)`
 - Keep `#cv_ending()` at the bottom
 - Keep `#ph` and `#eml` variables exactly as-is — they resolve from `comm.typ`
 
@@ -188,8 +188,8 @@ Re-read the generated `cv.typ` and verify each of the following. Work through th
 ## Step 13: Compile cover letter to PDF
 
 ```bash
-typst compile --root <company_slug>_<job_slug>_<YYYY-MM-DD> \\
-  <company_slug>_<job_slug>_<YYYY-MM-DD>/generated/<company_slug>_<job_slug>_<YYYY-MM-DD>/cv.typ \\
+typst compile --root <company_slug>_<job_slug>_<YYYY-MM-DD> \
+  <company_slug>_<job_slug>_<YYYY-MM-DD>/generated/<company_slug>_<job_slug>_<YYYY-MM-DD>/cv.typ \
   <company_slug>_<job_slug>_<YYYY-MM-DD>/generated/<company_slug>_<job_slug>_<YYYY-MM-DD>/osaid_khan_cv.pdf
 ```
 
@@ -199,12 +199,12 @@ If the command fails, read the error, fix the Typst syntax in `cv.typ`, and retr
 
 ```bash
 git -C <company_slug>_<job_slug>_<YYYY-MM-DD> add generated/<company_slug>_<job_slug>_<YYYY-MM-DD>/
-git -C <company_slug>_<job_slug>_<YYYY-MM-DD> commit -m \"<CompanyName> - <JobTitle>\"
+git -C <company_slug>_<job_slug>_<YYYY-MM-DD> commit -m "<CompanyName> - <JobTitle>"
 git -C <company_slug>_<job_slug>_<YYYY-MM-DD> push -u origin <company_slug>_<job_slug>_<YYYY-MM-DD>
 git worktree remove <company_slug>_<job_slug>_<YYYY-MM-DD>
 ```
 
-Use the human-readable company name and job title (not slugs) in the commit message. Example: `\"Stripe - Senior Backend Engineer\"`
+Use the human-readable company name and job title (not slugs) in the commit message. Example: `"Stripe - Senior Backend Engineer"`
 
 The branch name reuses the same slug+date string computed in Step 3. This isolates each run to its own branch, allowing multiple Claude instances to generate resumes in parallel without conflicts.
-\"\"\"
+"""
