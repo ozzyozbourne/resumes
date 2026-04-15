@@ -1,0 +1,15 @@
+#import "../../comm.typ": *
+
+#show: comm.with(title: "Cover-letter", m: 0.5in)
+
+Dear Hiring Team,
+
+It is with great pleasure that I submit my candidacy for the *AI Software Engineer* position with *Net2Source Inc.* I bring over three years of professional experience designing and deploying AI-powered applications, LLM integrations, and agentic AI systems, along with a strong academic foundation as a Master of Science in Computer Science graduate from Pace University, NY.
+
+Through my engineering roles, I have built and delivered production-grade AI systems that directly reflect the technical depth this position demands — designing scalable LLM solutions, building autonomous agent orchestration, and deploying cloud-native backend services. As a Software Engineer at Sperse, I designed and built an MCP AI interaction layer integrating large language models to translate natural-language intents into safe, validated tool calls across 1,000+ platform endpoints. I architected a concurrent multi-agent orchestration system using LangChain and LangGraph for scalable agentic AI workflow execution, and enabled LangSmith tracing and evaluation hooks to monitor LLM behavior in production and continuously optimize model quality — reducing latency by 60% and API costs by 50%. Prior to Sperse, at Qualitest, I built a support chatbot using LangChain and RAG with a PostgreSQL vector database, designed a cloud-agnostic Storage Service in Python deployed across AWS S3 and GCP Cloud Storage, and contributed to an IAM platform using React, Spring Boot, and AWS supporting 30+ applications with CI/CD pipelines. Together, these roles have prepared me to design, develop, and deploy AI-powered applications and services — and to contribute meaningfully to Net2Source's core engineering responsibilities around LLM integration, agent orchestration, and cloud deployment.
+
+My academic research experience has given me a rigorous foundation in model development, fine-tuning, and evaluation — skills that translate directly into the engineering discipline and collaborative culture Net2Source values. As an AI Researcher at the Pace Artificial Intelligence Lab, I fine-tuned StyleGAN and Stable Diffusion models using PyTorch and LoRA on Pace University's HPC cluster with CUDA, and deployed and evaluated deep learning models via vLLM inference and Hugging Face for secure, efficient generative AI model serving. Beyond building the systems myself, I led workshops on building AI agents with LangChain, LangGraph, and LangSmith for 50+ students — breaking down complex agentic AI concepts clearly and accessibly, mirroring the collaborative knowledge-sharing culture Net2Source fosters across its global teams.
+
+I have always been passionate about excellence and innovation in connecting talent to opportunity, and I see Net2Source's mission — to empower organizations globally with expert, tailored workforce solutions — as a direct reflection of those values. I would love to discuss my interest in this position with your team and can be reached at #ph or #eml. Thank you for your time and consideration, I look forward to connecting!
+
+#cv_ending()
