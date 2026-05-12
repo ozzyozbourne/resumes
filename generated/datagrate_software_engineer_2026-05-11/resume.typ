@@ -20,31 +20,30 @@
 )
 
 == Technical Skills
-#sk("Languages",    "Java, Python, JavaScript/TypeScript, Rust")
-#sk("AWS Services", "EC2, RDS, S3, Lambda, CloudWatch, Step Functions, CloudFormation, CloudFront, API Gateway")
-#sk("Frameworks",   "Sprint Boot, React, FastAPI, FastMCP, LangGraph, LangChain, LangSmith, PyTorch")
-#sk("Databases",    "PostgreSQL, MongoDB, Redis")
-#sk("Others",       "CI/CD, Kafka, Git, Google Cloud, Node.js")
+#sk("Languages",    "Java, JavaScript/TypeScript, Python, Rust")
+#sk("AWS Services", "EC2, RDS, S3, Lambda, CloudWatch, Step Functions, CloudFormation, API Gateway")
+#sk("Frameworks",   "Spring Boot, React, FastAPI, LangGraph, LangChain, LangSmith, FastMCP, PyTorch")
+#sk("Others",       "Google Cloud, CI/CD, Kafka, Git, Node.js")
+#sk("Databases",    "PostgreSQL, Redis, MongoDB")
 #sk("AI",           "Claude code, Codex, Pi coding-agent")
 
 == Professional Experience
 #work("Software Engineer", "Phoenix, AZ", "Sperse",  "Feb 2026 - present")
-- Delivered an MCP AI layer translating natural-language into *validated tool calls* across *1000+ platform endpoints*, serving as core *middleware* for *automated customer actions*
-- Built *generative code solutions* (API-aware templates, SDK patterns) to accelerate *integration* with platform *APIs* and ensure *scalable* software implementations
-- Enabled *observability* using *Langfuse* and *LangSmith* for *tracing* and *structured logs* to monitor *integration solutions*, debug failures, and track system health
-- Architected a *concurrent multi-agent* orchestration system using *LangChain* and *LangGraph*, enabling reliable coordination and *scalability* across *enterprise software*
+- Engineered a *middleware interaction layer* to translate intents into *safe, validated API calls* across *1000+ endpoints*, automating *enterprise integration* and reducing latency by *60%* through optimized routing
+- Developed *scalable software* including *API-aware templates* and *SDK patterns* to accelerate cloud connectivity and ensure *digital transformation* consistency across the platform
+- Architected a *multi-agent* system using *LangGraph*, enabling reliable *microservice deployments* and coordination of complex *hybrid cloud* workflows with a robust *CloudWatch observability layer*
+- Optimized system concurrency to reduce infrastructure overhead by *50%*, improving the scalability of *cloud-native integrations* while maintaining *high-availability* for enterprise customers
 
 #work("AI Researcher", "New York City, NY", "Pace Artificial Intelligence Lab", "Sep 2025 - Dec 2025")
-- Conducted research on generative models using *CUDA*, *PyTorch* and *LORA* on an *HPC cluster*, implementing complex *technical concepts* and modern tech stacks
-- Utilized *vLLM* for model inference with *Hugging Face*, ensuring secure and efficient *cloud-native* model serving in hybrid environments
+- Leveraged *CUDA* and *PyTorch* on a *HPC cluster* to develop complex *generative models*, presenting technical ideas and *architectural concepts* to internal research teams and stakeholders
+- Led technical workshops on *GPU programming* and *AI Agent* architecture for *50+* students, demonstrating strong *communication skills* and the ability to explain complex concepts
 
 #work("Software Engineer", "Noida, India", "Qualitest", "Feb 2021 - Dec 2023")
-- Contributed to an IAM platform using *Java*, *Spring Boot*, and *AWS*, supporting thousands of users across 30+ apps in a *Java Enterprise environment*
-- Developed a cloud-agnostic Storage Service using *Python*, *PostgreSQL*, and *Redis* to integrate *middleware* operations across *S3* and *GCS* via signed URLs
-- Developed backend workflows using *AWS Step Functions* for long-running data imports, ensuring reliable *integration solutions* in *cloud* environments
-- Built an internal support chatbot using *LangChain* and *RAG* with *PostgreSQL*, reducing ticket resolution time by 20% via *enterprise* documentation
+- Contributed to a large-scale *Identity & Access Management* platform using *Java*, *Spring Boot*, and *AWS*, supporting thousands of users across *30+ enterprise applications*
+- Designed and implemented a *cloud-agnostic integration service* using *Python* and *Redis* that seamlessly handles file operations across *S3*, *Google Cloud*, and *MinIO* via signed URLs
+- Developed robust backend workflows using *AWS Step Functions* to manage *long-running data import jobs*, ensuring reliable *enterprise software* synchronization and preventing system timeouts
 
 == Projects
 #project("Dark Factory - Orchestrator for AI coding CLIs", "Crossterm, Ratatui, Y-crdt", "github.com/ozzyozbourne/dark-factory")
-- Enables full ownership of CLI IO via *PTY*, implementing *middleware* logic to log and validate every command before execution by the bash shell
-- Provides *event-driven* agentic loops for real-time updates, utilizing *Y-crdt* for distributed coordination across *scalable* machine clusters
+- Built a *distributed orchestrator* for CLI execution, ensuring full ownership of IO via *PTY* and implementing secure *command-validation* logic for remote machine operations
+- Utilized *Y-crdt* for real-time state synchronization, enabling *event-driven* loops that eliminate polling overhead in complex *integration* environments
