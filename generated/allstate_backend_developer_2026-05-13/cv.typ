@@ -1,0 +1,16 @@
+#import "../../comm.typ": *
+
+#show: comm.with(title: "Cover-letter", m: 0.5in)
+
+Dear Hiring Team, 
+
+It is with great pleasure that I submit my candidacy for the *Backend Developer* position with *Allstate*. I bring over three years of professional experience in building scalable backend systems, RAG pipelines, and AI agents, along with a strong academic foundation as a Master of Science in Computer Science graduate from Pace University.
+
+Through my experience across engineering roles, I have built and delivered production-grade backend services that directly reflect *the backend scalability and AI integration depth this position demands*. As a Software Engineer at Sperse, I architected a multi-agent orchestration system using *LangChain* and *LangGraph*, enabling scalable *asynchronous processing* and reliable coordination across complex customer workflows. To ensure operational excellence, I developed an MCP AI interaction layer that translates natural-language intents into validated tool calls across 1,000+ microservices endpoints, and optimized agent concurrency to reduce end-to-end latency by 60%. Prior to Sperse, as a Software Engineer at Qualitest, I contributed to the backbone infrastructure that thousands of users rely on daily. I designed and built an internal support chatbot using *LangChain* and *RAG* with a *PostgreSQL vector store*, reducing ticket resolution time by 20%. I also contributed to an Identity & Access Management platform using *Java Spring Boot*, *React*, and *AWS*, supporting thousands of users across 30+ applications within a microservices architecture. These roles have prepared me to *contribute meaningfully to Allstate's engineering team by building secure, high-performance microservices and integrating cutting-edge AI capabilities*.
+
+My academic research experience has given me a rigorous foundation in model development and technical communication — skills that translate directly into *the engineering excellence and collaborative culture Allstate values*. As an AI Researcher at the Pace Artificial Intelligence Lab, I conducted *fine-tuning* and optimization of *Large Language Models (LLMs)* and diffusion models using *PyTorch* and *LORA* on an HPC cluster. I was responsible for managing the full model lifecycle — from training to high-performance inference using *vLLM* and *Hugging Face* — ensuring both performance and secure model serving. Beyond technical implementation, I led workshops on building AI Agents with LangChain for an audience of 50+ students, which required breaking down complex technical concepts clearly. This experience has shaped me into an engineer who builds with rigor and communicates with clarity, both of which I would bring to *Allstate's mission of using innovation to protect customers*.
+
+
+I have always been passionate about *excellence and being a force for good* and envision myself contributing my talent to the furthering of *Allstate's goal to help people protect what they have today and better prepare for tomorrow*. I would love to discuss my interest in this position with your team and can be reached at #ph or #eml. Thank you for your time and consideration, I look forward to connecting!
+
+#cv_ending()
