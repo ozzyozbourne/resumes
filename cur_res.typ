@@ -1,24 +1,19 @@
 #import "comm.typ": *
-
 #show: comm
-
 == Education
-
 #edu(
-  "Pace University", 
-  "New York City, NY", 
-  "Master of Science (MS) in Computer Science", 
+  "Pace University",
+  "New York City, NY",
+  "Master of Science (MS) in Computer Science",
   "Jan 2024 - Dec 2025",
   gpa: "4.0/4.0"
 )
-
 #edu(
-  "Dr. A.P.J. Abdul Kalam Technical University", 
-  "Noida, India", 
-  "Bachelor of Technology (B.Tech) in Computer Science", 
+  "Dr. A.P.J. Abdul Kalam Technical University",
+  "Noida, India",
+  "Bachelor of Technology (B.Tech) in Computer Science",
   "Jul 2016 - Sep 2020"
 )
-
 == Technical Skills
 #sk("Languages",    "Java, JavaScript/TypeScript, Rust, Python")
 #sk("Frameworks",   "FastAPI, FastMCP, LangGraph, LangChain, LangSmith, PyTorch, React, Sprint Boot")
@@ -26,7 +21,6 @@
 #sk("AWS Services", "EC2, RDS, S3, Lambda, CloudWatch, Step Functions, CloudFormation, CloudFront, API Gateway")
 #sk("AI",           "Claude code, Codex, Pi coding-agent")
 #sk("Others",       "Google Cloud, Git, CI/CD, Kafka, Node.js")
-
 == Professional Experience
 #work("Software Engineer", "Phoenix, AZ", "Sperse",  "Feb 2026 - present")
 - Developed and delivered an MCP AI interaction layer that translates natural-language intents into *safe, validated tool calls* across *1000+ platform endpoints*, enabling end-to-end *automated customer actions*
@@ -45,9 +39,8 @@
 - Designed and developed a cloud-agnostic Storage Service using *Python*, *PostgreSQL*, and *Redis* that seamlessly handles file uploads, downloads, and deletions in *Google Cloud Storage*, *S3*, and *MinIO* through the utilization of expiring signed URLs
 - Contributed to the development of an Identity & Access Management platform using *React*, *Spring Boot*, and *AWS*, supporting thousands of users across 30+ applications
 - Developed backend workflows using *AWS Step Functions* to handle long-running data import jobs and prevent *AWS Lambda* timeouts
-
 == Projects
-#project("Dark Factory - Orchestrator for AI coding CLIs", "Crossterm, Ratatui, Y-crdt", "github.com/ozzyozbourne/dark-factory")
-- Enables full ownership of CLI IO via *PTY*, checking and logging every command before execution by bash shell
-- Allows secure distributed *ralph* loops across machines by using *Y-crdt* to signal to the orchestrator on each iteration
-- Provides *event-driven* agentic loops making each AI CLI session broadcast *real-time* updates eliminating polling overhead
+#project("Dark Factory - Distributed orchestrator for AI coding agents", "Elixir, Horde/CRDT, WebSocket, TypeScript, Node.js", "github.com/ozzyozbourne/dark-factory")
+- Turns a single user goal into a *dependency-aware task plan* that is automatically dispatched to a *fleet of AI coding agents running across multiple machines*, with built-in retries and timeout handling
+- Built a *fault-tolerant Elixir coordinator* that matches each task to the right agent based on its capabilities (coding, debugging, etc.) and live workload, using a *distributed registry backed by CRDTs* so the cluster keeps running even if individual nodes fail
+- Uses a *real-time WebSocket protocol* to push task assignments and progress updates to agents the moment they happen, eliminating polling and letting users watch work stream in as agents complete it
