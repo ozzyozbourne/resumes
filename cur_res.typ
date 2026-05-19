@@ -23,11 +23,11 @@
 #sk("Others",       "Google Cloud, Git, CI/CD, Kafka, Node.js")
 == Professional Experience
 #work("Software Engineer", "Phoenix, AZ", "Sperse",  "Feb 2026 - present")
-- Developed and delivered an MCP AI interaction layer that translates natural-language intents into *safe, validated tool calls* across *1000+ platform endpoints*, enabling end-to-end *automated customer actions*
-- Built *generative code solutions* for developers (API-aware templates, SDK patterns, and code-generation workflows) to accelerate integration with platform *APIs* and improve the correctness of implementations
-- Enabled a robust *observability layer* using *Langfuse* and *LangSmith* for *tracing*, *structured logs*, and *evaluation hooks* to monitor behavior, debug failures, and track quality over time
-- Architected a *concurrent multi-agent* orchestration system using *LangChain* and *LangGraph*, enabling scalable tool execution and reliable coordination across complex customer workflows
-- Optimized prompt routing and agent concurrency to maximize *KV-cache hit rate*, reducing end-to-end latency by *60%* and lowering LLM API costs by *50%*
+- Building the *AI automation layer* for *Sperse*, a multi-tenant SaaS small lenders and fintech businesses use to run the full *lead-to-payment lifecycle* (lead capture, *KBA / credit checks*, contacts and orders, *Stripe / PayPal* payments, *Plaid* bank sync, cash-flow forecasting), turning dozens of admin screens into plain-English conversations and a live AI demo surface for sales
+- Designed a *hierarchical multi-agent system* in *LangGraph + FastAPI*: a main orchestrator lazily loads *sub-agent catalogs* (when to use, when not to) and delegates to *40 specialized sub-agents*, each built per request with the user's *JWT, tenant and role context* propagated end-to-end so every backend call respects the caller's permissions
+- Compressed *~500 backend operations* into *tool-group dispatchers* allowing progressive discloure of tools collapsing 60+ REST/OData endpoints per agent into a few typed entry points, *lifting correct tool selection ~90%* and cutting *sub-agent context bloat* and tool-call errors
+- Wired *LangSmith* end-to-end: every request, delegation and tool call traced; built *trace-driven eval suites* that replay real production conversations against new prompts and model versions, with *real-time monitors* catching agents going off the rails (wrong tool, hallucinated args, runaway loops) before they reach customers
+- Added *retrieval-augmented agents* for in-product how-to questions and a *coding agent* that accelerates customer onboarding by *60%* by generating ready-to-run code examples directly from the CRM API docs so customers can build custom UIs and integration flows without leaving the product, protected by *two-stage input safety* (jailbreak regex + *Lakera Guard*) with *SQLite checkpointing* for multi-turn state; separately built a *FastMCP* server exposing *1000+ typed tools* for external AI clients, every call traced in *Langfuse*
 
 #work("AI Researcher", "New York City, NY", "Pace Artificial Intelligence Lab", "Sep 2025 - Dec 2025")
 - Conducted research on *StyleGAN* and *Stable Diffusion* to generate industry-standard fashion designs using *CUDA*, *PyTorch* and *LORA (Low-rank Adaptation)* on Pace University's *HPC cluster* for model training and fine-tuning
