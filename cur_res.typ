@@ -40,7 +40,6 @@
 - Contributed to the development of an Identity & Access Management platform using *React*, *Spring Boot*, and *AWS*, supporting thousands of users across 30+ applications
 - Developed backend workflows using *AWS Step Functions* to handle long-running data import jobs and prevent *AWS Lambda* timeouts
 == Projects
-#project("Dark Factory - Distributed orchestrator for AI coding agents", "Elixir, Horde/CRDT, WebSocket, TypeScript, Node.js", "github.com/ozzyozbourne/dark-factory")
+#project("Dark Factory - Distributed orchestrator for coding agents", "Elixir, TypeScript", "github.com/ozzyozbourne/dark-factory")
 - Turns a single user goal into a *dependency-aware task plan* that is automatically dispatched to a *fleet of AI coding agents running across multiple machines*, with built-in retries and timeout handling
-- Built a *fault-tolerant Elixir coordinator* that matches each task to the right agent based on its capabilities (coding, debugging, etc.) and live workload, using a *distributed registry backed by CRDTs* so the cluster keeps running even if individual nodes fail
-- Uses a *real-time WebSocket protocol* to push task assignments and progress updates to agents the moment they happen, eliminating polling and letting users watch work stream in as agents complete it
+- Built a *fault-tolerant Elixir coordinator* that matches tasks to agents by capability and live workload over a *real-time WebSocket protocol*, with a *CRDT-backed distributed registry* keeping the cluster alive when individual nodes fail
