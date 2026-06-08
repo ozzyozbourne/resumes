@@ -1,14 +1,14 @@
 #!/bin/bash
-set -x 
+set -x
 set -euo pipefail
 
 resume() { typst compile cur_res.typ osaid-khan-resume.pdf; }
 cover() { typst compile cur_cv.typ osaid-khan-cover-letter.pdf; }
 
-case "${1:-}" in 
+case "${1:-}" in
     --c)
         cover
-        open osaid-khan-cover-letter.pdf
+        open osaid_khan_cover_letter.pdf
         ;;
     --all)
         cover
@@ -16,11 +16,11 @@ case "${1:-}" in
         ;;
     "")
         resume
-        open osaid-khan-resume.pdf
+        open osaid_khan_resume.pdf
         ;;
     *)
         echo "Usage: $0 [--c | --all]" >&2
         exit 1
         ;;
 esac
-set +x 
+set +x
