@@ -2,8 +2,8 @@
 set -x
 set -euo pipefail
 
-resume() { typst compile cur_res.typ osaid-khan-resume.pdf; }
-cover() { typst compile cur_cv.typ osaid-khan-cover-letter.pdf; }
+resume() { typst compile cur_res.typ osaid_khan_resume.pdf; }
+cover() { typst compile cur_cv.typ osaid_khan_cover_letter.pdf; }
 
 case "${1:-}" in
     --c)
