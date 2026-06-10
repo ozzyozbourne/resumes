@@ -8,8 +8,8 @@
 
 == Technical Skills
 #sk("Languages",              "Java, JavaScript/TypeScript, Python, Rust")
-#sk("Backend & Frameworks",   "FastAPI, Spring Boot, React")
-#sk("AI/Agents",              "LangGraph, LangChain, FastMCP, LangSmith, Langfuse, LlamaIndex, Claude Code, Codex")
+#sk("Backend & Frameworks",   "FastAPI, Spring Boot, React, LangGraph, LangChain, FastMCP, LangSmith, Langfuse")
+#sk("AI/Agents",              "Google ADK, OpenAI Agents SDK, LlamaIndex, Claude Code, Codex")
 #sk("Databases",              "PostgreSQL, MongoDB, Redis")
 #sk("AWS Services",           "EC2, RDS, S3, Lambda, CloudWatch, Step Functions, CloudFormation, CloudFront, API Gateway")
 #sk("Others",                 "Git, CI/CD, Docker, Kubernetes")
