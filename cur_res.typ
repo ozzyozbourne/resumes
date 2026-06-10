@@ -18,7 +18,7 @@
 #work("Software Engineer", "Phoenix, AZ", "Sperse",  "Feb 2026 - Present")
 - Designed a multi-agent *CRM* orchestration system (*LangChain*, *LangSmith*, *FastAPI*) routing requests to 40+ specialized *sub-agents*, with lazy-loaded tool context, *prompt-injection* defenses (input sanitization, system-prompt hardening, tool-call guardrails), and tenant-aware access control via JWT propagation through every agent.
 - Built *LlamaIndex*-powered *RAG* agents for CRM workflow support, ingesting and chunking technical documentation and indexing *OpenAI* embeddings in *pgvector* to answer product questions and generate ready-to-run API examples.
-- Engineered a production MCP server (*FastMCP*) exposing 160+ LLM-callable tools over a multi-tenant .NET backend TDD-built with Claude Code, Pydantic validation and OpenTelemetry instrumentation.
+- Engineered a production MCP server (*FastMCP*) exposing 160+ LLM-callable tools over a multi-tenant .NET backend TDD-built with Claude Code, Pydantic validation and OTel instrumentation.
 - Built *OpenTelemetry* trace-driven eval suites that replay production conversations across prompts and model versions, scoring latency and tool-call accuracy and flagging unsafe behavior.
 - Built durable, user-defined agentic workflows with *React Flow* and *Inngest*, plus a fleet-management layer with *Slack* and *Teams* integration giving users a unified view and real-time observability across all running agent swarms.
 - Integrated *Whisper*-powered voice input, streaming real-time transcription into the multi-agent system so users can issue CRM commands and queries by speech.
