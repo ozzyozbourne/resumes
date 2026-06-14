@@ -9,27 +9,22 @@
 == Technical Skills
 #sk("Languages",              "Java, JavaScript/TypeScript, Python, Rust")
 #sk("Backend & Frameworks",   "FastAPI, Spring Boot, React, LangGraph, LangChain, FastMCP, LangSmith, Langfuse")
-#sk("AI/Agents",              "Google ADK, OpenAI Agents SDK, LlamaIndex, Claude Code, Codex")
 #sk("Databases",              "PostgreSQL, MongoDB, Redis")
 #sk("AWS Services",           "EC2, RDS, S3, Lambda, CloudWatch, Step Functions, CloudFormation, CloudFront, API Gateway")
-#sk("Others",                 "Git, CI/CD, Docker, Kubernetes")
+#sk("Others",                 "Git, CI/CD, Docker, Kubernetes, Google ADK, OpenAI Agents SDK, LlamaIndex, Claude Code")
 
 == Professional Experience
 #work("Software Engineer", "Phoenix, AZ", "Sperse",  "Feb 2026 - Present")
-- Designed a multi-agent *CRM* orchestration system (*LangChain*, *LangSmith*, *FastAPI*) routing requests to 40+ specialized *sub-agents*, with lazy-loaded tool context, *prompt-injection* defenses (input sanitization, system-prompt hardening, tool-call guardrails), and tenant-aware access control via JWT propagation through every agent.
-- Built *LlamaIndex*-powered *RAG* agents for CRM workflow support, ingesting and chunking technical documentation and indexing *OpenAI* embeddings in *pgvector* to answer product questions and generate ready-to-run API examples.
-- Engineered a production MCP server (*FastMCP*) exposing 160+ LLM-callable tools over a multi-tenant .NET backend TDD-built with Claude Code, Pydantic validation and OTel instrumentation.
-- Built *OpenTelemetry* trace-driven eval suites that replay production conversations across prompts and model versions, scoring latency and tool-call accuracy and flagging unsafe behavior.
-- Built durable, user-defined agentic workflows with *React Flow* and *Inngest*, plus a fleet-management layer with *Slack* and *Teams* integration giving users a unified view and real-time observability across all running agent swarms.
-- Integrated *Whisper*-powered voice input, streaming real-time transcription into the multi-agent system so users can issue CRM commands and queries by speech.
-- Built *GitHub Actions* *CI/CD* pipelines gating deploys on *LLM eval* suites and end-to-end tests
+- Built a *multi-agent* CRM platform using *Python*, *LangGraph*, *LangChain* and *FastAPI*, serving 10,000+ users by routing requests across 40+ specialized sub-agents with secure access control
+- Built a *React* *Flow* and *TypeScript* based visual workflow platform that helped users create, run and manage agentic swarms, using *Temporal* for durable and resumable execution
+- Created a *MCP* server using *FastMCP* that gave AI agents access to 160+ backend actions, helping automate CRM workflows securely across multiple customers with built-in monitoring
+- Added progress tracking for long-running *Temporal* workflows using *Redis* helping users monitor live execution status from the workflow dashboard
+- Built GitHub Actions *CI/CD* pipelines for AI-agent deployments, running OpenTelemetry trace-based evals to improve release quality and flag latency, accuracy and safety issues before production
+- Built *LlamaIndex*-powered *RAG* agents using OpenAI embeddings and *Pgvector* to answer product questions and generate ready-to-run API examples
 
-#work("AI Researcher", "New York City, NY", "Pace Artificial Intelligence Lab", "Sep 2025 - Dec 2025")
-- Built an agentic optimization virtual lab that tunes *CUDA* kernels via evolutionary search paired with an ensemble of *LLM judges*, using *LangGraph* to orchestrate hypothesis generation, *NVIDIA Nsight* profiling for performance feedback
-- Fine-tuned *Qwen3-8B* (*Unsloth*, *LoRA*) to internalize tool schemas into model weights reducing prompt tokens by \~70% at equal task accuracy
 #work("Software Engineer", "Noida, India", "Qualitest", "Feb 2021 - Dec 2023")
-- Designed a cloud-agnostic Storage Service in *Python* with *PostgreSQL* and *Redis* that handles file uploads, downloads, and deletions across *Google Cloud Storage*, *S3*, and *MinIO* via expiring signed URLs.
-- Reduced query latency and improved scalability by optimizing *PostgreSQL* with window functions, materialized views, and indexes, then exposed the data via interactive *React.js* visualizations for business stakeholders.
+- Designed a cloud-agnostic Storage Service in *Java* and *Springboot* with *PostgreSQL* and *Redis* that handles file uploads, downloads, and deletions across *Google Cloud Storage*, *S3*, and *MinIO* via expiring signed URLs.
+- Reduced query latency and improved scalability by optimizing *PostgreSQL* with window functions, materialized views, and indexes, then exposed the data via interactive *React* visualizations for business stakeholders.
 - Orchestrated long-running jobs with *AWS Step Functions*, reducing *AWS Lambda* timeouts and improving error recovery across *100K+* weekly executions
 
 == Projects
