@@ -7,20 +7,21 @@
 #edu("Dr. A.P.J. Abdul Kalam Technical University", "Noida, India", "Bachelor of Technology (B.Tech) in Computer Science", "Jul 2016 - Sep 2020")
 
 == Technical Skills
-#sk("Languages",              "Java, JavaScript/TypeScript, Python, Rust")
-#sk("Backend & Frameworks",   "FastAPI, Spring Boot, React, LangGraph, LangChain, FastMCP, LangSmith, Langfuse")
-#sk("Databases",              "PostgreSQL, MongoDB, Redis")
-#sk("AWS Services",           "EC2, RDS, S3, Lambda, CloudWatch, Step Functions, CloudFormation, CloudFront, API Gateway")
-#sk("Others",                 "Git, CI/CD, Docker, Kubernetes, Google ADK, OpenAI Agents SDK, LlamaIndex, Claude Code")
+#sk("Languages",             "Java, JavaScript/TypeScript, Python, Rust, Html/Css")
+#sk("Backend & Frameworks",  "FastAPI, Spring Boot, React, LangGraph, LangChain, FastMCP, LangSmith, Langfuse")
+#sk("Databases",             "PostgreSQL, MongoDB, Redis")
+#sk("AWS Services",          "EC2, RDS, S3, Lambda, CloudWatch, Step Functions, CloudFormation, CloudFront, API Gateway")
+#sk("Others",                "Git, CI/CD, Docker, Kubernetes, Google ADK, OpenAI Agents SDK, LlamaIndex, Claude Code")
 
 == Professional Experience
 #work("Software Engineer", "Phoenix, AZ", "Sperse",  "Feb 2026 - Present")
 - Built a *multi-agent* CRM platform using *Python*, *LangGraph*, *LangChain* and *FastAPI*, serving 10,000+ users by routing requests across 40+ specialized sub-agents with secure access control
 - Built a *React* *Flow* and *TypeScript* based visual workflow platform that helped users create, run and manage agentic swarms, using *Temporal* for durable and resumable execution
+- Designed *Claude Code* agents that autonomously resolve Jira issues, backed by a centralized *skills repository* with versioned, auditable skill definitions
 - Created a *MCP* server using *FastMCP* that gave AI agents access to 160+ backend actions, helping automate CRM workflows securely across multiple customers with built-in monitoring
 - Added progress tracking for long-running *Temporal* workflows using *Redis* helping users monitor live execution status from the workflow dashboard
 - Built GitHub Actions *CI/CD* pipelines for AI-agent deployments, running OpenTelemetry trace-based evals to improve release quality and flag latency, accuracy and safety issues before production
-- Built *LlamaIndex*-powered *RAG* agents using OpenAI embeddings and *Pgvector* to answer product questions and generate ready-to-run API examples
+- Built *LlamaIndex*-powered *RAG* agents using OpenAI embeddings and *Pgvector* to answer product questions and generate ready-to-run *REST* API examples
 
 #work("Software Engineer", "Noida, India", "Qualitest", "Feb 2021 - Dec 2023")
 - Designed a cloud-agnostic Storage Service in *Java* and *Springboot* with *PostgreSQL* and *Redis* that handles file uploads, downloads, and deletions across *Google Cloud Storage*, *S3*, and *MinIO* via expiring signed URLs.

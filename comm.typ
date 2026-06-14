@@ -1,6 +1,6 @@
 #let (eml, ph, lkd, git)=("khanosaid726@gmail.com", "+1 (945) 304-5781", "www.linkedin.com/in/-osaid-khan/", "github.com/ozzyozbourne")
 #let c(val, lt: "") = { if lt != "" { link(lt + val)[#val] } else {val} }
-#let comm(author: "Osaid Khan", accent-color: "#000000", author-font-size: 20pt, font-size: 10pt, title: "Resume", m: 0.3in, body) = {
+#let comm(author: "Osaid Khan", accent-color: "#000000", author-font-size: 20pt, font-size: 10pt, title: "Resume", m: 0.5in, body) = {
   set document(author: author, title: title)
   set text(font: "New Computer Modern", size: font-size, lang: "en", ligatures: false)
   set page(margin: m, paper: "us-letter")
