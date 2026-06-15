@@ -17,7 +17,7 @@
 #work("Software Engineer", "Phoenix, AZ", "Sperse",  "Feb 2026 - Present")
 - Built a *multi-agent* CRM platform using *Python*, *LangGraph*, *LangChain* and *FastAPI*, serving 10,000+ users by routing requests across 40+ specialized sub-agents with secure access control
 - Built a *React* *Flow* and *TypeScript* based visual workflow platform that helped users create, run and manage agentic swarms, using *Temporal* for durable and resumable execution
-- Designed *Claude Code* agents that autonomously resolve Jira issues, backed by a centralized *skills repository* with versioned, auditable skill definitions
+- Built an agentic code review pipeline integrating *OpenAI Codex* with a custom Bitbucket MCP server, automating daily PR triage across 25–30 PRs/week and reducing manual reviewer load by several hours
 - Created a *MCP* server using *FastMCP* that gave AI agents access to 160+ backend actions, helping automate CRM workflows securely across multiple customers with built-in monitoring
 - Added progress tracking for long-running *Temporal* workflows using *Redis* helping users monitor live execution status from the workflow dashboard
 - Built GitHub Actions *CI/CD* pipelines for AI-agent deployments, running OpenTelemetry trace-based evals to improve release quality and flag latency, accuracy and safety issues before production
