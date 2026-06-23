@@ -7,25 +7,26 @@
 #edu("Dr. A.P.J. Abdul Kalam Technical University", "Noida, India", "Bachelor of Technology (B.Tech) in Computer Science", "Jul 2016 - Sep 2020")
 
 == Technical Skills
-#sk("Languages",             "Java, JavaScript/TypeScript, Python, Rust, Html/Css")
-#sk("Backend & Frameworks",  "Spring Boot, FastAPI, LangGraph, LangChain, FastMCP, React, LangSmith, Langfuse")
-#sk("Databases",             "PostgreSQL, MongoDB, Redis")
-#sk("AWS Services",          "EC2, RDS, S3, Lambda, CloudWatch, Step Functions, CloudFormation, CloudFront, API Gateway")
-#sk("Others",                "Git, CI/CD, Docker, Kubernetes, Google ADK, OpenAI Agents SDK, LlamaIndex, Claude Code")
+#sk("Backend & Frameworks",  "LangGraph, LangChain, FastMCP, FastAPI, Spring Boot, LangSmith, Langfuse, React")
+#sk("AWS Services",          "Step Functions, Lambda, CloudWatch, S3, EC2, RDS, CloudFormation, CloudFront, API Gateway")
+#sk("Languages",             "Python, Java, JavaScript/TypeScript, Rust, Html/Css")
+#sk("Databases",             "PostgreSQL, Redis, MongoDB")
+#sk("Others",                "Git, CI/CD, Docker, Kubernetes, OpenAI Agents SDK, LlamaIndex, Claude Code, Google ADK")
 
 == Professional Experience
 #work("Software Engineer", "Phoenix, AZ", "Sperse",  "Feb 2026 - Present")
-- Built a *multi-tiered*, *distributed* multi-agent CRM platform using *Python*, *LangGraph*, *LangChain*, and *FastAPI*, serving 10,000+ users by routing requests across 40+ specialized *Object-Oriented* sub-agents with tenant-aware access control and lazy-loaded tool context
-- Engineered a *scalable*, *fault-tolerant* *MCP* server using *FastMCP* exposing 160+ *AI-powered* tool actions over a *multi-threaded* multi-tenant backend with built-in *OpenTelemetry* monitoring, automating *multi-channel* CRM workflow execution across customers
-- Built *GitHub Actions* *CI/CD* pipelines for AI-agent deployments within an *agile* delivery cycle, with *OpenTelemetry* trace-based evals gating every release on latency, accuracy, and safety — enforcing full *software development life cycle* discipline from *code reviews*, *source control management*, and *build processes* through automated *testing*
-- Built *LlamaIndex*-powered *RAG* agents using *OpenAI* embeddings and *Pgvector* to answer product questions and deliver ready-to-run *REST* API examples — integrating *AI-powered capabilities* with a *customer-obsessed* focus on both technical and non-technical user experience
+- Designed and operated *large-scale distributed services* for production *AI agents* and *developer-intelligence systems* using *Python*, *LangGraph*, *LangChain*, and *FastAPI*, serving 10,000+ users across 40+ specialized sub-agents with secure access control
+- Built *agentic code-generation systems* for *autonomous software delivery* by integrating *OpenAI Codex* with a custom Bitbucket *MCP* server, turning engineering intake into reviewed code changes and automating PR triage across 25-30 PRs/week
+- Built *retrieval and indexing platforms* and *data platforms* with *LlamaIndex*, OpenAI embeddings, and *Pgvector*, grounding *AI agents* in product documentation and generating ready-to-run *REST* API examples from natural-language specifications
+- Built GitHub Actions *CI/CD* pipelines for AI-agent deployments, running *OpenTelemetry* trace-based *evaluation frameworks* and *evaluation and quality infrastructure* for agent correctness across the *software development life cycle* (*code reviews*, *source control management*, *build processes*, *testing*, and *operations*)
+- Built a *React Flow* and *TypeScript* workflow platform for agentic swarms, using *Temporal* and *Redis* for durable execution, live progress tracking, and operational *observability* across long-running workflows
 
 #work("Software Engineer", "Noida, India", "Qualitest", "Feb 2021 - Dec 2023")
-- Designed a cloud-agnostic *distributed storage, index, and query* system in *Java* and *Spring Boot* with *PostgreSQL* and *Redis*, handling file operations across *Google Cloud Storage*, *S3*, and *MinIO* via expiring signed URLs — *scalable*, *fault-tolerant*, and low-cost to operate at scale
-- Orchestrated long-running jobs with *AWS Step Functions*, eliminating *AWS Lambda* timeouts and improving *fault-tolerant* error recovery across *100K+* weekly executions through structured retry and dead-letter policies
-- Boosted *distributed* query performance by optimizing *PostgreSQL* with window functions, materialized views, and indexes (exposed via interactive *React* visualizations for business stakeholders), cutting reporting latency and improving data-driven decision-making
+- Designed *large-scale distributed services* in *Java* and *Spring Boot* with *PostgreSQL* and *Redis*, handling file uploads, downloads, and deletions across *Google Cloud Storage*, *S3*, and *MinIO* via API design patterns for *reliability and scaling*
+- Optimized *large-scale data and retrieval* paths by tuning *PostgreSQL* window functions, materialized views, and indexes, then exposed results through *React* visualizations to improve query latency and stakeholder decision-making
+- Owned *operational excellence* for 100K+ weekly executions with *AWS Step Functions*, reducing *AWS Lambda* timeouts and improving reliability, error recovery, cost control, and 24/7 *operations* through structured retry policies
 
 == Projects
 #project("Dark Factory - orchestrator for PI agent", "Elixir, TypeScript", "github.com/ozzyozbourne/dark-factory")
-- Built a *distributed* coding-agent orchestrator that decomposes large coding requests into dependency-aware task DAGs, executing them across *multi-machine* AI agents with *fault-tolerant* retry and timeout-handling policies
-- Designed the *multi-threaded* task-dispatch and scheduling layer using *Elixir* OTP abstractions, enabling parallel workload execution across *distributed* compute nodes with dynamic agent allocation and structured failure recovery
+- Built a distributed coding-agent orchestrator for *LLM orchestration* that breaks large coding requests into dependency-aware task DAGs and executes them across multi-machine *AI agents* with retries and timeout handling
+- Designed the scheduling layer for autonomous development workflows in *Elixir* and *TypeScript*, coordinating parallel agent execution, failure recovery, and quality checks before production-ready code changes
