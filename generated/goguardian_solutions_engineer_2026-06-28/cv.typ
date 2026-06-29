@@ -1,0 +1,15 @@
+#import "../../comm.typ": *
+
+#show: comm.with(title: "Cover-letter", m: 0.5in)
+
+Dear Hiring Team,
+
+It is with great pleasure that I submit my candidacy for the *Solutions Engineer* role with *GoGuardian*. I bring over three years of professional experience building SaaS integrations, client-facing platforms, and onboarding automation, along with a strong academic foundation as a Master of Science in Computer Science graduate from Pace University, NY.
+
+Through my engineering roles, I have built systems that directly reflect the integration-focused technical depth this Solutions Engineer position demands. At Sperse, I designed a *MCP* server exposing 160+ backend actions as *SaaS integration* endpoints — enabling configuration, customization, and onboarding of multi-tenant CRM workflows with role-based access control and OpenTelemetry instrumentation for real-time troubleshooting. This experience closely mirrors the work of a Solutions Engineer: developing deep product expertise, configuring software across diverse customer environments, and providing the technical visibility needed to resolve issues quickly. Alongside this, I built LlamaIndex-powered RAG agents using OpenAI embeddings and Pgvector to answer product questions and generate ready-to-run REST API examples — serving as a self-service technical documentation and implementation guide that reduced onboarding friction for new customers. I also delivered a client-facing multi-agent CRM platform supporting 10,000+ users with tenant-aware JWT access control, and built GitHub Actions CI/CD pipelines with trace-based eval gates to ensure reliable deployment across our SaaS platform.
+
+At Qualitest, I built backbone infrastructure that required the same cross-environment integration mindset GoGuardian's school customers rely on from their technical partners. I designed a cloud-agnostic Storage Service integrating Google Cloud Storage, S3, and MinIO via expiring signed URLs — gaining hands-on experience in multi-platform implementation and client onboarding across heterogeneous infrastructure. I also resolved Lambda timeout failures by orchestrating long-running jobs with AWS Step Functions, improving error recovery across 100K+ weekly executions, and systematically optimized PostgreSQL performance while surfacing insights through React dashboards for business stakeholders. This combination of technical troubleshooting, cross-platform integration, and stakeholder-facing communication is exactly what GoGuardian schools need from a trusted technical advisor.
+
+I have always been passionate about transforming K-12 education through technology and creating safe and effective digital learning environments, and I envision myself contributing to GoGuardian's mission to help schools implement, manage, and understand technology. GoGuardian's values of thinking customers first and seeking solutions together align directly with how I approach every technical engagement. I would love to discuss my interest in this position with your team and can be reached at #ph or #eml. Thank you for your time and consideration, I look forward to connecting!
+
+#cv_ending()
