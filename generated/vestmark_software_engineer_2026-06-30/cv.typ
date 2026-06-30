@@ -1,0 +1,15 @@
+#import "../../comm.typ": *
+
+#show: comm.with(title: "Cover-letter", m: 0.5in)
+
+Dear Hiring Team,
+
+I am applying for the Software Engineer role at Vestmark because you are building the kind of *AI-native* wealth management platform I want to help ship: software that combines *innovation*, *partnership*, and *growth* with measurable operational impact. Your focus on helping wealth firms work more efficiently and serve clients better matches the kind of engineering I have been doing across *agentic systems*, workflow automation, and production backend delivery, and I already use *AI-assisted development tools*, *code generation*, and *prompt engineering* as part of that workflow.
+
+At Sperse, I built a *multi-agent* CRM platform in *Python*, *LangGraph*, *LangChain*, and *FastAPI* for 10,000+ users, routing requests across 40+ specialized sub-agents with secure access control, shared *state management*, and production *observability*. I also shipped an *agentic code review* pipeline integrating *OpenAI Codex* with a custom Bitbucket *MCP* server, using *code generation* and *prompt engineering* to automate daily PR triage across 25-30 PRs/week. On top of that, I built a *React Flow* and *TypeScript* workflow platform backed by *Temporal* for durable, resumable execution, plus a *FastMCP* service that exposed 160+ backend actions for safe tool use and monitoring. To keep those systems production-ready, I built GitHub Actions *CI/CD* pipelines with *OpenTelemetry* trace-based evals that measure latency, accuracy, safety, non-determinism, and *inference cost awareness* across prompts and model versions before deployment. That combination maps directly to the way your team builds agentic systems, validates adaptive behavior, and ships reusable foundations.
+
+Before that, at Qualitest, I designed a cloud-agnostic Storage Service in *Java* and *Spring Boot* with *PostgreSQL*, *Redis*, *S3*, *Google Cloud Storage*, and *MinIO* for file uploads, downloads, and deletions via expiring signed URLs. I also reduced query latency and improved scalability by optimizing *PostgreSQL* with window functions, materialized views, and indexes, then exposed the data through interactive *React* visualizations for business stakeholders. In parallel, I orchestrated long-running jobs with *AWS Step Functions*, reducing *AWS Lambda* timeouts and improving error recovery across 100K+ weekly executions. My Dark Factory project extends the same mindset into orchestration: a distributed coding-agent system that breaks large requests into dependency-aware task *DAGs* and executes them across multi-machine AI agents with retries, timeout handling, and failure isolation. I would bring that same practical focus on delivery, observability, and cloud concepts to Vestmark’s mission to build AI-enabled wealth technology with purpose and impact.
+
+I would welcome the chance to contribute to Vestmark’s mission and to learn from a team that values innovation, collaboration, and growth. Thank you for your consideration, and I look forward to the opportunity to discuss how my background aligns with this role.
+
+#cv_ending()
