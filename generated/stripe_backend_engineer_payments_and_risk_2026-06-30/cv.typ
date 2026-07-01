@@ -1,0 +1,13 @@
+#import "../../comm.typ": *
+
+#show: comm.with(title: "Cover-letter", m: 0.5in)
+
+Dear Hiring Team,
+
+I am excited to apply for the *Backend Engineer, Payments and Risk* role with *Stripe*. I bring more than three years of experience building backend systems, production workflows, and cloud-native services, along with an M.S. in Computer Science from Pace University. The parts of this role that stand out to me are the need to design and maintain *APIs* and *services*, debug *production issues*, and work with a high degree of autonomy on systems that must stay reliable at scale.
+
+At Sperse, I built a *multi-agent* CRM platform on *Python* and *FastAPI* that served 10,000+ users by routing requests across 40+ specialized sub-agents with secure access control and tenant-aware context propagation. I also built a *FastMCP* server exposing 160+ backend actions, which helped automate CRM workflows securely across multiple customers, and I wired GitHub Actions *CI/CD* pipelines to OpenTelemetry trace-based evals so we could catch latency, accuracy, and safety issues before production. That same focus on operational rigor shows up in my work on an agentic code review pipeline with *OpenAI Codex* and a Bitbucket *MCP* server, where I automated daily PR triage across 25-30 PRs per week and reduced manual reviewer load by several hours. At Qualitest, I designed a cloud-agnostic Storage Service in *Java* and *Spring Boot* with *PostgreSQL* and *Redis* that handled uploads, downloads, and deletions across *S3*, *Google Cloud Storage*, and *MinIO* via expiring signed URLs, then used *AWS Step Functions* to reduce *AWS Lambda* timeouts and improve error recovery across 100K+ weekly executions. That combination of service design, cloud operations, and fault handling is the kind of foundation I would bring to Stripe's payments and risk systems.
+
+Stripe's mission to *increase the GDP of the internet* is compelling to me because it pairs real technical scale with clear user impact. I am especially drawn to the operating principles of *Users first* and *Create with craft and beauty*, because the best infrastructure work is the work that is reliable, understandable, and built with care for the people depending on it. I would value the chance to contribute to a team that pairs that standard with strong collaboration across *cross-functional teams*, and to bring the same peer-support mindset I used when I built review automation and observability into my own team's delivery process to mentor and support engineers' growth. I would welcome the opportunity to discuss how my experience can help Stripe ship dependable backend systems that support money movement safely and at scale.
+
+#cv_ending()
