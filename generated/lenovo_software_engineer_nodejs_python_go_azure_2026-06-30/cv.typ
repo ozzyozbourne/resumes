@@ -1,0 +1,16 @@
+#import "../../comm.typ": *
+#show: comm.with(title: "Cover-letter", m: 0.5in)
+
+Dear Hiring Team,
+
+It is with great pleasure that I submit my candidacy for the *Software Engineer (Node.js, Python, Go, Azure)* role with *Lenovo*. I bring over three years of professional software engineering experience building backend to frontend AI experiences, cloud infrastructure, DevOps pipelines, and enterprise systems, along with a Master of Science in Computer Science from Pace University.
+
+At Sperse, I collaborated across Agile teams to design and own production AI experiences using open-source frameworks including Python, FastAPI, and React, plus TypeScript and Node.js patterns. That work routed 10,000+ users across 40+ specialized sub-agents with secure access control, and it gave me direct experience delivering scalable technical solutions across backend services, frontend workflow tools, and customer-facing automation. I also created a FastMCP server exposing 160+ backend actions as safe, validated tool calls for enterprise applications and enterprise systems, then supported releases through GitHub Actions CI/CD and DevOps pipelines using Docker, Kubernetes, OpenTelemetry trace-based test strategies, and security scanning before production environments. In parallel, I built LlamaIndex-powered RAG agents that generated ready-to-run REST API examples for Java, Node, Python, and Go consumers, aligning closely with Lenovo's need for engineers who can integrate cloud-based, multi-language systems across product and platform stakeholders.
+
+Earlier at Qualitest, I designed a cloud-agnostic Storage Service in Java and Spring Boot using Open Source RDBMS and NoSQL databases, specifically PostgreSQL and Redis, to handle uploads, downloads, and deletions across S3, Google Cloud Storage, and MinIO via expiring signed URLs. I translated business requirements and functional specifications into technical designs for data workflows, optimized PostgreSQL with window functions, materialized views, and indexes, and exposed the results through React visualizations for product, data, and platform stakeholders. I also orchestrated long-running jobs with AWS Step Functions and Lambda, improving error recovery across 100K+ weekly executions with cloud patterns relevant to Azure tools and services, cloud-based solutions, and a large production environment hosted in Azure.
+
+Lenovo's vision to deliver Smarter Technology for All, including personalized, productive, and protected AI solutions, is exactly the kind of mission I want to support. I am also drawn to Lenovo's culture of doing what you say, owning what you do, and wowing customers, along with its stated emphasis on serving customers, innovation, entrepreneurship, and teamwork with integrity and trust. My Dark Factory project reflects the same engineering direction: I built a distributed coding-agent orchestrator that breaks large coding requests into dependency-aware task DAGs, executes them across multi-machine AI agents, and shapes future architecture patterns for scalable downstream automation and high-performance use cases.
+
+I would love to discuss my interest in this position with your team and can be reached at #ph or #eml. Thank you for your time and consideration, I look forward to connecting!
+
+#cv_ending()
