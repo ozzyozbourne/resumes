@@ -1,0 +1,15 @@
+#import "../../comm.typ": *
+
+#show: comm.with(title: "Cover-letter", m: 0.5in)
+
+Dear Hiring Team,
+
+It is with great pleasure that I submit my candidacy for the Software Engineer II, Datastores role with Salesforce. I bring over three years of professional experience building backend systems, database-backed services, and production automation, along with a strong academic foundation as a Master of Science in Computer Science graduate from Pace University, NY.
+
+Through my experience across two engineering roles, I have built and delivered production-grade systems that directly reflect Slack's need for highly available database infrastructure, distributed data storage systems, database performance tooling, and cloud infrastructure operations. At Qualitest, I designed database infrastructure for a cloud-agnostic Storage Service in Java and Spring Boot with PostgreSQL and Redis, operating file uploads, downloads, and deletions across S3, Google Cloud Storage, and MinIO. I also optimized PostgreSQL relational database performance with window functions, materialized views, and indexes, then exposed actionable insight through interactive React dashboards for engineering and business stakeholders. Alongside that work, I orchestrated long-running server workloads on AWS with Step Functions, Lambda, and error-recovery paths, improving reliability across 100K+ weekly executions while debugging database-backed services with RDS and CloudWatch.
+
+At Sperse, I have focused on the operational and self-service side of production platforms, which maps closely to the Datastores team's responsibility to help other engineering teams operate full-stack while moving quickly. I operated a highly available Python and FastAPI CRM platform serving 10,000+ users, routing requests across 40+ specialized sub-agents with tenant-aware access control, secure tool execution, and production reliability controls. I developed self-service and self-managing orchestration tools with React Flow and TypeScript, created a FastMCP server exposing 160+ backend actions as safe, validated tool calls, and built GitHub Actions CI/CD pipelines with OpenTelemetry trace-based evals to capture latency, accuracy, and safety data before production releases. Those systems required clear trade-off analysis, maintainable code, and close attention to production issues and triage.
+
+Salesforce's focus on Trust, Customer Success, and Innovation stands out to me because Slack's database platform exists to make work reliable for millions of people who should never have to think about the infrastructure underneath them. I would be excited to bring my experience with PostgreSQL, Redis, AWS, performance dashboards, production automation, and distributed orchestration to Salesforce's mission to bring out the best in one another, deliver customer success, and inspire the industry through trustworthy innovation. I would love to discuss my interest in this position with your team and can be reached at #ph or #eml. Thank you for your time and consideration, I look forward to connecting!
+
+#cv_ending()
