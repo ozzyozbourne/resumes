@@ -1,0 +1,14 @@
+#import "../../comm.typ": *
+#show: comm.with(title: "Cover-letter", m: 0.5in)
+
+Dear Hiring Team,
+
+It is with great pleasure that I submit my candidacy for the Web Developer position with Esri. I bring over three years of professional experience building production web applications, reusable user interfaces, REST integrations, and cloud-backed workflows, together with a Master of Science in Computer Science from Pace University. Esri's commitment to using geographic science and enterprise-grade GIS technology to help organizations make smarter decisions and build a more sustainable world makes this opportunity especially meaningful to me.
+
+At Sperse, I designed and delivered a visual workflow application with React Flow, JavaScript/TypeScript, HTML/CSS, and event-driven UI modules that enables more than 10,000 users to create and manage agentic workflows through consistent, accessible interactions aligned with WCAG/ARIA. I drove REST API design between that web application and FastAPI services, exposing more than 160 validated backend actions through FastMCP with secure access control and monitoring. I also rapidly prototyped user-focused React workflows backed by Temporal and Redis, supporting incremental modernization while collaborating across product and engineering concerns through agile development processes. These experiences prepare me to build maintainable ArcGIS Enterprise UI modules, integrate them cleanly with back-end web services, and contribute constructive code reviews within Esri's global cross-functional team.
+
+Earlier at Qualitest, I developed cross-browser React interfaces with JavaScript, HTML, DOM, and CSS, turning optimized PostgreSQL data into interactive visualizations through reusable, internationalization-ready UI patterns. I also designed an object-oriented Java and Spring Boot Storage Service with JSON and REST interfaces across Google Cloud Storage, S3, and MinIO, then improved reliability across more than 100,000 weekly executions with AWS Step Functions and Lambda. Across both roles, I learned to approach ambiguity and production constraints calmly, translate complex systems into understandable user workflows, and improve established platforms through modular software design and incremental integration.
+
+I am drawn to Esri's customer-centric culture, sustained investment in research and development, and vision of applying location intelligence to complex problems such as sustainability and social equity. I would be excited to bring my experience in accessible React interfaces, REST API design, LLM-enhanced workflows, Git-based development, and CI/CD quality gates to ArcGIS Enterprise while learning its GIS domain and contributing to a collaborative digital geospatial system for the planet. I would welcome the opportunity to discuss my candidacy and can be reached at #ph or #eml. Thank you for your time and consideration.
+
+#cv_ending()
