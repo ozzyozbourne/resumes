@@ -1,6 +1,6 @@
 ---
 name: gen-resume
-description: Use when the user wants to generate a tailored ATS-optimized resume and cover letter for a specific job description.
+description: Generate a new job-specific, ATS-optimized resume and cover letter that closely mirrors the supplied job description while using the current resume as the formatting, structure, and quality reference. Use when the user supplies a job description and wants maximum ATS keyword and responsibility alignment in a polished single-page application package.
 ---
 
 Generate a tailored ATS-optimized resume for a specific job.
@@ -21,25 +21,26 @@ Do not cd into it. All subsequent paths will be prefixed with `<company_slug>_<j
 
 ## Step 2: Read source files
 
-Read both of these files from the project root:
+Read all of these files from the project root:
 - `comm.typ` — the shared template (to understand available functions)
 - `cur_res.typ` — the current resume skeleton
 - `cur_cv.typ` — the current cover letter skeleton
 
-**Skeleton model (critical — read before proceeding):**
-`cur_res.typ` and `cur_cv.typ` provide the **skeleton**: fixed structural elements that must not be changed, and rewritable content that should be tailored to the job.
+**Reference model (critical — read before proceeding):**
+`cur_res.typ` and `cur_cv.typ` are references for identity, layout, Typst structure, writing density, and overall quality. They are not a boundary on the new resume's job-targeted content.
 
 | Element | Rule |
 |---|---|
-| Company names, job titles, employment dates | **Locked** — copy exactly |
-| Degree names, GPA, project names/URLs | **Locked** — copy exactly |
-| Skills list entries (the technologies themselves) | **Locked** — do not add or remove tools |
-| Bullet points under each role | **Rewritable** — rewrite fully to align with JD |
-| Project descriptions | **Rewritable** — rewrite to highlight JD-relevant aspects |
-| Skill category ordering, ordering within categories | **Rewritable** — most relevant first |
-| Cover letter body paragraphs | **Rewritable** — must mirror the generated resume |
+| Contact information and candidate name | **Locked** — preserve exactly through `comm.typ` |
+| Company names, job titles, employment dates | **Locked identity/history** — copy exactly |
+| Degree names, institutions, dates, GPA | **Locked identity/history** — copy exactly |
+| Layout, helper functions, section style | **Reference structure** — preserve the same professional Typst format |
+| Skills and skill categories | **Fully tailorable** — add JD skills, remove irrelevant skills, rename/reorder categories, and put exact JD matches first |
+| Bullet points under each role | **Fully tailorable** — create or rewrite them around the JD's responsibilities, technologies, and outcomes |
+| Projects | **Fully tailorable** — retain, remove, reorder, or rewrite projects to maximize relevance |
+| Cover letter body paragraphs | **Fully tailorable** — make them match the generated resume and JD |
 
-The goal is **maximum JD alignment within the locked skeleton**.
+The goal is to create a **new resume that reads like it was written for this exact job**, while retaining the reference resume's identity, one-page format, visual style, bullet density, and professional quality.
 
 ## Step 3: Analyze the job description
 
@@ -47,33 +48,48 @@ From the job description above, extract:
 - **Company name** — slug it (lowercase, spaces → underscores, remove special chars). Example: "Stripe Inc." → `stripe`
 - **Job title** — slug it. Example: "Senior Backend Engineer" → `senior_backend_engineer`
 - **Current date** — in `YYYY-MM-DD` format (use the date from the `currentDate` context provided at the top of the conversation)
-- **Required skills and technologies** — exact names as written in the job posting
-- **Key responsibilities** — themes and action verbs used
-- **Domain keywords** — terms an ATS would scan for (e.g. "distributed systems", "microservices", "CI/CD")
+- **Required skills and technologies** — exact names, capitalization, acronyms, and variants used in the posting
+- **Minimum qualifications** — every explicit qualification, separated into hard skills, experience, education, and behavioral competencies
+- **Preferred qualifications** — every explicitly preferred qualification
+- **Key responsibilities** — exact phrases, themes, objects, and action verbs used
+- **Domain keywords** — exact multi-word terms an ATS would scan for (for example, "distributed systems", "microservices", "CI/CD")
+- **Role outcomes** — what the employee is expected to build, improve, own, or enable
+
+Group the extracted terms into a simple priority list:
+- **Must include** — required technologies, minimum qualifications, repeated phrases, and primary responsibilities
+- **Should include** — preferred technologies, secondary responsibilities, platform/domain terminology, and collaboration/quality language
+- **Optional** — company language that adds relevance but is not used to screen candidates
+
+Resolve vague or missing titles/company names from the posting itself. If the title remains ambiguous, use the most explicit human-readable title present.
 
 ## Step 4: Generate the tailored resume
 
 Create a new Typst resume file with these rules:
 
 ### ATS Optimization Rules (critical):
-1. **Mirror exact keywords** from the job description in bullet points — if they say "distributed systems", use that exact phrase, not "scalable systems"
-2. **Reorder Technical Skills** categories so the most relevant technologies to this job appear first
-3. **Within each skill category**, list matching technologies before non-matching ones
-4. **Rephrase and rewrite bullet points** using action verbs and domain language from the job description — bullets are not constrained to what is literally in `cur_res.typ`
-5. **Fixed skeleton elements** — Do not change company names, job titles, employment dates, degree names, GPA, or project names/URLs from `cur_res.typ`
-6. **Rewritable content** — Bullet points and project descriptions may be fully rewritten to align with the JD; introduce relevant technologies and concepts as long as they fit the role's context (e.g. a backend engineer role can reference API design, cloud infra, etc.)
-7. **Technical Skills list** — Only include technologies that genuinely appear in `cur_res.typ`'s skills section; do not invent new tools
-8. **Prioritize bullets** — put the most JD-relevant bullet first within each role
-9. **Keep metrics and numbers** from `cur_res.typ` where they exist; do not fabricate new numbers
+1. **Build from the JD first** — write the new resume around the target role, not around the wording or topic emphasis of the old bullets.
+2. **Mirror exact keywords** — use the JD's exact technology names, multi-word phrases, action verbs, and responsibility language. If the JD says "distributed systems," use "distributed systems," not only "scalable systems."
+3. **Cover every must-include term** — every required technology, minimum qualification, repeated phrase, and primary responsibility must appear naturally in Technical Skills, Professional Experience, or Projects.
+4. **Match complete concepts** — retain meaningful modifiers such as "production," "cross-functional," "real-time," "high availability," "customer-facing," and "end-to-end" when they appear in the JD.
+5. **Optimize the first third** — place the most important languages/frameworks first in Technical Skills and place the JD's top two responsibilities in the first two bullets of the most recent role.
+6. **Add and remove skills freely** — rebuild Technical Skills to match the JD. Put exact required technologies first, preferred technologies next, and remove unrelated tools that dilute the match.
+7. **Rewrite bullets completely** — create dense accomplishments that combine JD responsibilities, technologies, system details, and outcomes. The generated bullet does not need to correspond one-to-one with a source bullet.
+8. **Use natural repetition** — repeat critical terms across Skills and Experience when it improves ATS recognition, but do not create unreadable keyword lists or repeat a phrase without context.
+9. **Use the reference resume for identity and quality** — preserve candidate/employer/education history and the reference's technical density, but do not preserve irrelevant content merely because it appears in `cur_res.typ`.
+10. **Retain strong metrics** — keep relevant numbers from the source resume. Do not weaken quantified impact when rewriting.
+11. **Prioritize by JD relevance** — order roles, bullets, skills, and projects so the closest job match is encountered first.
+12. **Preserve ATS readability** — use standard section headings, simple text, conventional skill names, and complete phrases. Do not use tables, icons, text boxes, graphics, keyword footers, white text, or hidden text.
 
 ### Bullet density standard (critical):
-`cur_res.typ` bullets are the quality bar — dense, specific, and information-packed. Every generated bullet must match or exceed that density:
-1. **Start from the source bullet** — rewrite it to surface JD keywords; do not replace it with a simpler paraphrase
+`cur_res.typ` bullets are the style and density reference — dense, specific, and information-packed. Every generated bullet must match or exceed that quality:
+1. **Start from the JD responsibility** — build a tailored accomplishment around the target responsibility instead of mechanically paraphrasing the old bullet
 2. **Pack in specifics** — name exact technologies, services, and patterns (e.g. "*Google Cloud Storage*, *S3*, and *MinIO*"), not generic terms like "cloud storage"
 3. **Use parentheticals to add depth without extra lines** — e.g. "(API-aware templates, SDK patterns, and code-generation workflows)"
-4. **Preserve outcome clauses** — source bullets end with measurable outcomes or impact; keep or strengthen them
+4. **Preserve outcome clauses** — end bullets with measurable scale, quality, performance, adoption, reliability, or business impact
 5. **Never genericize** — if the source says "translates natural-language intents into *safe, validated tool calls*", a rewrite must retain that specificity; replacing it with "applied OOP principles" is a regression
 6. **Every word earns its place** — if a word does not add technical signal or concrete outcome, cut it
+7. **Use an action → system → method → outcome structure** — each bullet should show what was built or improved, how it was done, and why it mattered
+8. **Do not create orphan keywords** — every important JD phrase in experience or projects must sit inside a concrete accomplishment
 
 ### Single-page rule:
 Write the initial draft targeting exactly 1 page. Aim for:
@@ -105,12 +121,17 @@ Create any needed directories and write the file.
 
 Re-read the generated `resume.typ` and verify each of the following against the JD analysis from Step 3. Work through this as an explicit checklist and output your findings:
 
-1. **Keyword coverage** — For each ATS keyword you extracted in Step 3, confirm it appears verbatim in the resume. If a keyword is absent and can plausibly fit the role context, insert it naturally into an existing bullet.
-2. **Structural integrity** — Confirm that company names, job titles, employment dates, degrees, GPA, and project names/URLs exactly match `cur_res.typ`. Bullet content rewrites are expected and allowed.
-3. **Bullet ordering** — Within each role, confirm the most JD-relevant bullet leads. Reorder if needed.
-4. **Bold coverage** — Confirm critical JD keywords are wrapped in `*bold*` Typst syntax where they appear.
-5. **Fix and re-save** — If any issues were found in checks 1–4, apply the fixes to `resume.typ` now, before compiling.
-6. **Bullet density regression check** — For each generated bullet, compare it against the corresponding source bullet in `cur_res.typ`. If the generated version is shorter or uses more generic phrasing without good reason, rewrite it to restore the density while keeping JD keywords.
+1. **Must-include coverage** — Check every must-include term from Step 3. Each must appear verbatim in the resume. Insert any missing term naturally.
+2. **Responsibility coverage** — Confirm every primary JD responsibility is represented by at least one strong bullet.
+3. **Technology coverage** — Confirm required and preferred technologies appear in Technical Skills and, where useful, in experience/project bullets.
+4. **Keyword placement** — Confirm the most important terms appear in the first third and in the first two bullets of the most recent role, not only near the bottom.
+5. **Structural integrity** — Confirm candidate name/contact information, employer names, job titles, employment dates, institutions, degrees, dates, and GPA match `cur_res.typ`.
+6. **Bullet ordering** — Confirm each role leads with its most JD-relevant accomplishment.
+7. **Bold coverage** — Bold critical JD terms selectively; do not bold full sentences or every occurrence.
+8. **Density check** — Confirm every bullet matches the reference resume's technical specificity and includes an action, system/context, implementation detail, and outcome.
+9. **Duplication and stuffing** — Remove awkward copy-paste and meaningless repetition while keeping all must-include keywords.
+10. **Overall match** — Re-read the resume as if screening for this exact job. If any bullet or skill does not improve the match, replace it with more relevant JD-aligned content.
+11. **Fix and re-save** — Apply all fixes before compiling, then rerun checks 1–10.
 
 ## Step 7: Compile to PDF
 
@@ -133,11 +154,13 @@ pdfinfo <company_slug>_<job_slug>_<YYYY-MM-DD>/generated/<company_slug>_<job_slu
 If `Pages: 1` — proceed to Step 9.
 
 If `Pages: 2` or more — trim content and recompile using this priority order:
-1. **First, tighten bullet wording** — remove filler words, compress parentheticals, trim outcome clauses to the minimum that preserves meaning. Recompile.
+1. **First, tighten bullet wording** — remove filler and duplication while preserving must-include keywords, metrics, technical detail, and outcome meaning. Recompile.
 2. If still over 1 page, remove the least JD-relevant bullet from whichever role has the most bullets. Recompile.
 3. If still over 1 page, cap all roles at 3 bullets and recompile.
 4. If still over 1 page, cap all roles at 2 bullets and recompile.
 5. Re-save the trimmed `resume.typ` before moving on.
+
+After every trim, rerun the must-include coverage check. Do not remove a required keyword or primary responsibility while retaining generic content.
 
 ## Step 9: Research the company
 
@@ -175,6 +198,9 @@ Write `<company_slug>_<job_slug>_<YYYY-MM-DD>/generated/<company_slug>_<job_slug
 ### Content rules:
 - All body paragraphs must connect Osaid's specific experience to this company's mission and role
 - Reference only achievements, technologies, and bullets that appear in the **generated `resume.typ`** — not the original `cur_res.typ`
+- Use the exact target job title and 2-4 of the most important JD phrases naturally
+- Lead with the strongest match for the top role outcome; do not summarize the entire resume
+- Avoid generic praise and filler
 - Keep the professional tone of the original template
 
 ## Step 12: Cover Letter Review Pass
@@ -185,7 +211,8 @@ Re-read the generated `cv.typ` and verify each of the following. Work through th
 2. **Role alignment** — Confirm each body paragraph ties Osaid's actual experience to a specific responsibility listed in the JD. If a paragraph is generic, sharpen it.
 3. **Mission accuracy** — Confirm the company mission/values wording matches what was found in Step 9.
 4. **Resume consistency** — Verify every specific achievement, metric, or technology mentioned in the cover letter also appears in the generated `resume.typ`. If the cover letter references something not in the resume, either add it to the resume (if it fits and aligns with JD) or remove it from the cover letter.
-5. **Fix and re-save** — If any issues were found in checks 1–4, apply the fixes to `cv.typ` now, before compiling.
+5. **Priority-term coverage** — Confirm the target title and 2-4 highest-priority JD phrases appear naturally.
+6. **Fix and re-save** — If any issues were found in checks 1–5, apply the fixes to `cv.typ` now, before compiling.
 
 ## Step 13: Compile cover letter to PDF
 
