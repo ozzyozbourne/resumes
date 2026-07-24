@@ -1,0 +1,13 @@
+#import "../../comm.typ": *
+
+#show: comm.with(title: "Cover-letter", m: 0.5in)
+
+Dear Hiring Team,
+
+It is with great pleasure that I submit my candidacy for the *Software Engineer, LLM Infrastructure* role at *Fireworks AI*. I bring over three years of professional experience building scalable backend infrastructure, LLM CI/CD pipelines, and production ML systems, along with a strong academic foundation as a Master of Science in Computer Science graduate from Pace University, NY — and I am genuinely excited by Fireworks' work on the fastest, most scalable inference in the industry.
+
+Through my experience across two engineering roles, I have built and operated production-grade infrastructure that directly reflects *the ML-infrastructure depth this position demands*. As a Software Engineer at Sperse, I built LLM CI/CD pipelines with GitHub Actions that run OpenTelemetry trace-based evals as frameworks and safeguards to ensure best-in-class model quality — flagging latency, accuracy, and safety regressions during code reviews and continuous deployment. I built scalable backend infrastructure for a multi-agent CRM platform in Python and Go with FastAPI on AWS, serving 10,000+ users by routing inference requests across 40+ specialized sub-agents, and I created a FastMCP control-plane server exposing 160+ backend actions to LLMs that powers model-serving across multiple tenants with built-in monitoring and reliability safeguards. I also built LlamaIndex-powered RAG data pipelines using OpenAI embeddings in pgvector, containerized with Docker and Kubernetes for scalable, cost-efficient inference. Prior to Sperse, as a Software Engineer at Qualitest, I designed a cloud-agnostic Storage Service in Java and Spring Boot handling distributed file operations across Google Cloud Storage, S3, and MinIO, orchestrated long-running distributed jobs with AWS Step Functions to improve reliability and error recovery across 100K+ weekly executions, and optimized PostgreSQL to reduce query latency and improve cost efficiency across compute and storage layers. Together, these roles have prepared me to *contribute to the design of scalable backend services, model serving systems, and reliability improvements across compute, storage, and networking layers*.
+
+I have always been passionate about *low-latency inference and reliable, user-friendly generative AI platforms*, and I envision myself contributing my talent to the furthering of *Fireworks' mission to be the most reliable and user friendly generative AI platform in the world*. I would love to discuss my interest in this position with your team and can be reached at #ph or #eml. Thank you for your time and consideration, I look forward to connecting!
+
+#cv_ending()
