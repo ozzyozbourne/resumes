@@ -7,8 +7,8 @@
 #edu("Dr. A.P.J. Abdul Kalam Technical University", "Noida, India", "Bachelor of Technology (B.Tech) in Computer Science", "Jul 2016 - Sep 2020")
 
 == Technical Skills
-#sk("Languages",             "JavaScript/TypeScript, Html/Css, Java, Python, Rust")
-#sk("Frontend & Frameworks", "React, FastAPI, Spring Boot, LangGraph, LangChain, FastMCP, LangSmith, Langfuse")
+#sk("Languages",             "JavaScript/TypeScript, Html/Css, Go, Java, Python, Rust")
+#sk("Frontend & Frameworks", "React, Node.js, FastAPI, Spring Boot, LangGraph, LangChain, FastMCP, LangSmith, Langfuse")
 #sk("AWS Services",          "EC2, RDS, S3, Lambda, CloudWatch, Step Functions, CloudFormation, CloudFront, API Gateway")
 #sk("Others",                "Git, CI/CD, Docker, Kubernetes, Google ADK, OpenAI Agents SDK, LlamaIndex, Claude Code")
 #sk("Databases",             "PostgreSQL, MongoDB, Redis")
@@ -17,8 +17,8 @@
 #work("Software Engineer", "Phoenix, AZ", "Sperse",  "Feb 2026 - Present")
 - Built a *React* and *TypeScript* visual workflow platform with *React Flow*, delivering accessible, responsive user-facing interfaces and reusable shared components with modern *HTML/CSS* that let users create, run and manage agentic swarms across large-scale web applications
 - Instrumented features for *observability* and *experimentation* (*A/B testing*), wiring GitHub Actions *CI/CD* pipelines with OpenTelemetry trace-based evals to define success metrics and flag latency, accuracy and safety regressions before production release
-- Participated in the full development lifecycle (technical design, implementation, *code review*, testing, release), integrating *OpenAI Codex* with a custom *Bitbucket* *MCP* server to automate daily PR triage across 25–30 PRs/week
-- Built a multi-agent CRM platform using *Python*, *LangGraph*, *LangChain* and *FastAPI* server-side services, serving 10,000+ users by routing requests across 40+ specialized sub-agents with secure access control
+- Participated in the full development lifecycle (technical design, implementation, *code review*, testing, release) for *Node.js* web applications and *Go*-based APIs, integrating *OpenAI Codex* with a custom *Bitbucket* *MCP* server to automate daily PR triage across 25–30 PRs/week
+- Built a multi-agent CRM platform with *Node.js*, *Python*, *LangGraph*, *LangChain* and *FastAPI* server-side services on the *AWS* cloud platform, serving 10,000+ users by routing requests across 40+ specialized sub-agents with secure access control
 - Added live progress tracking for long-running *Temporal* workflows using *Redis*, debugging and resolving production issues with logs, metrics and monitoring while supporting an on-call rotation for the systems I helped build
 
 #work("Software Engineer", "Noida, India", "Qualitest", "Feb 2021 - Dec 2023")
