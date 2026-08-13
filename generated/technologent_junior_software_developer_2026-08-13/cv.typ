@@ -1,0 +1,14 @@
+#import "../../comm.typ": *
+#show: comm.with(title: "Cover-letter", m: 0.5in)
+
+Dear Hiring Team,
+
+I am pleased to apply for the *Junior Software Developer* position with *Technologent*. I bring more than three years of software engineering experience developing backend services, optimizing PostgreSQL workloads, troubleshooting production systems, and supporting applications across AWS and Google Cloud environments. Combined with my Master of Science in Computer Science from Pace University, this background prepares me to contribute immediately to the role's primary outcome: reliable application development grounded in strong database engineering.
+
+At Sperse, I develop Python and FastAPI backend services for a multi-agent CRM serving more than 10,000 users and coordinate database-backed functionality across 40+ specialized agents. I also built JavaScript and TypeScript application features backed by PostgreSQL and Redis, implemented PostgreSQL/Pgvector retrieval for RAG services, and automated testing and troubleshooting with Python scripts, GitHub Actions CI/CD, and OpenTelemetry. That work requires the same combination of backend development, database queries, performance monitoring, data integrity, root-cause analysis, and collaboration described for this Junior Software Developer role. Operating containerized services with Linux command-line tools, Docker, Kubernetes, and AWS observability patterns has further trained me to diagnose application, database, and system issues and deliver reliable fixes.
+
+Previously at Qualitest, I developed a cloud-agnostic backend using Java, Spring Boot, PostgreSQL, and Redis that supported file operations and recovery workflows across AWS S3, Google Cloud Storage, and MinIO. I optimized PostgreSQL queries with window functions, materialized views, and indexes, then supported database configuration, maintenance, migrations, upgrades, integrations, backup, recovery, replication, availability, and data integrity in development and production environments. I also used AWS Step Functions and Lambda to improve error recovery across more than 100,000 weekly executions. These accomplishments align closely with Technologent's focus on Data, Artificial Intelligence, Cloud, and forward-thinking problem solving.
+
+Technologent's commitment to simplifying technology around customer outcomes—and its values of customer focus, excellence in performance, and teamwork—resonates with how I approach engineering. I would welcome the opportunity to collaborate across engineering teams, communicate technical requirements clearly, and help deliver agile, high-performance solutions that solve customers' most important technology issues. I can be reached at #ph or #eml. Thank you for your time and consideration; I look forward to connecting.
+
+#cv_ending()
