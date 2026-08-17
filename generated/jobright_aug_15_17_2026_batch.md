@@ -7,6 +7,7 @@ The source snapshot contained 197 dated rows before company grouping and duplica
 | Company | Selected role | Status | Evidence / reason |
 |---|---|---|---|
 | CVS Health | Associate Software Development Engineer | package merged; application pending browser | Strong match for Java, Python, TypeScript, SQL, REST APIs, AWS, testing, and CI/CD; 0–2 years; H-1B sponsor likely. PR #293. |
+| Capgemini | Junior Java Spring Boot & AWS Developer | package merged; application pending authorization | Strong match for Java, Spring Boot, REST APIs, AWS, PostgreSQL, Git, CI/CD, application support, and AI-assisted development; 1–3 years; H-1B sponsor likely. PR #294. |
 | UST | Junior Full Stack Developer (Data CoE), Frisco, TX | skipped | Listing explicitly reports no H-1B sponsorship; candidate has verified future sponsorship need. |
 | Allstate | Software Engineer (All Levels) | skipped | Listing explicitly reports no H-1B sponsorship; candidate has verified future sponsorship need. |
 | Notion | Software Engineer, New Grad (Dec 2026) | package merged; application incomplete | Tailored package already merged in `generated/notion_software_engineer_new_grad_2026-08-17/`. |
