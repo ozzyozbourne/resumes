@@ -1,6 +1,6 @@
 ---
 name: gen-resume
-description: Generate a job-specific, ATS-optimized resume and cover letter, publish and merge the package through GitHub, sync the local repository, and optionally use Chrome with Simplify to fill the matching job application. Use when the user supplies a job description and wants a polished single-page application package or asks to repeat the full resume-to-application workflow.
+description: Generate job-specific, ATS-optimized resumes and cover letters, publish and merge each package through GitHub, sync the local repository, and use Chrome with Simplify to complete and submit matching job applications. Use for one role or an authorized batch of listings.
 ---
 
 Generate a tailored ATS-optimized resume for a specific job.
@@ -276,5 +276,18 @@ Use this step only when the user asks to open, fill, or apply to the job.
 7. Never fabricate qualifications, dates, employment history, compensation, work authorization, sponsorship status, demographic data, or personal preferences. Ask the user when a required answer cannot be established safely.
 8. Preserve the user's truthful profile even when it does not satisfy a job requirement. Do not change graduation dates, experience length, or credentials to avoid disqualification.
 9. Draft free-text responses specifically for the role, using facts present in the generated resume and concise company-specific motivation. Do not introduce unsupported achievements.
-10. Review every visible required field, confirm the tailored resume filename, and stop before the final submission action unless the user has explicitly authorized submitting this exact application with the specific sensitive information shown. Follow the active Computer Use confirmation policy for uploads, sensitive-data transmission, CAPTCHA, agreements, and final submission.
-11. Report what was filled, any unanswered or uncertain fields, and whether the application is ready for review or submitted.
+10. Work autonomously through the application after the user explicitly approves the destination (an individual employer or a clearly identified batch) and the application data to transmit. Do not pause for routine fields, uploads, navigation, submission, or answers already verified in the repository or conversation. Ask only when a required answer cannot be established truthfully or the active Computer Use policy requires a handoff or action-time confirmation.
+11. Review every visible required field, confirm the tailored resume filename, and submit the application when the user authorized submission for this employer or clearly identified batch. A batch authorization applies to every selected employer in that batch, but not to unrelated listings. Follow the active Computer Use confirmation policy for sensitive-data transmission, uploads, CAPTCHA, agreements, and submission; policy-required handoffs cannot be automated away.
+12. Report what was filled, any unanswered or uncertain fields, and whether the application is ready for review or submitted.
+
+## Step 18: Process a batch of job listings autonomously
+
+Use this step when the user supplies a dated list, repository, spreadsheet, or collection of openings.
+
+1. Inventory every listing in scope and preserve its company, title, location, posting date, and application URL in a run ledger.
+2. Deduplicate identical postings and group remaining listings by company. When one company has multiple openings, compare the requirements with `cur_res.typ` and select the single strongest truthful match. Prefer full-time software engineering roles aligned with the candidate's experience over internships, co-ops, QA-only roles, unrelated disciplines, or roles requiring unavailable credentials.
+3. Skip a listing only for a concrete reason visible in the posting, such as a mandatory active security clearance, incompatible graduation window, required degree level the candidate does not hold, closed application, or work location/country that is incompatible with verified authorization. Record the reason; never invent eligibility.
+4. For each selected company, run Steps 1–16 to create, verify, publish, merge, and sync the tailored package, then run Step 17 against the employer's official application page.
+5. Reuse verified profile answers across the batch. Do not ask the same question again unless the destination, requested data, or answer has materially changed.
+6. Keep the ledger current with `selected`, `skipped`, `package merged`, `submitted`, `duplicate`, or `blocked`, plus evidence such as the generated directory, pull request, confirmation page, or blocker.
+7. Continue to the next company after a recoverable failure. Stop the batch only for a policy-required handoff, an answer that cannot be established truthfully and is required across pending applications, or an external failure that prevents further progress.
