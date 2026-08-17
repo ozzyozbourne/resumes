@@ -6,6 +6,8 @@ The source snapshot contained 197 dated rows before company grouping and duplica
 
 | Company | Selected role | Status | Evidence / reason |
 |---|---|---|---|
+| CACI International Inc | Software Engineer – Early Career – Cloud | skipped | Strong technical match, but the listing explicitly requires ability to obtain a DoD Top Secret clearance, labels the role U.S.-citizen-only, and reports no H-1B sponsorship. Duplicate CACI openings were grouped into this company decision. |
+| Flexential | Critical Infrastructure Engineer I | skipped | Not a software-engineering role: required experience centers on electrical, mechanical, HVAC, building automation, and physical data-center operations; listing also reports no H-1B sponsorship. |
 | CVS Health | Associate Software Development Engineer | package merged; application pending browser | Strong match for Java, Python, TypeScript, SQL, REST APIs, AWS, testing, and CI/CD; 0–2 years; H-1B sponsor likely. PR #293. |
 | Capgemini | Junior Java Spring Boot & AWS Developer | skipped after package merge | Official employer page shows the contract role is `ON HOLD` and provides no application action. Strong technical match; package retained in PR #294 if the role reopens. |
 | Relativity | Software Engineer, Illinois | package merged; application at required certification | Strong match for distributed full-stack cloud services, React, APIs, data stores, CI/CD, observability, reliability, and AI-assisted development; H-1B sponsor likely. PR #295. Google sign-in completed, tailored resume uploaded, and required application questions filled. Awaiting the candidate's action-time confirmation for Relativity's accuracy/verification certification. |
