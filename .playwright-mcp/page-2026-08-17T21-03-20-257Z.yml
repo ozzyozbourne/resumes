@@ -1,0 +1,357 @@
+- generic [active] [ref=f3e1]:
+  - main [ref=f3e3]:
+    - generic [ref=f3e4]:
+      - generic [ref=f3e6]:
+        - link [ref=f3e8] [cursor=pointer]:
+          - /url: /
+        - generic [ref=f3e11]:
+          - generic [ref=f3e12] [cursor=pointer]: SIGN IN
+          - button "JOIN NOW" [ref=f3e13] [cursor=pointer]
+      - generic [ref=f3e14]:
+        - main [ref=f3e15]:
+          - generic [ref=f3e17]:
+            - generic [ref=f3e20]:
+              - generic [ref=f3e24]:
+                - link "Overview" [ref=f3e27] [cursor=pointer]:
+                  - /url: "#overview"
+                - link "Company" [ref=f3e29] [cursor=pointer]:
+                  - /url: "#company"
+              - generic [ref=f3e30]:
+                - generic [ref=f3e31]:
+                  - img "cer-icon" [ref=f3e33]
+                  - generic [ref=f3e34]: Apply on Employer Site
+                - button "APPLY NOW arr-right" [ref=f3e35] [cursor=pointer]:
+                  - generic [ref=f3e36]: APPLY NOW
+                  - img "arr-right" [ref=f3e37]
+            - generic [ref=f3e38]:
+              - generic [ref=f3e39]:
+                - generic [ref=f3e41]:
+                  - generic [ref=f3e44]:
+                    - img "company-logo" [ref=f3e47] [cursor=pointer]
+                    - generic [ref=f3e48]:
+                      - heading "General Motors · 2 hours ago" [level=2] [ref=f3e50]:
+                        - generic [ref=f3e51]: General Motors
+                        - generic [ref=f3e52]: · 2 hours ago
+                      - heading "Software Engineer, Autonomy Behavior Validation" [level=1] [ref=f3e54]
+                  - generic [ref=f3e56]:
+                    - generic [ref=f3e58]:
+                      - img "position" [ref=f3e59]
+                      - generic [ref=f3e60]: Sunnyvale, CA
+                    - generic [ref=f3e62]:
+                      - img "time" [ref=f3e63]
+                      - generic "Full-time" [ref=f3e64]
+                    - generic [ref=f3e66]:
+                      - img "remote" [ref=f3e67]
+                      - generic "Hybrid" [ref=f3e68]
+                    - generic [ref=f3e70]:
+                      - img "seniority" [ref=f3e71]
+                      - generic "Entry Level" [ref=f3e72]
+                    - generic [ref=f3e74]:
+                      - img "money" [ref=f3e75]
+                      - generic "$123K/yr - $189K/yr" [ref=f3e76]
+                    - generic [ref=f3e78]:
+                      - img "date" [ref=f3e79]
+                      - generic "1+ years exp" [ref=f3e80]
+                - generic [ref=f3e81]:
+                  - generic [ref=f3e82]:
+                    - strong [ref=f3e83]: General Motors
+                    - text: is dedicated to advancing the development of autonomous vehicles through innovative technologies. They are seeking a Software Engineer to play a critical role in simulation-led validation of autonomous vehicle behavior, focusing on automation, internal tooling, and AI-assisted workflows.
+                  - generic [ref=f3e85]:
+                    - generic [ref=f3e86]:
+                      - generic [ref=f3e87]: Automotive
+                      - generic [ref=f3e88]: Electric Vehicle
+                      - generic [ref=f3e89]: Information Technology
+                      - generic [ref=f3e90]: Manufacturing
+                      - generic [ref=f3e91]: Transportation
+                      - generic [ref=f3e92]: Information Services
+                    - generic [ref=f3e94]:
+                      - img "check" [ref=f3e96]
+                      - text: H1B Sponsor Likely
+                      - img "note" [ref=f3e97]
+              - separator [ref=f3e98]
+              - generic [ref=f3e99]:
+                - heading "Responsibilities" [level=2] [ref=f3e101]
+                - generic [ref=f3e102]:
+                  - generic [ref=f3e103]: Design and deploy metrics and test strategies at scale to evaluate the behavior of autonomous vehicles in simulation and on-road
+                  - generic [ref=f3e108]: Translate validation strategies into production-quality code and automation pipelines that execute high-quality AV behavior analysis for continuous and scaled software release cycles
+                  - generic [ref=f3e113]: Leverage AI-assisted and agentic workflows to build internal tools and frameworks that make it easier to author, configure, and deploy metrics, tests, and validation artifacts
+                  - generic [ref=f3e118]: Ensure the quality and reliability of behavior validation outputs through monitoring, alerting, automated checks, and continuous improvement of the underlying code and data pipelines
+                  - generic [ref=f3e123]: Collaborate across teams to establish coding and automation best practices for the Software Validation organization; and understand stakeholder needs and translate them into robust tools and workflows
+              - separator [ref=f3e128]
+              - generic [ref=f3e129]:
+                - heading "Qualification" [level=2] [ref=f3e131]
+                - generic [ref=f3e132]:
+                  - generic [ref=f3e133] [cursor=pointer]: Automation Pipelines
+                  - generic [ref=f3e134] [cursor=pointer]: Python
+                  - generic [ref=f3e135] [cursor=pointer]: SQL
+                  - generic [ref=f3e136] [cursor=pointer]: Large Language Models (LLMs)
+                  - generic [ref=f3e137] [cursor=pointer]: Data Analysis Pipelines
+                  - generic [ref=f3e138] [cursor=pointer]: Clean Code
+                  - generic [ref=f3e139] [cursor=pointer]: Testing Frameworks
+                  - generic [ref=f3e140] [cursor=pointer]: Data Visualization
+                  - generic [ref=f3e141] [cursor=pointer]: Version Control (Git)
+                  - generic [ref=f3e142] [cursor=pointer]: Continuous Integration
+                  - generic [ref=f3e143] [cursor=pointer]: Robotics
+                  - generic [ref=f3e144] [cursor=pointer]: Autonomous Vehicles
+                  - generic [ref=f3e145] [cursor=pointer]: ADAS Development
+                - generic [ref=f3e146]:
+                  - heading "Required" [level=4] [ref=f3e147]
+                  - generic [ref=f3e148]: Master's degree in Computer Science, Software Engineering, Data Science, or related fields
+                  - generic [ref=f3e152]: 1–3 years of professional software engineering experience (including internships, co-ops, or research engineering roles) building automation, internal tools, or data/analysis pipelines
+                  - generic [ref=f3e156]: Using large language models (LLMs) to summarize results, generate reports, or accelerate analysis
+                  - generic [ref=f3e160]: Building simple agents or scripts that chain tools together to complete tasks end-to-end
+                  - generic [ref=f3e164]: Strong programming skills in Python and experience with SQL
+                  - generic [ref=f3e168]: Experience writing clean, well-tested, and maintainable code for data processing, backend services, or scientific/analytical workflows
+                  - generic [ref=f3e172]: Experience working with large datasets to derive insights, build analyses, or drive decisions
+                  - generic [ref=f3e176]: Strong analytical thinking skills with the ability to interpret data and derive impactful conclusions
+                  - generic [ref=f3e180]: Ability to adapt and operate under ambiguity, going from quick code prototypes to longer-term, production-ready solutions on brief time horizons
+                  - generic [ref=f3e184]: Excellent communication skills, capable of switching between high-level and detailed technical discussions
+                  - generic [ref=f3e188]: Curiosity and willingness to learn new tools and domains, especially in autonomous systems, robotics, and safety-critical software
+                - generic [ref=f3e192]:
+                  - heading "Preferred" [level=4] [ref=f3e193]
+                  - generic [ref=f3e194]: Proven track record of successful software engineering on a safety-critical or high-reliability product, especially as it relates to verification and validation tools, testing frameworks, or CI/CD automation
+                  - generic [ref=f3e198]: Experience with robotics, autonomous vehicles, vehicle development, or ADAS development
+                  - generic [ref=f3e202]: Experience developing dashboards and data visualizations using tools such as Looker, Jupyter notebooks, or similar platforms to communicate validation results to stakeholders
+                  - generic [ref=f3e206]: Experience with modern software engineering practices, such as version control (e.g., Git), code review and continuous integration, automated testing and monitoring for production data/analysis pipelines
+              - separator [ref=f3e210]
+              - generic [ref=f3e211]:
+                - heading "Benefits" [level=2] [ref=f3e213]
+                - generic [ref=f3e214]:
+                  - generic [ref=f3e215]: "Bonus Potential: An incentive pay program offers payouts based on company performance, job level, and individual performance."
+                  - generic [ref=f3e219]: GM offers a variety of health and wellbeing benefit programs.
+                  - generic [ref=f3e223]: Benefit options include medical, dental, vision.
+                  - generic [ref=f3e227]: Health Savings Account
+                  - generic [ref=f3e231]: Flexible Spending Accounts
+                  - generic [ref=f3e235]: Retirement savings plan
+                  - generic [ref=f3e239]: Sickness and accident benefits
+                  - generic [ref=f3e243]: Life insurance
+                  - generic [ref=f3e247]: Paid vacation & holidays
+                  - generic [ref=f3e251]: Tuition assistance programs
+                  - generic [ref=f3e255]: Employee assistance program
+                  - generic [ref=f3e259]: GM vehicle discounts
+                  - generic [ref=f3e263]: This job may be eligible for relocation benefits.
+                  - generic [ref=f3e267]: "Hybrid: expected to report to a specific location at least 3 times a week (or other frequency dictated by their manager)"
+            - separator [ref=f3e271]
+            - generic [ref=f3e272]:
+              - heading "Company" [level=2] [ref=f3e274]
+              - generic [ref=f3e276]:
+                - generic [ref=f3e279]:
+                  - generic [ref=f3e280]:
+                    - generic [ref=f3e281]:
+                      - heading "General Motors" [level=2] [ref=f3e282]
+                      - generic [ref=f3e283]:
+                        - link [ref=f3e284] [cursor=pointer]:
+                          - /url: https://x.com/GM
+                          - img "twitter" [ref=f3e285]
+                        - link [ref=f3e286] [cursor=pointer]:
+                          - /url: https://www.linkedin.com/company/1472
+                          - img "linkedin" [ref=f3e287]
+                        - link [ref=f3e288] [cursor=pointer]:
+                          - /url: https://www.crunchbase.com/organization/general-motors
+                          - img "crunchbase" [ref=f3e289]
+                        - link "Glassdoor 4.0" [ref=f3e290] [cursor=pointer]:
+                          - /url: https://www.glassdoor.com.au/Overview/Working-at-EI_IE450489.htm?countryPickerRedirect=true
+                          - generic [ref=f3e291]:
+                            - generic [ref=f3e292]: Glassdoor
+                            - generic "4 Stars" [ref=f3e293]
+                            - generic [ref=f3e309]: "4.0"
+                    - img "company-logo" [ref=f3e311]
+                  - generic [ref=f3e312]: General Motors is an automotive company that designs, produces, markets, and distributes vehicles and vehicle parts.
+                - generic [ref=f3e315]:
+                  - generic [ref=f3e316]:
+                    - img "date" [ref=f3e317]
+                    - text: Founded in 1908
+                  - generic [ref=f3e318]:
+                    - img "location" [ref=f3e319]
+                    - generic [ref=f3e320]: Detroit, Michigan, USA
+                  - generic [ref=f3e321]:
+                    - img "people-size" [ref=f3e322]
+                    - text: 10001+ employees
+                  - generic [ref=f3e323]:
+                    - img "web-link" [ref=f3e324]
+                    - link "https://www.gm.com" [ref=f3e326] [cursor=pointer]:
+                      - /url: https://www.gm.com
+              - generic [ref=f3e327]:
+                - generic [ref=f3e328]:
+                  - heading "H1B Sponsorship" [level=2] [ref=f3e330]
+                  - generic [ref=f3e332]:
+                    - text: General Motors has a track record of offering H1B sponsorships. Please note that this does not guarantee sponsorship for this specific role. Below presents additional info for your reference.
+                    - generic [ref=f3e333]: (Data Powered by US Department of Labor)
+                  - generic [ref=f3e334]:
+                    - generic [ref=f3e335]:
+                      - generic [ref=f3e336]: Distribution of Different Job Fields Receiving Sponsorship
+                      - generic [ref=f3e337]:
+                        - generic [ref=f3e338]: 92%
+                        - generic [ref=f3e350]: Represents job field similar to this job
+                      - generic [ref=f3e353]:
+                        - generic [ref=f3e354]:
+                          - generic [ref=f3e355]: Engineering and Development
+                          - generic [ref=f3e358]: Management and Executive
+                          - generic [ref=f3e361]: Accounting and Finance
+                          - generic [ref=f3e364]: Product Management
+                          - generic [ref=f3e367]: Creatives and Design
+                        - generic [ref=f3e370]:
+                          - generic [ref=f3e371]: Customer Service and Support
+                          - generic [ref=f3e374]: Sales
+                          - generic [ref=f3e377]: Marketing
+                          - generic [ref=f3e380]: Legal and Compliance
+                          - generic [ref=f3e383]: Human Resources
+                    - generic [ref=f3e386]:
+                      - generic [ref=f3e387]: Trends of Total Sponsorships
+                      - generic [ref=f3e388]:
+                        - generic [ref=f3e389]:
+                          - generic [ref=f3e390]:
+                            - generic [ref=f3e391]: "*2026"
+                            - generic [ref=f3e392]: (338)
+                          - progressbar [ref=f3e393]
+                        - generic [ref=f3e397]:
+                          - generic [ref=f3e398]:
+                            - generic [ref=f3e399]: "2025"
+                            - generic [ref=f3e400]: (787)
+                          - progressbar [ref=f3e401]
+                        - generic [ref=f3e405]:
+                          - generic [ref=f3e406]:
+                            - generic [ref=f3e407]: "2024"
+                            - generic [ref=f3e408]: (740)
+                          - progressbar [ref=f3e409]
+                        - generic [ref=f3e413]:
+                          - generic [ref=f3e414]:
+                            - generic [ref=f3e415]: "2023"
+                            - generic [ref=f3e416]: (450)
+                          - progressbar [ref=f3e417]
+                        - generic [ref=f3e421]:
+                          - generic [ref=f3e422]:
+                            - generic [ref=f3e423]: "2022"
+                            - generic [ref=f3e424]: (795)
+                          - progressbar [ref=f3e425]
+                        - generic [ref=f3e429]:
+                          - generic [ref=f3e430]:
+                            - generic [ref=f3e431]: "2021"
+                            - generic [ref=f3e432]: (748)
+                          - progressbar [ref=f3e433]
+                        - generic [ref=f3e437]:
+                          - generic [ref=f3e438]:
+                            - generic [ref=f3e439]: "2020"
+                            - generic [ref=f3e440]: (452)
+                          - progressbar [ref=f3e441]
+                - generic [ref=f3e445]:
+                  - heading "Funding" [level=2] [ref=f3e447]
+                  - generic [ref=f3e448]:
+                    - generic [ref=f3e450]:
+                      - generic [ref=f3e451]:
+                        - generic [ref=f3e452]: Current Stage
+                        - generic [ref=f3e453]: Public Company
+                      - generic [ref=f3e454]:
+                        - generic [ref=f3e455]: Total Funding
+                        - generic [ref=f3e456]: $8.51B
+                    - generic [ref=f3e458]:
+                      - generic [ref=f3e459]: Key Investors
+                      - generic [ref=f3e460]: US Department of Energy
+                    - generic [ref=f3e464]:
+                      - generic [ref=f3e465]:
+                        - generic [ref=f3e466]: 2025-05-05
+                        - generic [ref=f3e467]: Post Ipo Debt· $2B
+                      - generic [ref=f3e468]:
+                        - generic [ref=f3e469]: 2024-10-31
+                        - generic [ref=f3e470]: Grant· $8M
+                      - generic [ref=f3e471]:
+                        - generic [ref=f3e472]: 2024-07-11
+                        - generic [ref=f3e473]: Grant· $500M
+                - generic [ref=f3e474]:
+                  - heading "Leadership Team" [level=2] [ref=f3e476]
+                  - generic [ref=f3e477]:
+                    - generic [ref=f3e479] [cursor=pointer]:
+                      - img "leader-logo" [ref=f3e481]
+                      - generic [ref=f3e482]:
+                        - generic [ref=f3e483]: Mary Barra
+                        - generic [ref=f3e484]: Chair and Chief Executive Officer
+                      - link [ref=f3e485]:
+                        - /url: https://www.linkedin.com/in/mary-barra
+                        - img "linkedin" [ref=f3e486]
+                    - generic [ref=f3e488] [cursor=pointer]:
+                      - img "leader-logo" [ref=f3e490]
+                      - generic [ref=f3e491]:
+                        - generic [ref=f3e492]: Tony Cervone
+                        - generic [ref=f3e493]: Senior Vice President, Global Communications
+                      - link [ref=f3e494]:
+                        - /url: https://www.linkedin.com/in/tcervone
+                        - img "linkedin" [ref=f3e495]
+                - generic [ref=f3e496]:
+                  - heading "Recent News" [level=2] [ref=f3e498]
+                  - generic [ref=f3e499]:
+                    - generic [ref=f3e501]:
+                      - generic [ref=f3e502]:
+                        - generic [ref=f3e503]: COOL HUNTING®
+                        - link "Cadillac’s V-One Concept Car Marks the Evolution of a Binary Devotion to Design" [ref=f3e505] [cursor=pointer]:
+                          - /url: https://coolhunting.com/design/cadillacs-v-one-concept-car-marks-the-evolution-of-a-binary-devotion-to-design/
+                      - generic [ref=f3e507]: 2026-08-16
+                    - generic [ref=f3e509]:
+                      - generic [ref=f3e510]:
+                        - generic [ref=f3e511]: Law.asia
+                        - link "Firms guide on 20-year renewal of SAIC-GM joint venture" [ref=f3e513] [cursor=pointer]:
+                          - /url: https://law.asia/saic-gm-joint-venture-20-year-renewal/
+                      - generic [ref=f3e515]: 2026-08-15
+                    - generic [ref=f3e517]:
+                      - generic [ref=f3e518]:
+                        - generic [ref=f3e519]: EIN Presswire
+                        - link "Nominations Now Open For The 9th Annual Lactation Room Contest, Offering $22,895 In Workplace Upgrades And Parent Prizes" [ref=f3e521] [cursor=pointer]:
+                          - /url: https://www.einpresswire.com/article/934092990/nominations-now-open-for-the-9th-annual-lactation-room-contest-offering-22-895-in-workplace-upgrades-and-parent-prizes
+                      - generic [ref=f3e523]: 2026-08-15
+                - generic [ref=f3e524]: Company data provided by crunchbase
+        - complementary [ref=f3e526]:
+          - generic [ref=f3e529]:
+            - generic [ref=f3e530]: Boost Your Interview Chances
+            - generic [ref=f3e531]:
+              - generic [ref=f3e532]:
+                - generic [ref=f3e533]: Improve Resume Match Score
+                - generic [ref=f3e534]: FREE
+              - generic [ref=f3e535]:
+                - generic [ref=f3e536]:
+                  - paragraph [ref=f3e554]: "?"
+                  - generic [ref=f3e555]: Your Score
+                - generic [ref=f3e557]:
+                  - paragraph [ref=f3e575]: "9.6"
+                  - generic [ref=f3e576]: Top Applicants
+              - generic [ref=f3e577]:
+                - generic [ref=f3e578]:
+                  - img "skill icon" [ref=f3e580]
+                  - generic [ref=f3e581]: Must-Have Skills for This Role
+                - generic [ref=f3e583]:
+                  - generic [ref=f3e584] [cursor=pointer]: Automation Pipelines
+                  - generic [ref=f3e585] [cursor=pointer]: Python
+                  - generic [ref=f3e586] [cursor=pointer]: SQL
+                  - generic [ref=f3e587] [cursor=pointer]: Large Language Models (LLMs)
+                  - generic [ref=f3e588] [cursor=pointer]: Data Analysis Pipelines
+              - button "Optimize my Resume" [ref=f3e590] [cursor=pointer]
+            - generic [ref=f3e592]:
+              - generic [ref=f3e593]:
+                - generic [ref=f3e594]: Get Referral Via linkedIn
+                - generic [ref=f3e595]: FREE
+              - generic [ref=f3e596]: 3× Higher Response via Email Outreach
+              - generic [ref=f3e597]:
+                - generic [ref=f3e599]:
+                  - generic [ref=f3e600]:
+                    - generic [ref=f3e601]: "Y"
+                    - generic [ref=f3e606]:
+                      - generic [ref=f3e607]: Yifan W.
+                      - generic [ref=f3e608]: Software Engineer Intern, Autonomy Interface Software
+                  - generic [ref=f3e609]:
+                    - img "email" [ref=f3e611] [cursor=pointer]
+                    - img "linkedin" [ref=f3e613] [cursor=pointer]
+                - generic [ref=f3e615]:
+                  - generic [ref=f3e616]:
+                    - generic [ref=f3e617]: E
+                    - generic [ref=f3e622]:
+                      - generic [ref=f3e623]: Ethan H.
+                      - generic [ref=f3e624]: Software Engineer Intern - Autonomous Driving
+                  - generic [ref=f3e625]:
+                    - img "email" [ref=f3e627] [cursor=pointer]
+                    - img "linkedin" [ref=f3e629] [cursor=pointer]
+              - button "Draft Message to Connect" [ref=f3e631] [cursor=pointer]
+            - generic [ref=f3e633]:
+              - generic [ref=f3e634]:
+                - generic [ref=f3e635]: Apply Faster with Autofill Plugin
+                - generic [ref=f3e636]: FREE
+              - img "autofill" [ref=f3e638]
+              - button "Apply With Autofill" [ref=f3e640] [cursor=pointer]
+  - alert [ref=f3e642]

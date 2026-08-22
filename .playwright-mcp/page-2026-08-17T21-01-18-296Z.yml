@@ -1,0 +1,316 @@
+- generic [active] [ref=e1]:
+  - main [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e6]:
+        - link [ref=e8] [cursor=pointer]:
+          - /url: /
+        - generic [ref=e11]:
+          - generic [ref=e12] [cursor=pointer]: SIGN IN
+          - button "JOIN NOW" [ref=e13] [cursor=pointer]
+      - generic [ref=e14]:
+        - main [ref=e15]:
+          - generic [ref=e17]:
+            - generic [ref=e20]:
+              - generic [ref=e24]:
+                - link "Overview" [ref=e27] [cursor=pointer]:
+                  - /url: "#overview"
+                - link "Company" [ref=e29] [cursor=pointer]:
+                  - /url: "#company"
+              - generic [ref=e30]:
+                - generic [ref=e31]:
+                  - img "cer-icon" [ref=e33]
+                  - generic [ref=e34]: Apply on Employer Site
+                - button "APPLY NOW arr-right" [ref=e35] [cursor=pointer]:
+                  - generic [ref=e36]: APPLY NOW
+                  - img "arr-right" [ref=e37]
+            - generic [ref=e38]:
+              - generic [ref=e39]:
+                - generic [ref=e41]:
+                  - generic [ref=e44]:
+                    - img "company-logo" [ref=e47] [cursor=pointer]
+                    - generic [ref=e48]:
+                      - heading "MetLife · 1 hour ago" [level=2] [ref=e50]:
+                        - generic [ref=e51]: MetLife
+                        - generic [ref=e52]: · 1 hour ago
+                      - heading "Junior Software Engineer" [level=1] [ref=e54]
+                  - generic [ref=e56]:
+                    - generic [ref=e58]:
+                      - img "position" [ref=e59]
+                      - generic [ref=e60]: Cary, NC
+                    - generic [ref=e62]:
+                      - img "time" [ref=e63]
+                      - generic "Full-time" [ref=e64]
+                    - generic [ref=e66]:
+                      - img "remote" [ref=e67]
+                      - generic "Hybrid" [ref=e68]
+                    - generic [ref=e70]:
+                      - img "seniority" [ref=e71]
+                      - generic "Entry Level" [ref=e72]
+                    - generic [ref=e74]:
+                      - img "money" [ref=e75]
+                      - generic "$76K/yr - $76K/yr" [ref=e76]
+                - generic [ref=e77]:
+                  - generic [ref=e78]:
+                    - strong [ref=e79]: MetLife
+                    - text: is a leading financial services company dedicated to shaping the future of digital solutions for customers worldwide. As a
+                    - strong [ref=e80]: Junior Software Engineer
+                    - text: ", you will develop and support software applications and platforms, leveraging AI and modern software engineering practices in a collaborative environment."
+                  - generic [ref=e82]:
+                    - generic [ref=e83]:
+                      - generic [ref=e84]: Finance
+                      - generic [ref=e85]: Property & Casualty Insurance
+                      - generic [ref=e86]: Health Insurance
+                      - generic [ref=e87]: Asset Management
+                      - generic [ref=e88]: Financial Services
+                      - generic [ref=e89]: Insurance
+                      - generic [ref=e90]: Life Insurance
+                      - generic [ref=e91]: Risk Management
+                    - generic [ref=e93]:
+                      - img "bad" [ref=e94]
+                      - text: No H1B
+                      - img "note" [ref=e95]
+              - separator [ref=e96]
+              - generic [ref=e97]:
+                - heading "Responsibilities" [level=2] [ref=e99]
+                - generic [ref=e100]:
+                  - generic [ref=e101]: Assist in gathering and refining product requirements and user stories
+                  - generic [ref=e106]: Support the design, development, testing, and deployment of full stack software applications (UI, API, Data) while leveraging AI tools
+                  - generic [ref=e111]: Participate in peer reviews of code, solution designs, and configurations
+                  - generic [ref=e116]: Help investigate and resolve production incidents and service requests
+                  - generic [ref=e121]: Collaborate with cross-functional teams to identify innovative solutions
+                  - generic [ref=e126]: Contribute to the integration of AI capabilities into applications (e.g., GenAI APIs, ML models)
+              - separator [ref=e131]
+              - generic [ref=e132]:
+                - heading "Qualification" [level=2] [ref=e134]
+                - generic [ref=e135]:
+                  - generic [ref=e136] [cursor=pointer]: Java
+                  - generic [ref=e137] [cursor=pointer]: Python
+                  - generic [ref=e138] [cursor=pointer]: C#
+                  - generic [ref=e139] [cursor=pointer]: JavaScript
+                  - generic [ref=e140] [cursor=pointer]: TypeScript
+                  - generic [ref=e141] [cursor=pointer]: COBOL
+                  - generic [ref=e142] [cursor=pointer]: Software design principles
+                  - generic [ref=e143] [cursor=pointer]: Database design and development
+                  - generic [ref=e144] [cursor=pointer]: Azure
+                  - generic [ref=e145] [cursor=pointer]: AWS
+                  - generic [ref=e146] [cursor=pointer]: GCP
+                  - generic [ref=e147] [cursor=pointer]: Secure coding practices
+                  - generic [ref=e148] [cursor=pointer]: Automated testing
+                  - generic [ref=e149] [cursor=pointer]: Agile practices
+                  - generic [ref=e150] [cursor=pointer]: DevSecOps
+                  - generic [ref=e151] [cursor=pointer]: CI/CD pipelines
+                  - generic [ref=e152] [cursor=pointer]: GitHub CoPilot
+                  - generic [ref=e153] [cursor=pointer]: Azure DevOps
+                  - generic [ref=e154] [cursor=pointer]: Docker
+                  - generic [ref=e155] [cursor=pointer]: Kubernetes
+                  - generic [ref=e156] [cursor=pointer]: Prompt engineering
+                  - generic [ref=e157] [cursor=pointer]: LLM APIs
+                  - generic [ref=e158] [cursor=pointer]: Azure OpenAI
+                  - generic [ref=e159] [cursor=pointer]: LangChain
+                  - generic [ref=e160] [cursor=pointer]: Hugging Face
+                  - generic [ref=e161] [cursor=pointer]: TensorFlow
+                  - generic [ref=e162] [cursor=pointer]: Semantic Kernel
+                  - generic [ref=e163] [cursor=pointer]: Responsive UI/UX development
+                  - generic [ref=e164] [cursor=pointer]: Microservice architectures
+                  - generic [ref=e165] [cursor=pointer]: Monolithic architectures
+                - generic [ref=e166]:
+                  - heading "Required" [level=4] [ref=e167]
+                  - generic [ref=e168]: A Bachelor's degree in Computer Science, Information Systems, Engineering, or a closely related discipline is required
+                  - generic [ref=e172]: Internship or academic project experience in software development or AI/ML
+                  - generic [ref=e176]: Demonstrated ability to quickly learn and apply new skills to deliver high quality software as evidenced by academic or project experience
+                  - generic [ref=e180]: Proficiency in at least one programming language (e.g., Java, Python, C#, JavaScript/TypeScript, COBOL, etc.)
+                  - generic [ref=e184]: Basic understanding of software design principles and coding best practices
+                  - generic [ref=e188]: Familiarity with Database concepts, design, and development
+                  - generic [ref=e192]: Familiarity with cloud-native technologies (e.g., Azure, AWS, GCP)
+                  - generic [ref=e196]: Basic knowledge of secure coding practices and automated testing
+                  - generic [ref=e200]: Strong communication, collaboration, and problem-solving skills
+                - generic [ref=e204]:
+                  - heading "Preferred" [level=4] [ref=e205]
+                  - generic [ref=e206]: Understanding of Agile practices, DevSecOps, and CI/CD pipelines
+                  - generic [ref=e210]: Familiarity with tools like GitHub CoPilot, Azure DevOps, Docker, or Kubernetes
+                  - generic [ref=e214]: "Exposure to AI/ML and other technology concepts such as:"
+                  - generic [ref=e218]: + Prompt engineering and LLM APIs (e.g., Azure OpenAI)
+                  - generic [ref=e222]: + AI SDKs and frameworks (e.g., LangChain, Hugging Face, TensorFlow, Semantic Kernel)
+                  - generic [ref=e226]: + Responsive UI/UX development
+                  - generic [ref=e230]: + Microservice vs. Monolithic architectures
+                  - generic [ref=e234]: + Containerization
+                  - generic [ref=e238]: + Relational vs. NoSQL databases
+              - separator [ref=e242]
+              - generic [ref=e243]:
+                - heading "Benefits" [level=2] [ref=e245]
+                - generic [ref=e246]:
+                  - generic [ref=e247]: Programs for physical and mental health
+                  - generic [ref=e251]: Financial wellness
+                  - generic [ref=e255]: Support for families
+                  - generic [ref=e259]: Comprehensive health plan that includes medical/prescription drug and vision
+                  - generic [ref=e263]: Dental insurance
+                  - generic [ref=e267]: No-cost short- and long-term disability
+                  - generic [ref=e271]: Company-paid life insurance
+                  - generic [ref=e275]: Legal services
+                  - generic [ref=e279]: Retirement pension funded entirely by MetLife
+                  - generic [ref=e283]: 401(k) with employer matching
+                  - generic [ref=e287]: Group discounts on voluntary insurance products including auto and home
+                  - generic [ref=e291]: Pet, critical illness, hospital indemnity, and accident insurance
+                  - generic [ref=e295]: Employee Assistance Program (EAP)
+                  - generic [ref=e299]: Digital mental health programs
+                  - generic [ref=e303]: Parental leave
+                  - generic [ref=e307]: Paid time off
+                  - generic [ref=e311]: Paid holidays
+                  - generic [ref=e315]: Volunteer time off
+                  - generic [ref=e319]: Tuition assistance
+            - separator [ref=e323]
+            - generic [ref=e324]:
+              - heading "Company" [level=2] [ref=e326]
+              - generic [ref=e328]:
+                - generic [ref=e331]:
+                  - generic [ref=e332]:
+                    - generic [ref=e333]:
+                      - heading "MetLife" [level=2] [ref=e334]
+                      - generic [ref=e335]:
+                        - link [ref=e336] [cursor=pointer]:
+                          - /url: https://x.com/metlife
+                          - img "twitter" [ref=e337]
+                        - link [ref=e338] [cursor=pointer]:
+                          - /url: https://www.linkedin.com/company/2213
+                          - img "linkedin" [ref=e339]
+                        - link [ref=e340] [cursor=pointer]:
+                          - /url: https://www.crunchbase.com/organization/metlife
+                          - img "crunchbase" [ref=e341]
+                        - link "Glassdoor 3.7" [ref=e342] [cursor=pointer]:
+                          - /url: https://www.glassdoor.com/Overview/Working-at-MetLife-EI_IE2899.11,18.htm
+                          - generic [ref=e343]:
+                            - generic [ref=e344]: Glassdoor
+                            - generic "3.7 Stars" [ref=e345]
+                            - generic [ref=e361]: "3.7"
+                    - img "company-logo" [ref=e363]
+                  - generic [ref=e364]: MetLife is a provider of insurance, employee benefits, and financial services .
+                - generic [ref=e367]:
+                  - generic [ref=e368]:
+                    - img "date" [ref=e369]
+                    - text: Founded in 1868
+                  - generic [ref=e370]:
+                    - img "location" [ref=e371]
+                    - generic [ref=e372]: New York, New York, USA
+                  - generic [ref=e373]:
+                    - img "people-size" [ref=e374]
+                    - text: 10001+ employees
+                  - generic [ref=e375]:
+                    - img "web-link" [ref=e376]
+                    - link "http://www.metlife.com" [ref=e378] [cursor=pointer]:
+                      - /url: http://www.metlife.com
+              - generic [ref=e379]:
+                - generic [ref=e380]:
+                  - heading "Funding" [level=2] [ref=e382]
+                  - generic [ref=e383]:
+                    - generic [ref=e385]:
+                      - generic [ref=e386]:
+                        - generic [ref=e387]: Current Stage
+                        - generic [ref=e388]: Public Company
+                      - generic [ref=e389]:
+                        - generic [ref=e390]: Total Funding
+                        - generic [ref=e391]: $500M
+                    - generic [ref=e394]:
+                      - generic [ref=e395]:
+                        - generic [ref=e396]: 2024-06-20
+                        - generic [ref=e397]: Post Ipo Debt· $500M
+                      - generic [ref=e398]:
+                        - generic [ref=e399]: 2000-04-14
+                        - generic [ref=e400]: IPO
+                - generic [ref=e401]:
+                  - heading "Leadership Team" [level=2] [ref=e403]
+                  - generic [ref=e404]:
+                    - generic [ref=e406] [cursor=pointer]:
+                      - img "leader-logo" [ref=e408]
+                      - generic [ref=e409]:
+                        - generic [ref=e410]: Michel A. Khalaf
+                        - generic [ref=e411]: President & CEO, MetLife, Inc.
+                      - link [ref=e412]:
+                        - /url: https://www.linkedin.com/in/michel-a-khalaf/
+                        - img "linkedin" [ref=e413]
+                    - generic [ref=e415] [cursor=pointer]:
+                      - img "leader-logo" [ref=e417]
+                      - generic [ref=e418]:
+                        - generic [ref=e419]: Koley Corte
+                        - generic [ref=e420]: Senior Vice President and Chief Marketing Officer, Investment Management and Retirement Solutions
+                      - link [ref=e421]:
+                        - /url: https://www.linkedin.com/in/kcorte
+                        - img "linkedin" [ref=e422]
+                - generic [ref=e423]:
+                  - heading "Recent News" [level=2] [ref=e425]
+                  - generic [ref=e426]:
+                    - generic [ref=e428]:
+                      - generic [ref=e429]:
+                        - generic [ref=e430]: PR Newswire
+                        - link "U.S. News & World Report Announces Winners of the 2026-2027 Pet Insurance Awards" [ref=e432] [cursor=pointer]:
+                          - /url: https://www.prnewswire.com/news-releases/us-news--world-report-announces-winners-of-the-2026-2027-pet-insurance-awards-302850081.html
+                      - generic [ref=e434]: 2026-08-13
+                    - generic [ref=e436]:
+                      - generic [ref=e437]:
+                        - generic [ref=e438]: secondariesinvestor.com
+                        - link "MetLife closes $1.2bn managed fund deal with Lexington" [ref=e440] [cursor=pointer]:
+                          - /url: https://www.secondariesinvestor.com/metlife-closes-1-2bn-managed-fund-deal-with-lexington/
+                      - generic [ref=e442]: 2026-08-07
+                    - generic [ref=e444]:
+                      - generic [ref=e445]:
+                        - generic [ref=e446]: Zawya.com
+                        - link "Dollar shaky as investors weigh rate outlook, Middle East worries" [ref=e448] [cursor=pointer]:
+                          - /url: https://www.zawya.com/en/business/currencies/dollar-shaky-as-investors-weigh-rate-outlook-middle-east-worries-tpp2mhfr
+                      - generic [ref=e450]: 2026-06-11
+                - generic [ref=e451]: Company data provided by crunchbase
+        - complementary [ref=e453]:
+          - generic [ref=e456]:
+            - generic [ref=e457]: Boost Your Interview Chances
+            - generic [ref=e458]:
+              - generic [ref=e459]:
+                - generic [ref=e460]: Improve Resume Match Score
+                - generic [ref=e461]: FREE
+              - generic [ref=e462]:
+                - generic [ref=e463]:
+                  - paragraph [ref=e481]: "?"
+                  - generic [ref=e482]: Your Score
+                - generic [ref=e484]:
+                  - paragraph [ref=e491]: "-"
+                  - generic [ref=e492]: Top Applicants
+              - generic [ref=e493]:
+                - generic [ref=e494]:
+                  - img "skill icon" [ref=e496]
+                  - generic [ref=e497]: Must-Have Skills for This Role
+                - generic [ref=e499]:
+                  - generic [ref=e500] [cursor=pointer]: Java
+                  - generic [ref=e501] [cursor=pointer]: Python
+                  - generic [ref=e502] [cursor=pointer]: C#
+                  - generic [ref=e503] [cursor=pointer]: JavaScript
+                  - generic [ref=e504] [cursor=pointer]: TypeScript
+              - button "Optimize my Resume" [ref=e506] [cursor=pointer]
+            - generic [ref=e508]:
+              - generic [ref=e509]:
+                - generic [ref=e510]: Get Referral Via linkedIn
+                - generic [ref=e511]: FREE
+              - generic [ref=e512]: 3× Higher Response via Email Outreach
+              - generic [ref=e513]:
+                - generic [ref=e515]:
+                  - generic [ref=e516]:
+                    - generic [ref=e517]: D
+                    - generic [ref=e522]:
+                      - generic [ref=e523]: Dylan C.
+                      - generic [ref=e524]: Junior Software Engineer
+                  - generic [ref=e525]:
+                    - img "email" [ref=e527] [cursor=pointer]
+                    - img "linkedin" [ref=e529] [cursor=pointer]
+                - generic [ref=e531]:
+                  - generic [ref=e532]:
+                    - generic [ref=e533]: M
+                    - generic [ref=e538]:
+                      - generic [ref=e539]: Mohammed A.
+                      - generic [ref=e540]: Junior Software Engineer
+                  - generic [ref=e541]:
+                    - img "email" [ref=e543] [cursor=pointer]
+                    - img "linkedin" [ref=e545] [cursor=pointer]
+              - button "Draft Message to Connect" [ref=e547] [cursor=pointer]
+            - generic [ref=e549]:
+              - generic [ref=e550]:
+                - generic [ref=e551]: Apply Faster with Autofill Plugin
+                - generic [ref=e552]: FREE
+              - img "autofill" [ref=e554]
+              - button "Apply With Autofill" [ref=e556] [cursor=pointer]
+  - alert [ref=e558]

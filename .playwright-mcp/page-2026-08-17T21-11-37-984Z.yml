@@ -1,0 +1,275 @@
+- generic [active] [ref=f10e1]:
+  - main [ref=f10e3]:
+    - generic [ref=f10e4]:
+      - generic [ref=f10e6]:
+        - link [ref=f10e8] [cursor=pointer]:
+          - /url: /
+        - generic [ref=f10e11]:
+          - generic [ref=f10e12] [cursor=pointer]: SIGN IN
+          - button "JOIN NOW" [ref=f10e13] [cursor=pointer]
+      - generic [ref=f10e14]:
+        - main [ref=f10e15]:
+          - generic [ref=f10e17]:
+            - generic [ref=f10e20]:
+              - generic [ref=f10e24]:
+                - link "Overview" [ref=f10e27] [cursor=pointer]:
+                  - /url: "#overview"
+                - link "Company" [ref=f10e29] [cursor=pointer]:
+                  - /url: "#company"
+              - generic [ref=f10e30]:
+                - generic [ref=f10e31]:
+                  - img "cer-icon" [ref=f10e33]
+                  - generic [ref=f10e34]: Apply on Employer Site
+                - button "APPLY NOW arr-right" [ref=f10e35] [cursor=pointer]:
+                  - generic [ref=f10e36]: APPLY NOW
+                  - img "arr-right" [ref=f10e37]
+            - generic [ref=f10e38]:
+              - generic [ref=f10e39]:
+                - generic [ref=f10e41]:
+                  - generic [ref=f10e44]:
+                    - img "company-logo" [ref=f10e47] [cursor=pointer]
+                    - generic [ref=f10e48]:
+                      - heading "Roblox · 2 hours ago" [level=2] [ref=f10e50]:
+                        - generic [ref=f10e51]: Roblox
+                        - generic [ref=f10e52]: · 2 hours ago
+                      - heading "[2027] Software Engineer, Early Career" [level=1] [ref=f10e54]
+                  - generic [ref=f10e56]:
+                    - generic [ref=f10e58]:
+                      - img "position" [ref=f10e59]
+                      - generic [ref=f10e60]: San Mateo, CA
+                    - generic [ref=f10e62]:
+                      - img "time" [ref=f10e63]
+                      - generic "Full-time" [ref=f10e64]
+                    - generic [ref=f10e66]:
+                      - img "remote" [ref=f10e67]
+                      - generic "Hybrid" [ref=f10e68]
+                    - generic [ref=f10e70]:
+                      - img "seniority" [ref=f10e71]
+                      - generic "Entry Level" [ref=f10e72]
+                    - generic [ref=f10e74]:
+                      - img "money" [ref=f10e75]
+                      - generic "$153K/yr - $153K/yr" [ref=f10e76]
+                - generic [ref=f10e77]:
+                  - generic [ref=f10e78]:
+                    - strong [ref=f10e79]: Roblox
+                    - text: is a company focused on creating immersive digital experiences for a global community. They are seeking an Early Career Software Engineer to work alongside seasoned engineers in designing, coding, and deploying features that impact millions of users globally.
+                  - generic [ref=f10e81]:
+                    - generic [ref=f10e82]:
+                      - generic [ref=f10e83]: 3D Printing
+                      - generic [ref=f10e84]: Digital Media
+                      - generic [ref=f10e85]: Gaming
+                      - generic [ref=f10e86]: Software
+                      - generic [ref=f10e87]: 3D Technology
+                      - generic [ref=f10e88]: Digital Entertainment
+                      - generic [ref=f10e89]: Metaverse
+                      - generic [ref=f10e90]: Online Games
+                      - generic [ref=f10e91]: Video Games
+                    - generic [ref=f10e92]:
+                      - generic [ref=f10e93]:
+                        - img "check" [ref=f10e95]
+                        - text: Comp. & Benefits
+                      - generic [ref=f10e96]:
+                        - img "bad" [ref=f10e97]
+                        - text: No H1B
+                        - img "note" [ref=f10e98]
+              - separator [ref=f10e99]
+              - generic [ref=f10e100]:
+                - heading "Responsibilities" [level=2] [ref=f10e102]
+                - generic [ref=f10e103]:
+                  - generic [ref=f10e104]: Join a community of curious, supportive engineers, actively engaging in architectural discussions and system design
+                  - generic [ref=f10e109]: Investigate and experiment with cutting-edge technologies, like machine learning frameworks and large language models (LLMs), to solve complex technical challenges and improve our engineering systems
+                  - generic [ref=f10e114]: Design, code, and test innovative features, navigating the full development lifecycle from initial design to production deployment
+                  - generic [ref=f10e119]: Partner closely with cross-functional teams, including Design, Product, Data, QA, and DevOps, to deliver cohesive products and features
+                  - generic [ref=f10e124]: Support the continuous evolution of our distributed systems, operating at our massive scale of 2 trillion analytics events a day
+                  - generic [ref=f10e129]: Engage in our team matching process, chatting directly with engineering managers from across Roblox, including Infra, Engine, Search & Discovery, Foundational AI, Economy, and more, to help guide your placement
+              - separator [ref=f10e134]
+              - generic [ref=f10e135]:
+                - heading "Qualification" [level=2] [ref=f10e137]
+                - generic [ref=f10e138]:
+                  - generic [ref=f10e139] [cursor=pointer]: C#
+                  - generic [ref=f10e140] [cursor=pointer]: Lua
+                  - generic [ref=f10e141] [cursor=pointer]: Java
+                  - generic [ref=f10e142] [cursor=pointer]: Go
+                  - generic [ref=f10e143] [cursor=pointer]: Node.js
+                  - generic [ref=f10e144] [cursor=pointer]: Ruby
+                  - generic [ref=f10e145] [cursor=pointer]: Python
+                  - generic [ref=f10e146] [cursor=pointer]: C++
+                  - generic [ref=f10e147] [cursor=pointer]: Swift
+                  - generic [ref=f10e148] [cursor=pointer]: Machine Learning Frameworks
+                  - generic [ref=f10e149] [cursor=pointer]: Large Language Models (LLMs)
+                  - generic [ref=f10e150] [cursor=pointer]: Distributed Systems
+                - generic [ref=f10e151]:
+                  - heading "Required" [level=4] [ref=f10e152]
+                  - generic [ref=f10e153]: Pursuing or in possession of an undergraduate/graduate degree in computer science, engineering, a related technical field, or an equivalent practical experience
+                  - generic [ref=f10e157]: Experienced with software engineering concepts through coursework, internships, personal projects, or previous roles
+                  - generic [ref=f10e161]: Proficient in one or more programming languages, including C#, Lua, Java, Go, Node.js, Ruby, Python, C++, and Swift
+                  - generic [ref=f10e165]: Able to thrive in ambiguous environments, quickly adapting to new challenges and collaborating across the company to solve complex technical challenges while developing proficiency in coding standards
+              - separator [ref=f10e169]
+              - generic [ref=f10e170]:
+                - heading "Benefits" [level=2] [ref=f10e172]
+                - generic [ref=f10e173]: All full-time employees are also eligible for equity compensation and for benefits as described on this page(https://careers.roblox.com/total-rewards).
+            - separator [ref=f10e178]
+            - generic [ref=f10e179]:
+              - heading "Company" [level=2] [ref=f10e181]
+              - generic [ref=f10e183]:
+                - generic [ref=f10e186]:
+                  - generic [ref=f10e187]:
+                    - generic [ref=f10e188]:
+                      - heading "Roblox" [level=2] [ref=f10e189]
+                      - generic [ref=f10e190]:
+                        - link [ref=f10e191] [cursor=pointer]:
+                          - /url: https://x.com/insideroblox
+                          - img "twitter" [ref=f10e192]
+                        - link [ref=f10e193] [cursor=pointer]:
+                          - /url: https://www.linkedin.com/company/147977
+                          - img "linkedin" [ref=f10e194]
+                        - link [ref=f10e195] [cursor=pointer]:
+                          - /url: https://www.crunchbase.com/organization/roblox
+                          - img "crunchbase" [ref=f10e196]
+                        - link "Glassdoor 3.8" [ref=f10e197] [cursor=pointer]:
+                          - /url: https://www.glassdoor.com/Overview/Working-at-Roblox-EI_IE242265.11,17.htm
+                          - generic [ref=f10e198]:
+                            - generic [ref=f10e199]: Glassdoor
+                            - generic "3.8 Stars" [ref=f10e200]
+                            - generic [ref=f10e216]: "3.8"
+                    - img "company-logo" [ref=f10e218]
+                  - generic [ref=f10e219]: Roblox operates an online platform for user-generated games and immersive 3D experiences.
+                - generic [ref=f10e222]:
+                  - generic [ref=f10e223]:
+                    - img "date" [ref=f10e224]
+                    - text: Founded in 2004
+                  - generic [ref=f10e225]:
+                    - img "location" [ref=f10e226]
+                    - generic [ref=f10e227]: San Mateo, California, USA
+                  - generic [ref=f10e228]:
+                    - img "people-size" [ref=f10e229]
+                    - text: 1001-5000 employees
+                  - generic [ref=f10e230]:
+                    - img "web-link" [ref=f10e231]
+                    - link "https://corp.roblox.com" [ref=f10e233] [cursor=pointer]:
+                      - /url: https://corp.roblox.com
+              - generic [ref=f10e234]:
+                - generic [ref=f10e235]:
+                  - heading "Funding" [level=2] [ref=f10e237]
+                  - generic [ref=f10e238]:
+                    - generic [ref=f10e240]:
+                      - generic [ref=f10e241]:
+                        - generic [ref=f10e242]: Current Stage
+                        - generic [ref=f10e243]: Public Company
+                      - generic [ref=f10e244]:
+                        - generic [ref=f10e245]: Total Funding
+                        - generic [ref=f10e246]: $874.45M
+                    - generic [ref=f10e248]:
+                      - generic [ref=f10e249]: Key Investors
+                      - generic [ref=f10e250]:
+                        - generic [ref=f10e251]: Altimeter Capital,Dragoneer Investment Group
+                        - generic [ref=f10e252]: Andreessen Horowitz
+                        - generic [ref=f10e253]: Greylock,Tiger Global Management
+                    - generic [ref=f10e256]:
+                      - generic [ref=f10e257]:
+                        - generic [ref=f10e258]: 2024-10-01
+                        - generic [ref=f10e259]: Post Ipo Equity
+                      - generic [ref=f10e260]:
+                        - generic [ref=f10e261]: 2022-04-12
+                        - generic [ref=f10e262]: Post Ipo Equity· $17.71M
+                      - generic [ref=f10e263]:
+                        - generic [ref=f10e264]: 2021-03-10
+                        - generic [ref=f10e265]: IPO
+                - generic [ref=f10e266]:
+                  - heading "Leadership Team" [level=2] [ref=f10e268]
+                  - generic [ref=f10e269]:
+                    - generic [ref=f10e271] [cursor=pointer]:
+                      - img "leader-logo" [ref=f10e273]
+                      - generic [ref=f10e274]:
+                        - generic [ref=f10e275]: David Baszucki
+                        - generic [ref=f10e276]: Founder and CEO
+                      - link [ref=f10e277]:
+                        - /url: http://www.linkedin.com/in/davidbaszucki
+                        - img "linkedin" [ref=f10e278]
+                    - generic [ref=f10e280] [cursor=pointer]:
+                      - img "leader-logo" [ref=f10e282]
+                      - generic [ref=f10e283]:
+                        - generic [ref=f10e284]: Anupam Singh
+                        - generic [ref=f10e285]: VP Engineering, AI Platform, Infrastructure
+                      - link [ref=f10e286]:
+                        - /url: https://www.linkedin.com/in/anupamvsingh/
+                        - img "linkedin" [ref=f10e287]
+                - generic [ref=f10e288]:
+                  - heading "Recent News" [level=2] [ref=f10e290]
+                  - generic [ref=f10e291]:
+                    - generic [ref=f10e293]:
+                      - generic [ref=f10e294]:
+                        - generic [ref=f10e295]: RAPPLER
+                        - link "[Tech Thoughts] The ‘funnel’ from video games to criminal behavior" [ref=f10e297] [cursor=pointer]:
+                          - /url: https://www.rappler.com/technology/features/tech-thoughts-funnel-from-video-games-criminal-behavior/
+                      - generic [ref=f10e299]: 2026-08-16
+                    - generic [ref=f10e301]:
+                      - generic [ref=f10e302]:
+                        - generic [ref=f10e303]: TechJuice
+                        - 'link "Fortnite x Roblox Crossover: 99 Nights in the Forest Arrives in Season 4" [ref=f10e305] [cursor=pointer]':
+                          - /url: https://www.techjuice.pk/fortnite-x-roblox-crossover-99-nights-in-the-forest-arrives-in-season-4/
+                      - generic [ref=f10e307]: 2026-08-16
+                    - generic [ref=f10e309]:
+                      - generic [ref=f10e310]:
+                        - generic [ref=f10e311]: PocketGamer.biz
+                        - 'link "Hot Five: Garena developing Palworld Online, Tripledot acquires Supersonic, and Digimon Up makes $7.9m in two weeks" [ref=f10e313] [cursor=pointer]':
+                          - /url: https://www.pocketgamer.biz/hot-five-garena-developing-palworld-online-tripledot-acquires-supersonic-and-digimon-up-makes-79m-in-two-weeks/
+                      - generic [ref=f10e315]: 2026-08-10
+                - generic [ref=f10e316]: Company data provided by crunchbase
+        - complementary [ref=f10e318]:
+          - generic [ref=f10e321]:
+            - generic [ref=f10e322]: Boost Your Interview Chances
+            - generic [ref=f10e323]:
+              - generic [ref=f10e324]:
+                - generic [ref=f10e325]: Improve Resume Match Score
+                - generic [ref=f10e326]: FREE
+              - generic [ref=f10e327]:
+                - generic [ref=f10e328]:
+                  - paragraph [ref=f10e346]: "?"
+                  - generic [ref=f10e347]: Your Score
+                - generic [ref=f10e349]:
+                  - paragraph [ref=f10e366]: "10.0"
+                  - generic [ref=f10e367]: Top Applicants
+              - generic [ref=f10e368]:
+                - generic [ref=f10e369]:
+                  - img "skill icon" [ref=f10e371]
+                  - generic [ref=f10e372]: Must-Have Skills for This Role
+                - generic [ref=f10e374]:
+                  - generic [ref=f10e375] [cursor=pointer]: C#
+                  - generic [ref=f10e376] [cursor=pointer]: Lua
+                  - generic [ref=f10e377] [cursor=pointer]: Java
+                  - generic [ref=f10e378] [cursor=pointer]: Go
+                  - generic [ref=f10e379] [cursor=pointer]: Node.js
+              - button "Optimize my Resume" [ref=f10e381] [cursor=pointer]
+            - generic [ref=f10e383]:
+              - generic [ref=f10e384]:
+                - generic [ref=f10e385]: Get Referral Via linkedIn
+                - generic [ref=f10e386]: FREE
+              - generic [ref=f10e387]: 3× Higher Response via Email Outreach
+              - generic [ref=f10e388]:
+                - generic [ref=f10e390]:
+                  - generic [ref=f10e391]:
+                    - generic [ref=f10e392]: T
+                    - generic [ref=f10e397]:
+                      - generic [ref=f10e398]: Tiger S.
+                      - generic [ref=f10e399]: Software Engineer Intern (Summer 2026)
+                  - generic [ref=f10e400]:
+                    - img "email" [ref=f10e402] [cursor=pointer]
+                    - img "linkedin" [ref=f10e404] [cursor=pointer]
+                - generic [ref=f10e406]:
+                  - generic [ref=f10e407]:
+                    - generic [ref=f10e408]: A
+                    - generic [ref=f10e413]:
+                      - generic [ref=f10e414]: Andrew L.
+                      - generic [ref=f10e415]: Software Engineer (Incoming)
+                  - generic [ref=f10e416]:
+                    - img "email" [ref=f10e418] [cursor=pointer]
+                    - img "linkedin" [ref=f10e420] [cursor=pointer]
+              - button "Draft Message to Connect" [ref=f10e422] [cursor=pointer]
+            - generic [ref=f10e424]:
+              - generic [ref=f10e425]:
+                - generic [ref=f10e426]: Apply Faster with Autofill Plugin
+                - generic [ref=f10e427]: FREE
+              - img "autofill" [ref=f10e429]
+              - button "Apply With Autofill" [ref=f10e431] [cursor=pointer]
+  - alert [ref=f10e433]

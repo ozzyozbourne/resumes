@@ -1,0 +1,365 @@
+- generic [active] [ref=f7e1]:
+  - main [ref=f7e3]:
+    - generic [ref=f7e4]:
+      - generic [ref=f7e6]:
+        - link [ref=f7e8] [cursor=pointer]:
+          - /url: /
+        - generic [ref=f7e11]:
+          - generic [ref=f7e12] [cursor=pointer]: SIGN IN
+          - button "JOIN NOW" [ref=f7e13] [cursor=pointer]
+      - generic [ref=f7e14]:
+        - main [ref=f7e15]:
+          - generic [ref=f7e17]:
+            - generic [ref=f7e20]:
+              - generic [ref=f7e24]:
+                - link "Overview" [ref=f7e27] [cursor=pointer]:
+                  - /url: "#overview"
+                - link "Company" [ref=f7e29] [cursor=pointer]:
+                  - /url: "#company"
+              - generic [ref=f7e30]:
+                - generic [ref=f7e31]:
+                  - img "cer-icon" [ref=f7e33]
+                  - generic [ref=f7e34]: Apply on Employer Site
+                - button "APPLY NOW arr-right" [ref=f7e35] [cursor=pointer]:
+                  - generic [ref=f7e36]: APPLY NOW
+                  - img "arr-right" [ref=f7e37]
+            - generic [ref=f7e38]:
+              - generic [ref=f7e39]:
+                - generic [ref=f7e41]:
+                  - generic [ref=f7e44]:
+                    - img "company-logo" [ref=f7e47] [cursor=pointer]
+                    - generic [ref=f7e48]:
+                      - heading "Google · 2 hours ago" [level=2] [ref=f7e50]:
+                        - generic [ref=f7e51]: Google
+                        - generic [ref=f7e52]: · 2 hours ago
+                      - heading "Software Engineer, Early Career, Campus" [level=1] [ref=f7e54]
+                  - generic [ref=f7e56]:
+                    - generic [ref=f7e58]:
+                      - img "position" [ref=f7e59]
+                      - generic [ref=f7e60]:
+                        - generic [ref=f7e61]: Sunnyvale, CA
+                        - generic [ref=f7e62]: +9 more
+                    - generic [ref=f7e64]:
+                      - img "time" [ref=f7e65]
+                      - generic "Full-time" [ref=f7e66]
+                    - generic [ref=f7e68]:
+                      - img "remote" [ref=f7e69]
+                      - generic "Onsite" [ref=f7e70]
+                    - generic [ref=f7e72]:
+                      - img "seniority" [ref=f7e73]
+                      - generic "New Grad" [ref=f7e74]
+                    - generic [ref=f7e76]:
+                      - img "money" [ref=f7e77]
+                      - generic "$123K/yr - $174K/yr" [ref=f7e78]
+                - generic [ref=f7e79]:
+                  - generic [ref=f7e80]:
+                    - strong [ref=f7e81]: Google
+                    - text: is a leading technology company that develops next-generation technologies impacting billions of users. The role involves designing, testing, deploying, and maintaining software solutions as part of a versatile team, addressing critical projects that align with Google's needs.
+                  - generic [ref=f7e83]:
+                    - generic [ref=f7e84]:
+                      - generic [ref=f7e85]: Advertising
+                      - generic [ref=f7e86]: AdTech
+                      - generic [ref=f7e87]: Cloud Computing
+                      - generic [ref=f7e88]: Cyber Security
+                      - generic [ref=f7e89]: Telecom & Communications
+                      - generic [ref=f7e90]: Enterprise Software
+                      - generic [ref=f7e91]: Software
+                      - generic [ref=f7e92]: Advertising Platforms
+                      - generic [ref=f7e93]: Cloud Infrastructure
+                      - generic [ref=f7e94]: Consumer Applications
+                      - generic [ref=f7e95]: Internet
+                      - generic [ref=f7e96]: Location Based Services
+                      - generic [ref=f7e97]: Productivity Tools
+                      - generic [ref=f7e98]: Search Engine
+                    - generic [ref=f7e99]:
+                      - generic [ref=f7e100]:
+                        - img "check" [ref=f7e102]
+                        - text: Growth Opportunities
+                      - generic [ref=f7e103]:
+                        - img "check" [ref=f7e105]
+                        - text: H1B Sponsor Likely
+                        - img "note" [ref=f7e106]
+              - separator [ref=f7e107]
+              - generic [ref=f7e108]:
+                - heading "Responsibilities" [level=2] [ref=f7e110]
+                - generic [ref=f7e111]:
+                  - generic [ref=f7e112]: Design, develop, test, deploy, maintain, and improve software
+                  - generic [ref=f7e117]: Manage project priorities, deadlines, and deliverables
+                  - generic [ref=f7e122]: Take on tasks as requested and follow through to completion despite roadblocks or distractions
+              - separator [ref=f7e127]
+              - generic [ref=f7e128]:
+                - heading "Qualification" [level=2] [ref=f7e130]
+                - generic [ref=f7e131]:
+                  - generic [ref=f7e132] [cursor=pointer]: Data Structures
+                  - generic [ref=f7e133] [cursor=pointer]: Algorithms
+                  - generic [ref=f7e134] [cursor=pointer]: Software Development
+                  - generic [ref=f7e135] [cursor=pointer]: Python
+                  - generic [ref=f7e136] [cursor=pointer]: C
+                  - generic [ref=f7e137] [cursor=pointer]: C++
+                  - generic [ref=f7e138] [cursor=pointer]: Java
+                  - generic [ref=f7e139] [cursor=pointer]: JavaScript
+                  - generic [ref=f7e140] [cursor=pointer]: AI Productivity Tools
+                  - generic [ref=f7e141] [cursor=pointer]: Web Application Development
+                  - generic [ref=f7e142] [cursor=pointer]: Mobile Application Development
+                  - generic [ref=f7e143] [cursor=pointer]: Unix/Linux Environments
+                  - generic [ref=f7e144] [cursor=pointer]: Distributed Systems
+                  - generic [ref=f7e145] [cursor=pointer]: Parallel Systems
+                  - generic [ref=f7e146] [cursor=pointer]: Machine Learning
+                  - generic [ref=f7e147] [cursor=pointer]: Information Retrieval
+                  - generic [ref=f7e148] [cursor=pointer]: Natural Language Processing
+                  - generic [ref=f7e149] [cursor=pointer]: Large Software Systems Development
+                  - generic [ref=f7e150] [cursor=pointer]: Security Software Development
+                  - generic [ref=f7e151] [cursor=pointer]: Accessible Technologies
+                - generic [ref=f7e152]:
+                  - heading "Required" [level=4] [ref=f7e153]
+                  - generic [ref=f7e154]: Bachelor's degree in Computer Science, a similar technical field of study, or equivalent practical experience
+                  - generic [ref=f7e158]: Experience working with data structures or algorithms during coursework/projects, research, internships, or practical experience in school or work (e.g. open-source coding)
+                  - generic [ref=f7e162]: Experience with software development in one or more programming languages (e.g., Python, C, C++, Java, JavaScript)
+                  - generic [ref=f7e166]: Experience utilizing AI productivity tools to streamline business or development workflows
+                - generic [ref=f7e170]:
+                  - heading "Preferred" [level=4] [ref=f7e171]
+                  - generic [ref=f7e172]: Master's degree in Computer Science or a related technical field
+                  - generic [ref=f7e176]: "Experience working with one or more of the following: web or mobile application development, Unix/Linux environments, distributed and parallel systems, machine learning, information retrieval, natural language processing, networking, developing large software systems, or security software development"
+                  - generic [ref=f7e180]: Experience developing accessible technologies
+                  - generic [ref=f7e184]: Ability to learn other coding languages as needed
+              - separator [ref=f7e188]
+              - generic [ref=f7e189]:
+                - heading "Benefits" [level=2] [ref=f7e191]
+                - generic [ref=f7e192]:
+                  - generic [ref=f7e193]: Health, dental, vision, life, disability insurance
+                  - generic [ref=f7e197]: "Retirement Benefits: 401(k) with company match"
+                  - generic [ref=f7e201]: "Paid Time Off: 20 days of vacation per year, accruing at a rate of 6.15 hours per pay period for the first five years of employment"
+                  - generic [ref=f7e205]: "Sick Time: 40 hours/year (increased to 69 hours/year for Seattle) including 5 discretionary sick days per instance"
+                  - generic [ref=f7e209]: "Maternity Leave (Short-Term Disability + Baby Bonding): 28-30 weeks"
+                  - generic [ref=f7e213]: "Baby Bonding Leave: 18 weeks"
+                  - generic [ref=f7e217]: "Holidays: 13 paid days per year"
+                  - generic [ref=f7e221]: Comprehensive benefits package, available to all eligible US based employees
+            - separator [ref=f7e225]
+            - generic [ref=f7e226]:
+              - heading "Company" [level=2] [ref=f7e228]
+              - generic [ref=f7e230]:
+                - generic [ref=f7e233]:
+                  - generic [ref=f7e234]:
+                    - generic [ref=f7e235]:
+                      - heading "Google" [level=2] [ref=f7e236]
+                      - generic [ref=f7e237]:
+                        - link [ref=f7e238] [cursor=pointer]:
+                          - /url: https://x.com/google
+                          - img "twitter" [ref=f7e239]
+                        - link [ref=f7e240] [cursor=pointer]:
+                          - /url: https://www.linkedin.com/company/1441
+                          - img "linkedin" [ref=f7e241]
+                        - link [ref=f7e242] [cursor=pointer]:
+                          - /url: https://www.crunchbase.com/organization/google
+                          - img "crunchbase" [ref=f7e243]
+                        - link "Glassdoor 4.4" [ref=f7e244] [cursor=pointer]:
+                          - /url: https://www.glassdoor.com/Overview/Working-at-Google-EI_IE9079.11,17.htm
+                          - generic [ref=f7e245]:
+                            - generic [ref=f7e246]: Glassdoor
+                            - generic "4.4 Stars" [ref=f7e247]
+                            - generic [ref=f7e263]: "4.4"
+                    - img "company-logo" [ref=f7e265]
+                  - generic [ref=f7e266]: Google specializes in internet-related services and products, including search, advertising, and software. It is a sub-organization of Alphabet.
+                - generic [ref=f7e269]:
+                  - generic [ref=f7e270]:
+                    - img "date" [ref=f7e271]
+                    - text: Founded in 1998
+                  - generic [ref=f7e272]:
+                    - img "location" [ref=f7e273]
+                    - generic [ref=f7e274]: Mountain View, California, USA
+                  - generic [ref=f7e275]:
+                    - img "people-size" [ref=f7e276]
+                    - text: 10001+ employees
+                  - generic [ref=f7e277]:
+                    - img "web-link" [ref=f7e278]
+                    - link "https://www.google.com" [ref=f7e280] [cursor=pointer]:
+                      - /url: https://www.google.com
+              - generic [ref=f7e281]:
+                - generic [ref=f7e282]:
+                  - heading "H1B Sponsorship" [level=2] [ref=f7e284]
+                  - generic [ref=f7e286]:
+                    - text: Google has a track record of offering H1B sponsorships. Please note that this does not guarantee sponsorship for this specific role. Below presents additional info for your reference.
+                    - generic [ref=f7e287]: (Data Powered by US Department of Labor)
+                  - generic [ref=f7e288]:
+                    - generic [ref=f7e289]:
+                      - generic [ref=f7e290]: Distribution of Different Job Fields Receiving Sponsorship
+                      - generic [ref=f7e291]:
+                        - generic [ref=f7e292]: 80%
+                        - generic [ref=f7e307]: Represents job field similar to this job
+                      - generic [ref=f7e310]:
+                        - generic [ref=f7e311]:
+                          - generic [ref=f7e312]: Engineering and Development
+                          - generic [ref=f7e315]: Management and Executive
+                          - generic [ref=f7e318]: Product Management
+                          - generic [ref=f7e321]: Sales
+                          - generic [ref=f7e324]: Creatives and Design
+                          - generic [ref=f7e327]: Accounting and Finance
+                          - generic [ref=f7e330]: Marketing
+                        - generic [ref=f7e333]:
+                          - generic [ref=f7e334]: Customer Service and Support
+                          - generic [ref=f7e337]: Legal and Compliance
+                          - generic [ref=f7e340]: Human Resources
+                          - generic [ref=f7e343]: Public Sector and Government
+                          - generic [ref=f7e346]: Education and Training
+                          - generic [ref=f7e349]: Arts and Entertainment
+                    - generic [ref=f7e352]:
+                      - generic [ref=f7e353]: Trends of Total Sponsorships
+                      - generic [ref=f7e354]:
+                        - generic [ref=f7e355]:
+                          - generic [ref=f7e356]:
+                            - generic [ref=f7e357]: "*2026"
+                            - generic [ref=f7e358]: (2639)
+                          - progressbar [ref=f7e359]
+                        - generic [ref=f7e363]:
+                          - generic [ref=f7e364]:
+                            - generic [ref=f7e365]: "2025"
+                            - generic [ref=f7e366]: (8763)
+                          - progressbar [ref=f7e367]
+                        - generic [ref=f7e371]:
+                          - generic [ref=f7e372]:
+                            - generic [ref=f7e373]: "2024"
+                            - generic [ref=f7e374]: (8872)
+                          - progressbar [ref=f7e375]
+                        - generic [ref=f7e379]:
+                          - generic [ref=f7e380]:
+                            - generic [ref=f7e381]: "2023"
+                            - generic [ref=f7e382]: (9682)
+                          - progressbar [ref=f7e383]
+                        - generic [ref=f7e387]:
+                          - generic [ref=f7e388]:
+                            - generic [ref=f7e389]: "2022"
+                            - generic [ref=f7e390]: (11626)
+                          - progressbar [ref=f7e391]
+                        - generic [ref=f7e395]:
+                          - generic [ref=f7e396]:
+                            - generic [ref=f7e397]: "2021"
+                            - generic [ref=f7e398]: (9109)
+                          - progressbar [ref=f7e399]
+                        - generic [ref=f7e403]:
+                          - generic [ref=f7e404]:
+                            - generic [ref=f7e405]: "2020"
+                            - generic [ref=f7e406]: (9785)
+                          - progressbar [ref=f7e407]
+                - generic [ref=f7e411]:
+                  - heading "Funding" [level=2] [ref=f7e413]
+                  - generic [ref=f7e414]:
+                    - generic [ref=f7e416]:
+                      - generic [ref=f7e417]:
+                        - generic [ref=f7e418]: Current Stage
+                        - generic [ref=f7e419]: Public Company
+                      - generic [ref=f7e420]:
+                        - generic [ref=f7e421]: Total Funding
+                        - generic [ref=f7e422]: $26.1M
+                    - generic [ref=f7e424]:
+                      - generic [ref=f7e425]: Key Investors
+                      - generic [ref=f7e426]:
+                        - generic [ref=f7e427]: Kleiner Perkins,Sequoia Capital
+                        - generic [ref=f7e428]: Andy Bechtolsheim
+                    - generic [ref=f7e431]:
+                      - generic [ref=f7e432]:
+                        - generic [ref=f7e433]: 2004-08-19
+                        - generic [ref=f7e434]: IPO
+                      - generic [ref=f7e435]:
+                        - generic [ref=f7e436]: 1999-06-07
+                        - generic [ref=f7e437]: Series Unknown· $25M
+                      - generic [ref=f7e438]:
+                        - generic [ref=f7e439]: 1998-11-01
+                        - generic [ref=f7e440]: Angel· $1M
+                - generic [ref=f7e441]:
+                  - heading "Leadership Team" [level=2] [ref=f7e443]
+                  - generic [ref=f7e444]:
+                    - generic [ref=f7e446] [cursor=pointer]:
+                      - img "leader-logo" [ref=f7e448]
+                      - generic [ref=f7e449]:
+                        - generic [ref=f7e450]: Sundar Pichai
+                        - generic [ref=f7e451]: CEO
+                      - link [ref=f7e452]:
+                        - /url: https://www.linkedin.com/in/sundarpichai
+                        - img "linkedin" [ref=f7e453]
+                    - generic [ref=f7e455] [cursor=pointer]:
+                      - img "leader-logo" [ref=f7e457]
+                      - generic [ref=f7e458]:
+                        - generic [ref=f7e459]: Thomas Kurian
+                        - generic [ref=f7e460]: CEO - Google Cloud
+                      - link [ref=f7e461]:
+                        - /url: https://www.linkedin.com/in/thomas-kurian-469b6219/
+                        - img "linkedin" [ref=f7e462]
+                - generic [ref=f7e463]:
+                  - heading "Recent News" [level=2] [ref=f7e465]
+                  - generic [ref=f7e466]:
+                    - generic [ref=f7e468]:
+                      - generic [ref=f7e469]:
+                        - generic [ref=f7e470]: GeekWire
+                        - link "Google to cut 52 employees in Washington state" [ref=f7e472] [cursor=pointer]:
+                          - /url: https://www.geekwire.com/2026/google-to-cut-52-employees-in-washington-state/
+                      - generic [ref=f7e474]: 2026-08-13
+                    - generic [ref=f7e476]:
+                      - generic [ref=f7e477]:
+                        - generic [ref=f7e478]: Inc.com
+                        - link "Google’s CEO Says Gemini Is Its ‘Fastest-Growing Product Ever.’ People Are Using It in 1 Surprising Way" [ref=f7e480] [cursor=pointer]:
+                          - /url: https://www.inc.com/kit-eaton/googles-ceo-says-gemini-is-its-fastest-growing-product-ever-people-are-using-it-in-1-surprising-way/91389765
+                      - generic [ref=f7e482]: 2026-08-13
+                    - generic [ref=f7e484]:
+                      - generic [ref=f7e485]:
+                        - generic [ref=f7e486]: TechCrunch
+                        - link "Jeff Dean and other top AI researchers are leaving Google to launch their own startup" [ref=f7e488] [cursor=pointer]:
+                          - /url: https://techcrunch.com/2026/08/05/jeff-dean-and-other-top-ai-researchers-are-leaving-google-to-launch-their-own-startup/
+                      - generic [ref=f7e490]: 2026-08-06
+                - generic [ref=f7e491]: Company data provided by crunchbase
+        - complementary [ref=f7e493]:
+          - generic [ref=f7e496]:
+            - generic [ref=f7e497]: Boost Your Interview Chances
+            - generic [ref=f7e498]:
+              - generic [ref=f7e499]:
+                - generic [ref=f7e500]: Improve Resume Match Score
+                - generic [ref=f7e501]: FREE
+              - generic [ref=f7e502]:
+                - generic [ref=f7e503]:
+                  - paragraph [ref=f7e521]: "?"
+                  - generic [ref=f7e522]: Your Score
+                - generic [ref=f7e524]:
+                  - paragraph [ref=f7e542]: "9.8"
+                  - generic [ref=f7e543]: Top Applicants
+              - generic [ref=f7e544]:
+                - generic [ref=f7e545]:
+                  - img "skill icon" [ref=f7e547]
+                  - generic [ref=f7e548]: Must-Have Skills for This Role
+                - generic [ref=f7e550]:
+                  - generic [ref=f7e551] [cursor=pointer]: Data Structures
+                  - generic [ref=f7e552] [cursor=pointer]: Algorithms
+                  - generic [ref=f7e553] [cursor=pointer]: Software Development
+                  - generic [ref=f7e554] [cursor=pointer]: Python
+                  - generic [ref=f7e555] [cursor=pointer]: C
+              - button "Optimize my Resume" [ref=f7e557] [cursor=pointer]
+            - generic [ref=f7e559]:
+              - generic [ref=f7e560]:
+                - generic [ref=f7e561]: Get Referral Via linkedIn
+                - generic [ref=f7e562]: FREE
+              - generic [ref=f7e563]: 3× Higher Response via Email Outreach
+              - generic [ref=f7e564]:
+                - generic [ref=f7e566]:
+                  - generic [ref=f7e567]:
+                    - generic [ref=f7e568]: E
+                    - generic [ref=f7e573]:
+                      - generic [ref=f7e574]: Ellinor C.
+                      - generic [ref=f7e575]: Senior Software Engineer, Chronicle
+                  - generic [ref=f7e576]:
+                    - img "email" [ref=f7e578] [cursor=pointer]
+                    - img "linkedin" [ref=f7e580] [cursor=pointer]
+                - generic [ref=f7e582]:
+                  - generic [ref=f7e583]:
+                    - generic [ref=f7e584]: A
+                    - generic [ref=f7e589]:
+                      - generic [ref=f7e590]: Akshat G.
+                      - generic [ref=f7e591]: Software Engineer 2
+                  - generic [ref=f7e592]:
+                    - img "email" [ref=f7e594] [cursor=pointer]
+                    - img "linkedin" [ref=f7e596] [cursor=pointer]
+              - button "Draft Message to Connect" [ref=f7e598] [cursor=pointer]
+            - generic [ref=f7e600]:
+              - generic [ref=f7e601]:
+                - generic [ref=f7e602]: Apply Faster with Autofill Plugin
+                - generic [ref=f7e603]: FREE
+              - img "autofill" [ref=f7e605]
+              - button "Apply With Autofill" [ref=f7e607] [cursor=pointer]
+  - alert [ref=f7e609]

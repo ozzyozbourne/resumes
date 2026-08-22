@@ -1,0 +1,290 @@
+- generic [active] [ref=f9e1]:
+  - main [ref=f9e3]:
+    - generic [ref=f9e4]:
+      - generic [ref=f9e6]:
+        - link [ref=f9e8] [cursor=pointer]:
+          - /url: /
+        - generic [ref=f9e11]:
+          - generic [ref=f9e12] [cursor=pointer]: SIGN IN
+          - button "JOIN NOW" [ref=f9e13] [cursor=pointer]
+      - generic [ref=f9e14]:
+        - main [ref=f9e15]:
+          - generic [ref=f9e17]:
+            - generic [ref=f9e20]:
+              - generic [ref=f9e24]:
+                - link "Overview" [ref=f9e27] [cursor=pointer]:
+                  - /url: "#overview"
+                - link "Company" [ref=f9e29] [cursor=pointer]:
+                  - /url: "#company"
+              - generic [ref=f9e30]:
+                - generic [ref=f9e31]:
+                  - img "cer-icon" [ref=f9e33]
+                  - generic [ref=f9e34]: Apply on Employer Site
+                - button "APPLY NOW arr-right" [ref=f9e35] [cursor=pointer]:
+                  - generic [ref=f9e36]: APPLY NOW
+                  - img "arr-right" [ref=f9e37]
+            - generic [ref=f9e38]:
+              - generic [ref=f9e39]:
+                - generic [ref=f9e41]:
+                  - generic [ref=f9e44]:
+                    - img "company-logo" [ref=f9e47] [cursor=pointer]
+                    - generic [ref=f9e48]:
+                      - heading "LMI · 2 hours ago" [level=2] [ref=f9e50]:
+                        - generic [ref=f9e51]: LMI
+                        - generic [ref=f9e52]: · 2 hours ago
+                      - heading "Jr. Android Engineer (RFID)" [level=1] [ref=f9e54]
+                  - generic [ref=f9e56]:
+                    - generic [ref=f9e58]:
+                      - img "position" [ref=f9e59]
+                      - generic [ref=f9e60]: United States
+                    - generic [ref=f9e62]:
+                      - img "time" [ref=f9e63]
+                      - generic "Full-time" [ref=f9e64]
+                    - generic [ref=f9e66]:
+                      - img "remote" [ref=f9e67]
+                      - generic "Remote" [ref=f9e68]
+                    - generic [ref=f9e70]:
+                      - img "seniority" [ref=f9e71]
+                      - generic "Entry Level" [ref=f9e72]
+                    - generic [ref=f9e74]:
+                      - img "money" [ref=f9e75]
+                      - generic "$57K/yr - $97K/yr" [ref=f9e76]
+                    - generic [ref=f9e78]:
+                      - img "date" [ref=f9e79]
+                      - generic "0+ years exp" [ref=f9e80]
+                - generic [ref=f9e81]:
+                  - generic [ref=f9e82]:
+                    - strong [ref=f9e83]: LMI
+                    - text: is a digital solutions provider focused on accelerating government impact through innovation and technology. The company is seeking a Jr. Android Engineer to build and maintain an RFID mobile application for Zebra Android devices, working with Kotlin, Jetpack Compose, hardware SDKs, offline caching, and secure production features.
+                  - generic [ref=f9e85]:
+                    - generic [ref=f9e86]:
+                      - generic [ref=f9e87]: Big Data
+                      - generic [ref=f9e88]: Consulting
+                      - generic [ref=f9e89]: Information Technology
+                      - generic [ref=f9e90]: Logistics
+                      - generic [ref=f9e91]: Professional Services
+                      - generic [ref=f9e92]: Analytics
+                      - generic [ref=f9e93]: Management Consulting
+                    - generic [ref=f9e94]:
+                      - generic [ref=f9e95]:
+                        - img "check" [ref=f9e97]
+                        - text: Comp. & Benefits
+                      - generic [ref=f9e98]:
+                        - img "bad" [ref=f9e99]
+                        - text: No H1B
+                        - img "note" [ref=f9e100]
+                      - generic [ref=f9e101]:
+                        - text: Security Clearance Required
+                        - img "note" [ref=f9e102]
+                      - generic [ref=f9e103]:
+                        - text: U.S. Citizen Only
+                        - img "note" [ref=f9e104]
+              - separator [ref=f9e105]
+              - generic [ref=f9e106]:
+                - heading "Responsibilities" [level=2] [ref=f9e108]
+                - generic [ref=f9e109]:
+                  - generic [ref=f9e110]: Build new features and help maintain our Android application for rugged Zebra handheld devices
+                  - generic [ref=f9e115]: Work within an existing multi-module Android codebase alongside more experienced developers
+                  - generic [ref=f9e120]: Write clean, reliable Kotlin and Jetpack Compose code that interacts with RFID, barcode, and sensor data
+                  - generic [ref=f9e125]: Help implement offline data handling, local caching, and secure storage solutions
+                  - generic [ref=f9e130]: Collaborate with our backend teams to support reliable application syncing and a consistent user experience
+                  - generic [ref=f9e135]: Assist with testing, debugging, and troubleshooting device issues, including issues found in field environments
+                  - generic [ref=f9e140]: Participate in code reviews, technical discussions, and team efforts to improve code quality and application reliability
+                  - generic [ref=f9e145]: Learn and apply Android development best practices, secure development practices, and patterns used across the application
+              - separator [ref=f9e150]
+              - generic [ref=f9e151]:
+                - heading "Qualification" [level=2] [ref=f9e153]
+                - generic [ref=f9e154]:
+                  - generic [ref=f9e155] [cursor=pointer]: Android Development
+                  - generic [ref=f9e156] [cursor=pointer]: Kotlin
+                  - generic [ref=f9e157] [cursor=pointer]: Jetpack Compose
+                  - generic [ref=f9e158] [cursor=pointer]: Kotlin Coroutines
+                  - generic [ref=f9e159] [cursor=pointer]: Kotlin Flow
+                  - generic [ref=f9e160] [cursor=pointer]: Android Architecture
+                  - generic [ref=f9e161] [cursor=pointer]: Dependency Injection
+                  - generic [ref=f9e162] [cursor=pointer]: Local Data Storage
+                  - generic [ref=f9e163] [cursor=pointer]: RFID and Barcode Hardware Integration
+                  - generic [ref=f9e164] [cursor=pointer]: Software Testing
+                  - generic [ref=f9e165] [cursor=pointer]: Git
+                - generic [ref=f9e166]:
+                  - heading "Required" [level=4] [ref=f9e167]
+                  - generic [ref=f9e168]: 0–2 years of professional Android development experience, or equivalent experience through internships, coursework, personal projects, or other software development work
+                  - generic [ref=f9e172]: Familiarity with Kotlin and modern Android application development
+                  - generic [ref=f9e176]: Experience with or an interest in learning Jetpack Compose
+                  - generic [ref=f9e180]: Basic understanding of asynchronous programming concepts such as Kotlin coroutines and Flow
+                  - generic [ref=f9e184]: Familiarity with common Android architecture concepts, dependency injection, and local data storage
+                  - generic [ref=f9e188]: Interest in working with hardware integrations such as RFID readers, barcode scanners, sensors, or other peripheral devices
+                  - generic [ref=f9e192]: Strong problem-solving skills and a willingness to debug issues, ask questions, and learn unfamiliar technologies
+                  - generic [ref=f9e196]: Familiarity with software testing concepts such as unit, UI, or instrumentation testing
+                  - generic [ref=f9e200]: Willingness to learn about cybersecurity, application hardening, and DoD deployment requirements
+                  - generic [ref=f9e204]: U.S. Citizenship required
+                  - generic [ref=f9e208]: Ability to obtain a Secret clearance
+                  - generic [ref=f9e212]: Familiarity with Git for day-to-day source control, including creating branches, making commits, pulling changes, and pushing code
+                  - generic [ref=f9e216]: Comfortable working with pull requests and participating in a collaborative code review process
+                  - generic [ref=f9e220]: Basic understanding of resolving merge conflicts and keeping a local branch up to date with the team's codebase
+                  - generic [ref=f9e224]: Ability to write clear, meaningful commit messages and follow established branching and source-control practices
+                  - generic [ref=f9e228]: Willingness to learn the team's development workflow, including CI/CD and release processes
+                - generic [ref=f9e232]:
+                  - heading "Preferred" [level=4] [ref=f9e233]
+                  - generic [ref=f9e234]: Experience with Jetpack Compose through professional work, internships, coursework, or personal projects
+                  - generic [ref=f9e238]: Exposure to Dagger Hilt, Room, or similar Android libraries and frameworks
+                  - generic [ref=f9e242]: Familiarity with multi-module Android projects or modular application architecture
+                  - generic [ref=f9e246]: Experience managing devices or application profiles through a mobile device management (MDM) platform
+                  - generic [ref=f9e250]: Experience with Zebra handheld devices, Zebra SDKs, or other rugged mobile hardware
+                  - generic [ref=f9e254]: Exposure to RFID, barcode scanning, inventory management, or asset tracking workflows
+                  - generic [ref=f9e258]: Familiarity with automated testing for Android applications
+                  - generic [ref=f9e262]: Exposure to cybersecurity, RMF/ATO, application hardening, or IL4/IL5 environments
+                  - generic [ref=f9e266]: Interest in building reliable mobile applications for industrial, logistics, or defense environments
+              - separator [ref=f9e270]
+              - generic [ref=f9e271]:
+                - heading "Benefits" [level=2] [ref=f9e273]
+                - generic [ref=f9e274]: Remote (U.S. Based)
+            - separator [ref=f9e279]
+            - generic [ref=f9e280]:
+              - heading "Company" [level=2] [ref=f9e282]
+              - generic [ref=f9e284]:
+                - generic [ref=f9e287]:
+                  - generic [ref=f9e288]:
+                    - generic [ref=f9e289]:
+                      - heading "LMI" [level=2] [ref=f9e290]
+                      - generic [ref=f9e291]:
+                        - link [ref=f9e292] [cursor=pointer]:
+                          - /url: https://x.com/LMI_org
+                          - img "twitter" [ref=f9e293]
+                        - link [ref=f9e294] [cursor=pointer]:
+                          - /url: https://www.linkedin.com/company/164754
+                          - img "linkedin" [ref=f9e295]
+                        - link [ref=f9e296] [cursor=pointer]:
+                          - /url: https://www.crunchbase.com/organization/lmi
+                          - img "crunchbase" [ref=f9e297]
+                        - link "Glassdoor 3.9" [ref=f9e298] [cursor=pointer]:
+                          - /url: https://www.glassdoor.com/Overview/Working-at-LMI-EI_IE21939.11,14.htm
+                          - generic [ref=f9e299]:
+                            - generic [ref=f9e300]: Glassdoor
+                            - generic "3.9 Stars" [ref=f9e301]
+                            - generic [ref=f9e317]: "3.9"
+                    - img "company-logo" [ref=f9e319]
+                  - generic [ref=f9e320]: LMI is a consulting firm dedicated to improving the management of government.
+                - generic [ref=f9e323]:
+                  - generic [ref=f9e324]:
+                    - img "date" [ref=f9e325]
+                    - text: Founded in 1961
+                  - generic [ref=f9e326]:
+                    - img "location" [ref=f9e327]
+                    - generic [ref=f9e328]: Virginia, Nebraska, USA
+                  - generic [ref=f9e329]:
+                    - img "people-size" [ref=f9e330]
+                    - text: 1001-5000 employees
+                  - generic [ref=f9e331]:
+                    - img "web-link" [ref=f9e332]
+                    - link "http://www.lmi.org" [ref=f9e334] [cursor=pointer]:
+                      - /url: http://www.lmi.org
+              - generic [ref=f9e335]:
+                - generic [ref=f9e336]:
+                  - heading "Funding" [level=2] [ref=f9e338]
+                  - generic [ref=f9e339]:
+                    - generic [ref=f9e341]:
+                      - generic [ref=f9e342]:
+                        - generic [ref=f9e343]: Current Stage
+                        - generic [ref=f9e344]: Late Stage
+                      - generic [ref=f9e345]:
+                        - generic [ref=f9e346]: Total Funding
+                        - generic [ref=f9e347]: $0.25M
+                    - generic [ref=f9e349]:
+                      - generic [ref=f9e350]: Key Investors
+                      - generic [ref=f9e351]: Mission Daybreak
+                    - generic [ref=f9e355]:
+                      - generic [ref=f9e356]:
+                        - generic [ref=f9e357]: 2022-09-19
+                        - generic [ref=f9e358]: Grant· $0.25M
+                      - generic [ref=f9e359]:
+                        - generic [ref=f9e360]: 2022-07-12
+                        - generic [ref=f9e361]: Private Equity
+                - generic [ref=f9e362]:
+                  - heading "Leadership Team" [level=2] [ref=f9e364]
+                  - generic [ref=f9e365]:
+                    - generic [ref=f9e367] [cursor=pointer]:
+                      - img "leader-logo" [ref=f9e369]
+                      - generic [ref=f9e370]:
+                        - generic [ref=f9e371]: Joshua Wilson
+                        - generic [ref=f9e372]: Chief Executive Officer
+                      - link [ref=f9e373]:
+                        - /url: https://www.linkedin.com/in/josh-wilson-25849410
+                        - img "linkedin" [ref=f9e374]
+                    - generic [ref=f9e376] [cursor=pointer]:
+                      - img "leader-logo" [ref=f9e378]
+                      - generic [ref=f9e379]:
+                        - generic [ref=f9e380]: Zaki Saleh
+                        - generic [ref=f9e381]: Senior Vice President Health & Civilian Market
+                      - link [ref=f9e382]:
+                        - /url: https://www.linkedin.com/in/zakisaleh/
+                        - img "linkedin" [ref=f9e383]
+                - generic [ref=f9e384]:
+                  - heading "Recent News" [level=2] [ref=f9e386]
+                  - generic [ref=f9e387]:
+                    - generic [ref=f9e389]:
+                      - generic [ref=f9e390]:
+                        - generic [ref=f9e391]: Washington Technology
+                        - 'link "WT 360: LMI’s approach to ‘commercial-grade, mission-ready technology’ and innovation cultures" [ref=f9e393] [cursor=pointer]':
+                          - /url: https://www.washingtontechnology.com/podcasts/2026/07/wt-360-lmis-approach-commercial-grade-mission-ready-technology-and-innovation-cultures/414843/
+                      - generic [ref=f9e395]: 2026-07-21
+                    - generic [ref=f9e397]:
+                      - generic [ref=f9e398]:
+                        - generic [ref=f9e399]: Washington Technology
+                        - 'link "TOP 100: LMI''s commercial tech approach hinges on the business model" [ref=f9e401] [cursor=pointer]':
+                          - /url: https://www.washingtontechnology.com/companies/2026/07/top-100-lmis-commercial-tech-approach-hinges-business-model/414730/
+                      - generic [ref=f9e403]: 2026-07-14
+                    - generic [ref=f9e405]:
+                      - generic [ref=f9e406]:
+                        - generic [ref=f9e407]: Benzinga.com
+                        - link "Anduril CEO Says Economic Warfare Is The 'New Normal'—And China Has Made It 'Essentially Impossible' For The US To Be Fully Prepared" [ref=f9e409] [cursor=pointer]:
+                          - /url: https://www.benzinga.com/markets/private-markets/26/06/53082102/anduril-ceo-says-economic-warfare-is-the-new-normal-and-china-has-made-it-essentially-impossible-for-the-us-to-be-fully-prepared
+                      - generic [ref=f9e411]: 2026-06-09
+                - generic [ref=f9e412]: Company data provided by crunchbase
+        - complementary [ref=f9e414]:
+          - generic [ref=f9e417]:
+            - generic [ref=f9e418]: Boost Your Interview Chances
+            - generic [ref=f9e419]:
+              - generic [ref=f9e420]:
+                - generic [ref=f9e421]: Improve Resume Match Score
+                - generic [ref=f9e422]: FREE
+              - generic [ref=f9e423]:
+                - generic [ref=f9e424]:
+                  - paragraph [ref=f9e442]: "?"
+                  - generic [ref=f9e443]: Your Score
+                - generic [ref=f9e445]:
+                  - paragraph [ref=f9e463]: "8.8"
+                  - generic [ref=f9e464]: Top Applicants
+              - generic [ref=f9e465]:
+                - generic [ref=f9e466]:
+                  - img "skill icon" [ref=f9e468]
+                  - generic [ref=f9e469]: Must-Have Skills for This Role
+                - generic [ref=f9e471]:
+                  - generic [ref=f9e472] [cursor=pointer]: Android Development
+                  - generic [ref=f9e473] [cursor=pointer]: Kotlin
+                  - generic [ref=f9e474] [cursor=pointer]: Jetpack Compose
+                  - generic [ref=f9e475] [cursor=pointer]: Kotlin Coroutines
+                  - generic [ref=f9e476] [cursor=pointer]: Kotlin Flow
+              - button "Optimize my Resume" [ref=f9e478] [cursor=pointer]
+            - generic [ref=f9e480]:
+              - generic [ref=f9e481]:
+                - generic [ref=f9e482]: Get Referral Via linkedIn
+                - generic [ref=f9e483]: FREE
+              - generic [ref=f9e484]: 3× Higher Response via Email Outreach
+              - generic [ref=f9e487]:
+                - generic [ref=f9e488]:
+                  - generic [ref=f9e489]: L
+                  - generic [ref=f9e494]:
+                    - generic [ref=f9e495]: Linda L.
+                    - generic [ref=f9e496]: Technical Recruiter
+                - generic [ref=f9e497]:
+                  - img "email" [ref=f9e499] [cursor=pointer]
+                  - img "linkedin" [ref=f9e501] [cursor=pointer]
+              - button "Draft Message to Connect" [ref=f9e503] [cursor=pointer]
+            - generic [ref=f9e505]:
+              - generic [ref=f9e506]:
+                - generic [ref=f9e507]: Apply Faster with Autofill Plugin
+                - generic [ref=f9e508]: FREE
+              - img "autofill" [ref=f9e510]
+              - button "Apply With Autofill" [ref=f9e512] [cursor=pointer]
+  - alert [ref=f9e514]
