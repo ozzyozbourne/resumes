@@ -29,5 +29,5 @@
 - Used *AI agents* to automate repetitive development tasks for storage and job-orchestration workflows, then reviewed their output before integrating changes
 
 == Projects
-#project("Dark Factory - orchestrator for PI agent", "Elixir, TypeScript", "github.com/ozzyozbourne/dark-factory")
-- Built a distributed coding-agent orchestrator that decomposes requests into dependency-aware task DAGs and runs them across multiple machines with *retries, timeout handling, and failure recovery*
+#project("RootCause Resume Agent", "Python, LangGraph, LangChain", "github.com/ozzyozbourne/rootcause-resume-agent")
+- Built a six-stage *evidence-validation workflow* that maps job requirements to verified experience, preserves honest gaps, and rejects unsupported claims; shipped with an offline CLI, structured logs, *10 tests*, and GitHub Actions CI
