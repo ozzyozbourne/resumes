@@ -67,13 +67,9 @@ For every Must show and Should show item, map it to a specific supported fact fr
 
 ### Standing AI-automation evidence
 
-Treat the following user-confirmed experience as available evidence, while preserving the correct role attribution and never inventing metrics, tools, architecture, or outcomes beyond it:
-
 - In the most recent role, the candidate automated parts of the job with AI agents.
 - In the most recent role, the candidate used Claude Code and Codex CLI to help automate deployment pipelines, error monitoring, and automated testing.
 - In the second role, the candidate used AI agents to automate a role-specific task.
-
-Translate these facts into concrete, JD-relevant language. Name the automated task or workflow only when `cur_res.typ`, repository evidence, or the user's job-specific instructions support it. If the exact task is unavailable, use a truthful qualitative formulation and do not fabricate implementation details or measured gains.
 
 ## Step 4: Recommend the best GitHub project before drafting
 
@@ -81,8 +77,6 @@ Before creating `resume.typ` or `cv.typ`, give the user one concise project reco
 
 - A memorable project name and one-sentence pitch
 - The JD requirement it proves and why hiring teams would care
-- A realistic MVP with 3–5 concrete features
-- LangChain and LangGraph as core technologies, with an agent workflow that parses the JD, extracts and prioritizes requirements, maps them to verified candidate evidence, flags unsupported claims, and produces structured tailoring recommendations
 - The most relevant supporting stack, architecture, automated tests, deployment pipeline, error monitoring, and observability
 - A GitHub presentation plan: README demo, architecture diagram, screenshots or short video, setup instructions, sample data, tests, and live demo when practical
 - 2–3 example resume bullets written in future/target form, clearly labeled as examples to use only after the project is built and measured
@@ -105,7 +99,7 @@ Copy `cur_res.typ` as the structural base and edit only the allowed bullet lines
 
 - Reserve two distinct bullets in the most recent role for the standing AI-automation evidence: one about automating role work with AI agents, and one about using Claude Code and Codex CLI across deployment pipelines, error monitoring, and automated testing.
 - Reserve one bullet in the second role for a supported task automated with AI agents.
-- Tailor the opening action and business relevance of these bullets to the JD without changing the underlying facts or inventing metrics.
+- Tailor the opening action and business relevance of these bullets to the JD 
 - Keep Claude Code and Codex CLI together in the same bullet unless the source evidence clearly supports stronger separate accomplishments.
 - When rewriting an existing completed project, emphasize any verified LangChain, LangGraph, AI-agent, job-description processing, evidence-mapping, testing, deployment, or observability work. Do not relabel an unrelated project or present the recommended project as completed.
 
@@ -124,10 +118,10 @@ Copy `cur_res.typ` as the structural base and edit only the allowed bullet lines
 
 ### Density and page target
 
-- Most recent role: 4–5 bullets, including the two required AI-automation bullets
-- Other role: 3–4 bullets, including the required AI-agent automation bullet
+- Most recent role: 5-6 bullets, including the two required AI-automation bullets
+- Other role: 4 bullets, including the required AI-agent automation bullet
 - Existing Projects section: 1–3 bullets total
-- Exactly one US-letter page, with no more than roughly 2–3 unused text lines at the bottom
+- Exactly one US-letter page, with no more than roughly 1–2 unused text lines at the bottom
 
 ### Typst invariants
 
