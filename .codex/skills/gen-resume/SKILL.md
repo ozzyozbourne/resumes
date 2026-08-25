@@ -82,8 +82,6 @@ Before creating `resume.typ` or `cv.typ`, give the user one concise project brie
 - A GitHub presentation plan: README demo, architecture diagram, screenshots or short video, setup instructions, sample data, tests, and live demo when practical
 - Concrete acceptance tests that will make later resume claims verifiable
 
-This is a required pre-build progress update, not an approval pause unless the user asked to review first. State that the resume will use only results verified after implementation.
-
 Create the project outside the resume repository as a standalone Git repository. Choose a memorable lowercase hyphenated repository name and avoid an existing local or remote name. Build a compact, working product rather than a scaffold or mockup. At minimum it must include:
 
 - A LangGraph workflow with distinct job-analysis, evidence-mapping, gap-analysis, bullet-generation, and validation stages
@@ -125,7 +123,6 @@ Copy `cur_res.typ` as the structural base and edit only the allowed bullet lines
 2. Use **action → what was built/improved → how it worked → company/user outcome**.
 3. Put the business or user benefit in plain language. A nontechnical reader should understand why each accomplishment mattered without decoding the stack.
 4. Retain useful technical specificity after the plain-language action and outcome; use exact JD wording only when the evidence supports the same concept.
-5. Preserve verified metrics exactly. Never create a number or convert an unmeasured result into a quantified claim.
 6. Prefer one central accomplishment per bullet. Remove jargon, nested clauses, and keyword lists that slow a 15-second scan.
 7. Aim for two lines per bullet and never exceed three lines.
 8. Bold only a few high-signal role terms, systems, or outcomes. Do not bold complete clauses.
