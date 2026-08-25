@@ -1,6 +1,6 @@
 ---
 name: gen-resume
-description: Generate a job-specific, ATS-optimized resume and cover letter from the repository's locked Typst references, recommend a role-aligned GitHub project before drafting, publish and merge the package through GitHub, then sync the local default branch. Use for a specific job listing.
+description: Generate a job-specific, ATS-optimized resume and cover letter from the repository's locked Typst references, emphasizing AI-agent workflow automation and recommending a LangChain/LangGraph job-description automation project before drafting, then publish and merge the package through GitHub and sync the local default branch. Use for a specific job listing.
 ---
 
 # Generate a tailored resume package
@@ -65,14 +65,25 @@ Prioritize them as:
 
 For every Must show and Should show item, map it to a specific supported fact from one of the two existing jobs or an existing project. Mark unsupported items as gaps; do not force them into the documents. This evidence map governs every rewrite.
 
+### Standing AI-automation evidence
+
+Treat the following user-confirmed experience as available evidence, while preserving the correct role attribution and never inventing metrics, tools, architecture, or outcomes beyond it:
+
+- In the most recent role, the candidate automated parts of the job with AI agents.
+- In the most recent role, the candidate used Claude Code and Codex CLI to help automate deployment pipelines, error monitoring, and automated testing.
+- In the second role, the candidate used AI agents to automate a role-specific task.
+
+Translate these facts into concrete, JD-relevant language. Name the automated task or workflow only when `cur_res.typ`, repository evidence, or the user's job-specific instructions support it. If the exact task is unavailable, use a truthful qualitative formulation and do not fabricate implementation details or measured gains.
+
 ## Step 4: Recommend the best GitHub project before drafting
 
-Before creating `resume.typ` or `cv.typ`, give the user one concise project recommendation aligned to the largest important JD gap. Include:
+Before creating `resume.typ` or `cv.typ`, give the user one concise project recommendation that automates job-description analysis and resume-tailoring workflows with LangChain, LangGraph, and AI agents. Adapt its inputs, evaluation criteria, integrations, and outputs to the target role and largest important JD gap. Include:
 
 - A memorable project name and one-sentence pitch
 - The JD requirement it proves and why hiring teams would care
 - A realistic MVP with 3–5 concrete features
-- The most relevant stack, architecture, tests, deployment, and observability
+- LangChain and LangGraph as core technologies, with an agent workflow that parses the JD, extracts and prioritizes requirements, maps them to verified candidate evidence, flags unsupported claims, and produces structured tailoring recommendations
+- The most relevant supporting stack, architecture, automated tests, deployment pipeline, error monitoring, and observability
 - A GitHub presentation plan: README demo, architecture diagram, screenshots or short video, setup instructions, sample data, tests, and live demo when practical
 - 2–3 example resume bullets written in future/target form, clearly labeled as examples to use only after the project is built and measured
 
@@ -90,6 +101,14 @@ Create:
 
 Copy `cur_res.typ` as the structural base and edit only the allowed bullet lines.
 
+### Required AI-automation coverage
+
+- Reserve two distinct bullets in the most recent role for the standing AI-automation evidence: one about automating role work with AI agents, and one about using Claude Code and Codex CLI across deployment pipelines, error monitoring, and automated testing.
+- Reserve one bullet in the second role for a supported task automated with AI agents.
+- Tailor the opening action and business relevance of these bullets to the JD without changing the underlying facts or inventing metrics.
+- Keep Claude Code and Codex CLI together in the same bullet unless the source evidence clearly supports stronger separate accomplishments.
+- When rewriting an existing completed project, emphasize any verified LangChain, LangGraph, AI-agent, job-description processing, evidence-mapping, testing, deployment, or observability work. Do not relabel an unrelated project or present the recommended project as completed.
+
 ### Bullet rules
 
 1. Lead with the two clearest matches in the first two bullets of the most recent role.
@@ -105,8 +124,8 @@ Copy `cur_res.typ` as the structural base and edit only the allowed bullet lines
 
 ### Density and page target
 
-- Most recent role: 4–5 bullets
-- Other role: 3–4 bullets
+- Most recent role: 4–5 bullets, including the two required AI-automation bullets
+- Other role: 3–4 bullets, including the required AI-agent automation bullet
 - Existing Projects section: 1–3 bullets total
 - Exactly one US-letter page, with no more than roughly 2–3 unused text lines at the bottom
 
@@ -120,7 +139,7 @@ Copy `cur_res.typ` as the structural base and edit only the allowed bullet lines
 
 Re-read the JD, evidence map, `cur_res.typ`, and generated `resume.typ`. Fix the file until all checks pass:
 
-1. **Allowed-diff check:** outside experience/project bullet lines and the required relative import-path adjustment, generated resume content matches `cur_res.typ`.
+1. **Allowed-diff check:** outside experience/project bullet lines, Technical Skills values, and the required relative import-path adjustment, generated resume content matches `cur_res.typ`.
 2. **Truth check:** every claim, technology, metric, responsibility, and outcome is supported and attached to the correct role/project.
 3. **Top-match check:** the first two bullets of the newest role communicate the strongest supported matches.
 4. **15-second check:** reading headings, bold phrases, and opening clauses alone reveals the target role, relevant experience, and business impact.
@@ -129,6 +148,7 @@ Re-read the JD, evidence map, `cur_res.typ`, and generated `resume.typ`. Fix the
 7. **Outcome check:** every bullet explains why the work mattered. If no measured result exists, use a specific qualitative outcome without implying measurement.
 8. **Duplication check:** each bullet adds distinct evidence and avoids keyword stuffing.
 9. **Project-status check:** no suggested but unbuilt project appears as completed work.
+10. **AI-automation coverage check:** the newest role contains both required AI-automation bullets, the second role contains its AI-agent automation bullet, and any LangChain/LangGraph project claim is verified rather than inferred from the recommendation.
 
 Report the concise checklist findings to the user, including any important JD gaps that could not truthfully be covered.
 
