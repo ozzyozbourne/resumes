@@ -120,9 +120,10 @@ Copy `cur_res.typ` as the structural base and edit only the allowed bullet lines
 ### Bullet rules
 
 1. Lead with the two clearest matches in the first two bullets of the most recent role.
-2. Use **action → what was built/improved → how it worked → company/user outcome**.
-3. Put the business or user benefit in plain language. A nontechnical reader should understand why each accomplishment mattered without decoding the stack.
-4. Retain useful technical specificity after the plain-language action and outcome; use exact JD wording only when the evidence supports the same concept.
+2. Provide a description of the project that user **worked/working** on and must be **aligned/similar** to the JD
+3. Use **action → what was built/improved → how it worked → company/user outcome**.
+4. Put the business or user benefit in plain language. A nontechnical reader should understand why each accomplishment mattered without decoding the stack.
+5. Retain useful technical specificity after the plain-language action and outcome; use exact JD wording only when the evidence supports the same concept.
 6. Prefer one central accomplishment per bullet. Remove jargon, nested clauses, and keyword lists that slow a 15-second scan.
 7. Aim for two lines per bullet and never exceed three lines.
 8. Bold only a few high-signal role terms, systems, or outcomes. Do not bold complete clauses.
@@ -131,9 +132,9 @@ Copy `cur_res.typ` as the structural base and edit only the allowed bullet lines
 
 ### Density and page target
 
-- Most recent role: 5-6 bullets, including the two required AI-automation bullets
+- Most recent role: 6-7 bullets, including the two required AI-automation bullets
 - Other role: 4 bullets, including the required AI-agent automation bullet
-- Existing Projects section: 1–3 bullets total
+- Existing Projects section: 2–3 bullets total
 - Exactly one US-letter page, with no more than roughly 1–2 unused text lines at the bottom
 
 ### Typst invariants
