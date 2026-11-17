@@ -1,14 +1,147 @@
 {
+  "profile": "Proposed/unverified junior cloud responsibilities and role titles",
   "checks": {
     "one_page": true,
     "us_letter": true,
+    "no_projects": true,
     "contact": true,
-    "headings": true,
-    "employers_dates": true,
+    "companies_dates": true,
+    "standard_headings": true,
     "education_separated": true,
-    "no_replacement_characters": true,
-    "plain_text_matches": true
+    "no_corrupt_glyphs": true,
+    "coverage": true,
+    "text_matches": true,
+    "headline_removed": true,
+    "summary_removed": true,
+    "no_automatic_word_splitting": true,
+    "change_management": true,
+    "review_feedback": true,
+    "root_cause": true,
+    "service_targets": true,
+    "tested_ai_assisted_scripts": true,
+    "release_validation": true,
+    "fourteen_bullets": true,
+    "migration_support": true,
+    "business_continuity": true,
+    "customer_support": true
   },
   "page_count": 1,
-  "note": "Local structure and extraction checks; no proprietary ATS score or pass guarantee."
+  "font_size_pt": 10,
+  "experience_bullets": {
+    "Sperse": 8,
+    "Qualitest": 6
+  },
+  "keyword_coverage": {
+    "aws_resources": {
+      "terms": [
+        "EC2",
+        "S3",
+        "VPC"
+      ],
+      "present": true
+    },
+    "infrastructure_as_code": {
+      "terms": [
+        "Terraform",
+        "Git"
+      ],
+      "present": true
+    },
+    "deployment": {
+      "terms": [
+        "GitHub Actions",
+        "Docker"
+      ],
+      "present": true
+    },
+    "monitoring": {
+      "terms": [
+        "CloudWatch",
+        "logs"
+      ],
+      "present": true
+    },
+    "automation": {
+      "terms": [
+        "Python",
+        "Bash",
+        "AWS CLI"
+      ],
+      "present": true
+    },
+    "access": {
+      "terms": [
+        "IAM",
+        "least-privilege"
+      ],
+      "present": true
+    },
+    "linux": {
+      "terms": [
+        "Linux",
+        "processes",
+        "permissions"
+      ],
+      "present": true
+    },
+    "backups": {
+      "terms": [
+        "RDS",
+        "backup",
+        "restore"
+      ],
+      "present": true
+    },
+    "release_support": {
+      "terms": [
+        "Jenkins"
+      ],
+      "present": true
+    },
+    "support": {
+      "terms": [
+        "DNS",
+        "tickets",
+        "runbooks"
+      ],
+      "present": true
+    },
+    "migration": {
+      "terms": [
+        "cloud workload migrations",
+        "cutover"
+      ],
+      "present": true
+    },
+    "continuity": {
+      "terms": [
+        "business continuity",
+        "customer support notes"
+      ],
+      "present": true
+    }
+  },
+  "limitation": "Local structure/text-coverage checks only; not an employer ATS score or guarantee.",
+  "pdf_sha256": "b623537cd05cd5c454ea64f293ac93f5215dd686ba265ca23f0867d990113def",
+  "source_sha256": "96ac30196866ed30f32dc0b7fb0e50f32998c1bf5284e40c367c77c735312f8c",
+  "review_rounds_completed": 2,
+  "independent_review_tracks": [
+    "market",
+    "junior_role_content",
+    "pdf_parsing"
+  ],
+  "second_parser": "PyMuPDF; normalized tokens agree with pypdf per independent parsing report",
+  "line_leading_em": 0.72,
+  "latest_followup": {
+    "bullets_added": 2,
+    "independent_reviews": [
+      "market",
+      "junior_role_content",
+      "pdf_parsing"
+    ],
+    "last_text_bottom_pt": 744.14,
+    "bottom_margin_boundary_pt": 756,
+    "clearance_above_margin_pt": 11.86,
+    "result": "No new actionable general junior AWS content or local parsing/layout gaps identified; job-specific screening filters remain."
+  }
 }
