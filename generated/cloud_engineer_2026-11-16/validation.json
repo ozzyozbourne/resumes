@@ -1,0 +1,14 @@
+{
+  "checks": {
+    "one_page": true,
+    "us_letter": true,
+    "contact": true,
+    "headings": true,
+    "employers_dates": true,
+    "education_separated": true,
+    "no_replacement_characters": true,
+    "plain_text_matches": true
+  },
+  "page_count": 1,
+  "note": "Local structure and extraction checks; no proprietary ATS score or pass guarantee."
+}
