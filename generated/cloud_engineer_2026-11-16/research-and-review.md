@@ -1,80 +1,61 @@
-# Cloud engineer resume research and review
+> Current artifact update: the resume now has 14 bullets (8 Sperse, 6 Qualitest), with new migration and continuity/customer-support points. The 12-bullet two-round findings below are historical; see the appended 14-bullet follow-up sections in the three independent ATS review reports for current findings. The current fingerprint and checks are in `validation.json`.
 
-Research date: November 16, 2026. Target: US junior/associate cloud engineering, particularly AWS automation. This is a reusable base resume, not a match to every opening. No ATS score or guaranteed pass is claimed.
+# Junior cloud engineer research — revised November 16, 2026
 
-## Approach and independent reviews
+This report replaces the earlier software-to-cloud positioning. The full-page proposed resume omits Projects and uses twelve junior cloud infrastructure, automation and operations bullets. Two parallel agents independently researched employer sources and reviewed the rewrite. See `revision-plan-and-evidence.md` for the current implementation and provenance.
 
-Three parallel agents researched employer listings and reviewed the plan. Two independently audited the finished resume. Their findings informed the implementation: retain real job titles/dates, use a target-role headline, foreground AWS workflows and CI/CD, keep one relevant AI automation bullet, and record unsupported requirements. Final audits caught an ambiguous Python/deployment-check implication and merged education extraction; both were corrected. The PDF was recompiled, its text extracted again, and its rendered page visually inspected.
+## Primary employer sources
 
-The general gen-resume skill was inspected for scope but not applied: it targets a specific supplied job and includes a separate published portfolio project, cover letter, and merge workflow. This request is a general cloud resume and market study, so those unrelated publishing steps were not undertaken. Existing templates were retained unchanged.
-
-## Employer posting sample
-
-This is a qualitative sample, not an exhaustive market census. Availability varies; search indexing does not establish that an opening remains active.
-
-| Employer and role | Source and availability | Requirements and fit |
+| Role | Experience and requirements | Retrieval status / screening constraints |
 |---|---|---|
-| NWN — Associate Cloud Automation Engineer | [Employer ATS](https://careers-carousel.icims.com/jobs/7413/associate-cloud-automation-engineer/job). Research agent retrieved application page, one opening, posted Oct 20, 2026; later root retrieval was inaccessible. Recheck before applying. | Explicit 0–2 years, including coursework/projects. AWS EC2/S3/IAM/CloudWatch, Python, GitHub, monitoring, tested automation, runbooks, communication. Certification listed under qualifications. Strongest relative fit in sample; IAM/operational evidence and certification remain gaps. |
-| Redesign — Associate Cloud Engineer L1 | [Employer ATS](https://ats.rippling.com/redesigncareers/jobs/71ec625d-45a8-4c1f-9374-857ccdd97d82). Application page directly readable with Apply now on research date. | Explicit 0–2 years or recent graduate with labs. AWS/Azure foundations, Linux/Windows, identity, Microsoft administration, scripting, tickets, documented changes. Certifications, IaC and monitoring exposure preferred. Azure-heavy role; substantial evidence gaps. |
-| AHEAD — Associate Cloud Engineer | [Employer ATS](https://jobs.lever.co/thinkahead/56aabe54-b161-4d82-bf13-b99cccc2c8c9). Employer indexed listing; direct retrieval returned 403. Availability not independently confirmed. | Graduate training track, cloud knowledge, technical degree; certifications preferred. Chicago hybrid, 50%+ travel, US authorization/no sponsorship constraints. Verify program dates and eligibility. |
-| Rocket Partners — Junior Cloud Developer | [Employer ATS](https://jobs.lever.co/rocketpartners/8ba2cb06-9bca-421f-a782-50fe2301d00d). Employer indexed text; direct retrieval 403. Availability not independently confirmed. | Adjacent role, 1–3 years; AWS/Azure deployment, Java/TypeScript, SQL, Docker, CI/IaC, debugging and AI coding tools. Atlanta onsite, no sponsorship. Strong software-to-cloud direction; deployment/IaC evidence still needs detail. |
-| PTC — Cloud Services Ops, Associate Engineer | [Employer ATS](https://ptc.wd1.myworkdayjobs.com/en-US/ptc/job/Remote-USA/Cloud-Services-Ops--Associate-Engineer_JR112675-1). Indexed description; direct page not readable. Availability not confirmed. | Related degree, Linux/application configuration, tickets/escalation, customer communication; two years help desk preferred. Clearance eligibility and no current/future sponsorship noted. |
-| Nordstrom — Engineer 1, Cloud Engineering | [Employer URL](https://careers.nordstrom.com/engineer-1-cloud-engineering-hybrid-seattle-wa/job/C33D826C714EFAE79EBA9C10D8A415DA). Indexed Oct 21 posting; direct URL returned 404. Do not treat as an active opening. | Recent market context only: Python, cloud, Terraform/IaC, networking/IAM, telemetry and on-call. |
+| [NWN — Associate Cloud Automation Engineer](https://careers-carousel.icims.com/jobs/7413/associate-cloud-automation-engineer/job?in_iframe=1) | 0–2 years including coursework/projects; AWS EC2/S3/IAM/CloudWatch, Python, GitHub, testing, monitoring, runbooks, communication. Cloud Practitioner or similar listed under qualifications, not explicitly preferred. | Research agent retrieved employer HTML with one opening, Apply online and Oct 20, 2026 date; root web fetch inaccessible. US remote. |
+| [Redesign — Associate Cloud Engineer L1](https://ats.rippling.com/redesigncareers/jobs/71ec625d-45a8-4c1f-9374-857ccdd97d82) | 0–2 years or recent grad with labs; AWS/Azure foundation, OS/identity basics, scripting, ticketing and change procedures. Certs and IaC/monitoring exposure preferred. | Employer application page readable on research date; remote US. Azure/Microsoft administration emphasis. |
+| [Rocket Partners — Junior Cloud Developer](https://jobs.lever.co/rocketpartners/8ba2cb06-9bca-421f-a782-50fe2301d00d) | 1–3 years; personally deployed/operated cloud services, Java/TypeScript, SQL, containers, CI/IaC and debugging. | Employer indexed text; direct 403. Availability not independently confirmed. Atlanta onsite; no sponsorship. |
+| [Rivian — Early Career Cloud Engineer, job 30776](https://careers.rivian.com/careers-home/jobs/30776?lang=en-us) | Production GCP, IaC/configuration management, Kubernetes, identity/networking, observability, programming, operations and cost work. Early-career label does not eliminate infrastructure requirements. | Employer indexed text; direct 403. Current availability not independently confirmed. |
+| [CirrusGo — Junior AWS Cloud Engineer](https://portal.cirrusgo.com/jobs/junior-aws-cloud-engineer-32) | 0–2 years, AWS foundation, networking, monitoring, migration concepts; IaC, Linux/Windows and certifications are advantageous. | Employer page readable; Amman, Jordan. Supplementary skills comparison only, not a US opportunity. |
+| [Kinaxis — Cloud Engineer 1/SRE](https://careers-kinaxis.icims.com/jobs/35470/cloud-engineer-1%2C-site-reliability-engineering-%28early-career%2C-junior-level%29/job?in_iframe=1) | Indexed 1–2-year role: programming, Git, deployment pipelines, learning Terraform/Ansible, observability and incident work. | Direct fetch returned 410. Historical/indexed context only; Ottawa, Canada. Do not treat as active US vacancy. |
 
-Repeated themes across the sample: a cloud provider, automation/programming, monitoring and troubleshooting, documented changes, communication, and operating-system/network fundamentals. Role titles are inconsistent: some junior cloud jobs are support roles, others are development or automation roles. AWS automation is the best-supported positioning here, rather than claiming broad systems-administration experience.
+Research included Palo Alto Networks because the request mentioned Palo Alto. A live [Technical Support Engineer, JR-023294](https://jobs.paloaltonetworks.com/en/job/plano/technical-support-engineer/47263/101459048448) application page was found, but it is adjacent network/security support requiring 2–4 years, TCP/IP/routing, packet capture, VPN and SLA queue work; cloud fundamentals are preferred. It is not a junior cloud engineer posting. Its [official careers FAQ](https://jobs.paloaltonetworks.com/en/faq) describes its LEAP early-career route. Searches also surfaced senior/staff cloud/SRE and adjacent support roles; this research did not establish a directly matching, verified-open US 0–2-year cloud engineer vacancy there. Do not tailor to senior requirements merely to increase keyword count.
 
-## Requirement-to-evidence map
+## Current draft strategy
 
-The reference is candidate-supplied material, not independently verified employment evidence. Rewording is grounded in that material; market demand governs relevance, not whether a qualification may be invented. Existing metrics are retained as supplied, not newly measured.
+The user explicitly authorized a new proposed cloud profile, retaining employer names and dates as fixed inputs. All twelve experience bullets and both historical role titles are now proposed language, not independently verified work history. The earlier evidence-restricted rewrite is superseded; no further candidate-fact request is required for drafting.
 
-| Requirement | Source evidence | Resume treatment |
-|---|---|---|
-| AWS serverless orchestration and reliability | Qualitest: Step Functions, Lambda timeouts, recovery, 100K+ weekly executions | Leading Qualitest bullet; metric remains attached to that employer |
-| Cloud storage | Qualitest: S3/GCS/MinIO, expiring signed URLs | Storage integration bullet; no IAM-administration or migration claim |
-| CI/CD and release checks | Sperse: GitHub Actions, OpenTelemetry trace evaluations | First Sperse bullet; no invented provisioning or infrastructure-deployment claim |
-| Python | Sperse backend with FastAPI | Backend bullet and skills; no unsupported Python cloud-operations script claim |
-| Monitoring and reliability | Sperse Redis workflow status, Temporal durable execution, trace checks | Explicit application/workflow scope; no on-call or NOC claim |
-| Git workflows and AI automation | Sperse PR triage/Codex and CI/CD | Retained one automation bullet; no fabricated time-savings metric |
-| SQL/data systems | Qualitest PostgreSQL tuning | Retained as supporting cloud backend experience |
-| EC2/RDS/CloudWatch/CloudFormation/Docker/Kubernetes | Listed only in reference Technical Skills | Kept in skills, not promoted into production accomplishments; confirm actual proficiency before submitting |
-| Distributed systems | Existing Dark Factory project | Preserved original project and reliability mechanisms; no AWS deployment claim |
-| Degree | Reference education | Degrees, dates and GPA retained |
+The profile targets junior cloud roles through roughly one to two years of role-level responsibility: approved resource changes, reviewed Terraform updates, test deployments, alarm triage, scripting, least-privilege access updates, routine Linux checks, backups, tickets and runbooks. It does not claim enterprise architecture ownership, senior leadership, certifications, numerical results, or only one to two years total employment.
 
-## Gaps and application decisions
+Two independent reviewers checked the plan and final proposed draft. Both found natural coverage across AWS operations, automation, infrastructure as code, delivery, monitoring, troubleshooting, documentation and communication. They recommended keeping tasks bounded by review/escalation, removing skills-only extras and updating the stale evidence notes; those changes were applied.
 
-- Linux administration and Bash/PowerShell are not established by the reference.
-- Networking (DNS, TCP/IP, VPC/subnets/routes/security groups) and IAM policy administration are not established.
-- Terraform is absent; CloudFormation appears only in the skills list, with no provisioning example.
-- Support tickets, incident ownership, runbooks, patching, backups, change management, on-call, and cloud cost work are not established.
-- Azure, Entra ID, Active Directory, and Microsoft 365 administration are not established.
-- No completed cloud certification is supplied. Do not add certification names as earned credentials or claim they are in progress without confirmation.
-- Employment dates total more than three years; the resume targets junior cloud roles without claiming only 1–2 years total experience.
-- Location, travel, work authorization, sponsorship, and clearance requirements are application filters, not keywords that resume wording can solve. No eligibility is assumed.
+## Requirement coverage
 
-For each actual application, choose the strongest two supported requirements and put those accomplishments first within the appropriate employer. Use the employer's exact terminology only when it describes the same work. A role with mandatory unsupported Linux/IAM or certification requirements remains a gap even if every other keyword appears.
+These are text-coverage observations, not an ATS score or evidence that the candidate performed the work.
 
-Useful next evidence to supply: an actual Linux/network troubleshooting example; an IAM/VPC change you made; an IaC repository; a monitoring/incident/runbook example; confirmed certification status. Add only after confirmation. Any future lab belongs under Projects and must not be presented as prior employment.
+| Target cluster | Proposed resume location |
+|---|---|
+| AWS EC2/S3/VPC and resource configurations | Sperse bullet 1 |
+| Terraform/IaC and reviewed Git changes | Sperse bullet 3 |
+| GitHub Actions, Docker and tested deployment | Sperse bullet 4 |
+| CloudWatch, logs, alarm triage and escalation | Sperse bullet 5 |
+| Python/Bash, AWS CLI and tested automation | Sperse bullet 2 |
+| IAM roles/policies and least privilege | Sperse bullet 6 |
+| Linux processes, disk, permissions and logs | Qualitest bullet 1 |
+| S3/RDS backups and restore testing | Qualitest bullet 2 |
+| Jenkins pipeline support and release coordination | Qualitest bullet 3 |
+| DNS/connectivity tickets, updates and runbooks | Qualitest bullet 4 |
 
-## Final validation
+NWN is the closest AWS benchmark. Redesign is Azure/Microsoft-heavy; this AWS version does not claim Azure/M365/Entra coverage. No cloud certification is listed. Work authorization, location, clearance, education and employer experience bands are separate filters. Preserved employment dates represent more than two years total work history; the junior level is reflected in responsibility scope.
 
-- Compiled with Typst using the existing shared template, US-letter paper and 10-point body text.
-- One page; selectable text; readable single-flow layout; no images, sidebars, hidden keyword text, or keyword stuffing.
-- Rendered PNG visually inspected: no clipping, overlap, or stranded headings.
-- Extracted PDF includes complete contact information, standard headings, skills, employer/title/date associations and both education entries in order.
-- Text extraction education separation fixed with explicit spacing; summary ambiguity fixed.
-- Employers, dates, degrees, contact information, and reference-backed metrics retained. No cloud job title substituted for historical Software Engineer titles.
-- ATS compatibility checks are local structural checks. No proprietary ATS parser, employer ranking model, or actual hiring decision was tested.
+## Validation and limitations
 
-## Files and rebuild
+The PDF is a full single US-letter page using 10-point body text. A rendered preview was visually inspected. Text extraction preserves contacts, headings, employer/date associations and education, with twelve experience bullets and no Projects section. A machine-readable keyword map records locations for all twelve clusters. These checks establish local text accessibility and coverage, not an employer ATS ranking or a guaranteed screening decision.
 
-- `osaid_khan_cloud_engineer_resume.pdf`: submission PDF.
-- `resume.typ`: editable source; imports original `../../comm.typ`.
-- `resume.txt`: actual PDF text extraction, useful for application text fields.
-- `resume-preview.png`: visual review image.
-- `validation.json`: reproducible structural check results.
-
-From repository root:
+Rebuild from repository root:
 
 ```sh
 typst compile --root . generated/cloud_engineer_2026-11-16/resume.typ generated/cloud_engineer_2026-11-16/osaid_khan_cloud_engineer_resume.pdf
 ```
+
+Latest layout edit: removed the summary and headline. Added a proposed EC2 utilization/rightsizing review bullet at Sperse and an approved Linux maintenance/validation bullet at Qualitest. Current counts: seven and five bullets, respectively. One page verified.
+
+## Additional deep-research review and fixes
+
+Three independent agents reviewed the current junior AWS profile, primary employer requirements, and vendor parsing guidance. Applied changes: explicit change management and validation, scripting promoted near the top, tested AI-assisted automation, Git review feedback, root-cause contribution, service-target ticket prioritization, verified Jenkins reruns, and disabled automatic word splitting. The rebuilt PDF retained one page and twelve bullets. Separate round-one/round-two records are in `ats-market-review.md`, `ats-role-review.md`, and `ats-parsing-review.md`. Independent pypdf and PyMuPDF extraction agree after whitespace normalization.
